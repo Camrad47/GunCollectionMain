@@ -1,0 +1,16 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 1,
+      "item": "guncollection:gc_weaponparts_main"
+    },
+    {
+      "count": 1,
+      "item": "guncollection:gc_weaponparts_metal"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_revolver"
+  }
+}

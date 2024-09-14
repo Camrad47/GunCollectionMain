@@ -1,0 +1,42 @@
+{
+  "general": {
+    "auto": true,
+    "rate": 2,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 40,
+    "reloadAmount": 2,
+    "recoilAngle": 4.1,
+    "recoilKick": 3.0,
+    "recoilAdsReduction": 0.65,
+    "alwaysSpread": true,
+    "spread": 2.0
+  },
+  "projectile": {
+    "item": "guncollection:gc_ammo_762x39",
+    "visible": false,
+    "gravity": true,
+    "damage": 12.5,
+    "size": 0.2,
+    "speed": 70.0,
+    "life": 80
+  },
+  "sounds": {
+    "fire": "guncollection:item.gc_ak_vz58.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "guncollection:item.gc_ak.cock",
+    "silencedFire": "guncollection:item.gc_akm_silenced.suppressed"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 2.5,
+      "zOffset": -18.1
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.8,
+      "yOffset": 4.5,
+      "zOffset": 2.8
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "guncollection:gc_ammo_9mm",
+    "guncollection:gc_ammo_9x21",
+    "guncollection:gc_ammo_22lr",
+    "guncollection:gc_ammo_38spc",
+    "guncollection:gc_ammo_45acp",
+    "guncollection:gc_ammo_380",
+    "guncollection:gc_ammo_762x25",
+    "guncollection:gc_ammo_40sw",
+    "guncollection:gc_ammo_44",
+    "guncollection:gc_ammo_357",
+    "guncollection:gc_ammo_410",
+    "guncollection:gc_ammo_9x18"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 5,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 5,
+    "reloadAmount": 2,
+    "recoilAngle": 2.5,
+    "recoilKick": 3.1,
+    "recoilAdsReduction": 0.5,
+    "alwaysSpread": true,
+    "spread": 2.2
+  },
+  "projectile": {
+    "item": "guncollection:gc_ammo_351wsl",
+    "visible": false,
+    "gravity": true,
+    "damage": 8.5,
+    "size": 0.2,
+    "speed": 55.0,
+    "life": 55
+  },
+  "sounds": {
+    "fire": "guncollection:item.gc_m1_carbine.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.assault_rifle.cock",
+    "silencedFire": "guncollection:item.rifle.suppressed"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 2.1,
+      "zOffset": -14.1
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.8,
+      "yOffset": 3.15,
+      "zOffset": 2.8
+    }
+  }
+}

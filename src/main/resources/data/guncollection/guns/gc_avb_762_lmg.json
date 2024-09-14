@@ -1,0 +1,42 @@
+{
+  "general": {
+    "auto": true,
+    "rate": 2,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 10,
+    "reloadAmount": 2,
+    "recoilAngle": 1.9,
+    "recoilKick": 1.5,
+    "recoilAdsReduction": 0.25,
+    "alwaysSpread": true,
+    "spread": 2.7
+  },
+  "projectile": {
+    "item": "guncollection:gc_ammo_762x39",
+    "visible": false,
+    "gravity": true,
+    "damage": 15,
+    "size": 0.2,
+    "speed": 90.0,
+    "life": 80
+  },
+  "sounds": {
+    "fire": "guncollection:item.gc_ak_zastava_m76.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "guncollection:item.gc_ak.cock",
+    "silencedFire": "guncollection:item.gc_akm_silenced.suppressed"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 2.5,
+      "zOffset": -19.1
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.8,
+      "yOffset": 4.5,
+      "zOffset": 2.8
+    }
+  }
+}

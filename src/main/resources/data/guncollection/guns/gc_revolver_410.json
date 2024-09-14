@@ -1,0 +1,40 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 9,
+    "gripType": "cgm:one_handed",
+    "maxAmmo": 7,
+    "reloadAmount": 1,
+    "recoilAngle": 3.9,
+    "recoilKick": 1.6,
+    "recoilAdsReduction": 0.1,
+    "alwaysSpread": true,
+    "spread": 3.5
+  },
+  "projectile": {
+    "item": "guncollection:gc_ammo_410",
+    "visible": false,
+    "damage": 8.0,
+    "size": 0.1,
+    "speed": 30.0,
+    "life": 40
+  },
+  "sounds": {
+    "fire": "guncollection:item.gc_heavy_revolver.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.assault_rifle.cock"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 2.9,
+      "zOffset": -4.2
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.7,
+      "yOffset": 4.1,
+      "zOffset": 3.8
+    }
+  }
+}

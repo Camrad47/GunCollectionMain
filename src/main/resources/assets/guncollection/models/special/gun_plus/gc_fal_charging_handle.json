@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench by VIKTORWOOD",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "guncollection:item/gc_bolt_rifle"
+	},
+	"elements": [
+		{
+			"from": [7.2, 2.72929, 7.57071],
+			"to": [7.4, 3.42929, 8.17071],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 3.32929, 7.87071]},
+			"faces": {
+				"north": {"uv": [7, 12, 9, 14], "texture": "#1"},
+				"east": {"uv": [9, 13, 11, 15], "texture": "#1"},
+				"south": {"uv": [8, 12.5, 10, 14.5], "texture": "#1"},
+				"west": {"uv": [8, 12.5, 10, 14.5], "texture": "#1"},
+				"up": {"uv": [8, 12.5, 10, 14.5], "texture": "#1"},
+				"down": {"uv": [8, 12.5, 10, 14.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6.4, 2.82929, 7.67071],
+			"to": [7.2, 3.32929, 8.07071],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 3.32929, 7.87071]},
+			"faces": {
+				"north": {"uv": [7, 12.5, 11, 14], "texture": "#1"},
+				"east": {"uv": [9, 14, 10, 15], "texture": "#1"},
+				"south": {"uv": [8, 13, 12, 14.5], "texture": "#1"},
+				"west": {"uv": [8, 13.5, 9, 14.5], "texture": "#1"},
+				"up": {"uv": [7.5, 12.5, 11, 13.5], "texture": "#1"},
+				"down": {"uv": [8, 13.5, 11.5, 14.5], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

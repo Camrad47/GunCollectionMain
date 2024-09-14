@@ -1,0 +1,24 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 5,
+      "item": "guncollection:gc_weaponparts_main"
+    },
+    {
+      "count": 9,
+      "item": "guncollection:gc_weaponparts_plus"
+    },
+    {
+      "count": 3,
+      "item": "guncollection:gc_weaponparts_metal"
+    },
+    {
+      "count": 3,
+      "item": "guncollection:gc_weaponparts_wood"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_svd_v70"
+  }
+}

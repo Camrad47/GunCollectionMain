@@ -1,0 +1,732 @@
+{
+  "item.gc_pp2000.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_pp2000_fire"
+      }
+    ]
+  },
+  "item.gc_m1_carbine.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/m1_carbine_fire"
+      }
+    ]
+  },
+  "item.gc_rpg7.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_rpg7_fire"
+      }
+    ]
+  },
+  "item.gc_high_power.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_high_power_fire"
+      }
+    ]
+  },
+  "item.gc_tt.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_tt_fire"
+      }
+    ]
+  },
+  "item.gc_hk417.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_hk417_fire"
+      }
+    ]
+  },
+  "item.gc_mg42.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_mg42_fire"
+      }
+    ]
+  },
+  "item.gc_m1911.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_m1911_fire"
+      }
+    ]
+  },
+  "item.gc_m1911_basic.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_m1911_basic_fire"
+      }
+    ]
+  },
+  "item.gc_mp133.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/mp133_fire"
+      }
+    ]
+  },
+  "item.gc_mp153.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/mp153_fire"
+      }
+    ]
+  },
+  "item.gc_machinegun_heavy.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_50cal_mg_fire"
+      }
+    ]
+  },
+  "item.gc_dshk_shotgun_fire.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_dshk_shotgun_fire"
+      }
+    ]
+  },
+  "item.gc_svt40.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_svt40_fire"
+      }
+    ]
+  },
+  "item.gc_ks23.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_ks23_fire"
+      }
+    ]
+  },
+  "item.gc_ak_hunter.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_3006_rifle_fire"
+      }
+    ]
+  },
+  "item.gc_mauser_c96.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_mauser_fire"
+      }
+    ]
+  },
+  "item.gc_lever_action_shotgun.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_lever_shotgun_fire"
+      }
+    ]
+  },
+  "item.gc_svd.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_svd_fire"
+      }
+    ]
+  },
+  "item.gc_m14.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_m14_fire"
+      }
+    ]
+  },
+  "item.gc_svd_silenced.suppressed": {
+    "subtitle": "subtitle.guncollection.suppressed_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_svd_silenced_fire"
+      }
+    ]
+  },
+  "item.gc_high_power_silenced.suppressed": {
+    "subtitle": "subtitle.guncollection.suppressed_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_high_power_silenced_fire"
+      }
+    ]
+  },
+  "item.gc_45cal_silenced.suppressed": {
+    "subtitle": "subtitle.guncollection.suppressed_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_45cal_silenced_fire"
+      }
+    ]
+  },
+  "item.gc_ak_zastava_m76.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_zastava_m76_fire"
+      }
+    ]
+  },
+  "item.gc_sr25.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_sr25_fire"
+      }
+    ]
+  },
+  "item.gc_ash12.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_ash12_fire"
+      }
+    ]
+  },
+  "item.gc_sr3m.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_vikhr_fire"
+      }
+    ]
+  },
+  "item.22lr_rifle.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/22lr_rifle_fire"
+      }
+    ]
+  },
+  "item.gc_4570_rifle.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_4570_rifle_fire"
+      }
+    ]
+  },
+  "item.gc_heavy_revolver.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_mateba_fire"
+      }
+    ]
+  },
+  "item.gc_magnum_revolver.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_magnum_fire"
+      }
+    ]
+  },
+  "item.gc_ak_valmet.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_valmet_fire"
+      }
+    ]
+  },
+  "item.gc_40mm_gl.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_40mm_gl_fire"
+      }
+    ]
+  },
+  "item.gc_uzi.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_9mm_smg_fire"
+      }
+    ]
+  },
+  "item.gc_vintorez.fire": {
+    "subtitle": "subtitle.guncollection.suppressed_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_vss_fire"
+      }
+    ]
+  },
+  "item.gc_vykhlop.fire": {
+    "subtitle": "subtitle.guncollection.suppressed_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_vykhlop_fire"
+      }
+    ]
+  },
+  "item.gc_ak_saiga12_silenced.fire": {
+    "subtitle": "subtitle.guncollection.suppressed_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_auto_shotgun_silenced_fire"
+      }
+    ]
+  },
+  "item.gc_ak308.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_ak308_fire"
+      }
+    ]
+  },
+  "item.gc_ak12.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_ak12_fire"
+      }
+    ]
+  },
+  "item.gc_ak15.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_ak15_fire"
+      }
+    ]
+  },
+  "item.gc_308_silenced.suppressed": {
+    "subtitle": "subtitle.guncollection.suppressed_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_308_silenced_fire"
+      }
+    ]
+  },
+  "item.gc_fn_fal.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_fal_fire"
+      }
+    ]
+  },
+  "item.gc_6mm.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_6mm_fire"
+      }
+    ]
+  },
+  "item.gc_bizon.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_bizon_fire"
+      }
+    ]
+  },
+  "item.gc_machinegun.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_machinegun_fire"
+      }
+    ]
+  },
+  "item.gc_pkm.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_pkm_fire"
+      }
+    ]
+  },
+  "item.gc_rpd.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_rpd_fire"
+      }
+    ]
+  },
+  "item.gc_ak_saiga12.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_auto_shotgun_fire"
+      }
+    ]
+  },
+  "item.gc_sks.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_sks_fire"
+      }
+    ]
+  },
+  "item.gc_mosin_rifle.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_mosin_fire"
+      }
+    ]
+  },
+  "item.gc_ak101.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_ak_556_fire"
+      }
+    ]
+  },
+  "item.gc_ak74m.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_ak_545_fire"
+      }
+    ]
+  },
+  "item.gc_ak_545_silenced.suppressed": {
+    "subtitle": "subtitle.guncollection.suppressed_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_ak_545_silenced_fire"
+      }
+    ]
+  },
+  "item.gc_mosin_silenced.suppressed": {
+    "subtitle": "subtitle.guncollection.suppressed_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_bolt_rifle_silenced"
+      }
+    ]
+  },
+  "item.gc_akm.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_ak_7mm_fire"
+      }
+    ]
+  },
+  "item.gc_akm_silenced.suppressed": {
+    "subtitle": "subtitle.guncollection.suppressed_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_ak_7mm_silenced_fire"
+      }
+    ]
+  },
+  "item.gc_ar15_survivalist.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_50bw_fire"
+      }
+    ]
+  },
+  "item.gc_ak_vz58.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_vz58_fire"
+      }
+    ]
+  },
+  "item.gc_ak_pp19.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_pp19_fire"
+      }
+    ]
+  },
+  "item.gc_kedr_2h.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_makarov_fire"
+      }
+    ]
+  },
+  "item.gc_kedr_b.suppressed": {
+    "subtitle": "subtitle.guncollection.suppressed_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_makarov_silenced_fire"
+      }
+    ]
+  },
+  "item.gc_ar15_m4.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_m4_fire"
+      }
+    ]
+  },
+  "item.gc_ar15_m16a1.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_m16_fire"
+      }
+    ]
+  },
+  "item.gc_ar15_sig_mcx.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_300blk_fire"
+      }
+    ]
+  },
+  "item.gc_revolver.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_revolver_fire"
+      }
+    ]
+  },
+  "item.gc_revolver_alt.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_revolver_fire_alt"
+      }
+    ]
+  },
+  "item.gc_ppsh_41.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_ppsh_fire"
+      }
+    ]
+  },
+  "item.gc_famas_f1.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_famas_fire"
+      }
+    ]
+  },
+  "item.gc_ar15_silenced.suppressed": {
+    "subtitle": "subtitle.guncollection.suppressed_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_m4_silenced_fire"
+      }
+    ]
+  },
+  "item.mammoth.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/mammoth_fire"
+      }
+    ]
+  },
+  "item.intsup.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/intsup"
+      }
+    ]
+  },
+  "item.pistol.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/pistol_fire"
+      }
+    ]
+  },
+  "item.pistol.suppressed": {
+    "subtitle": "subtitle.guncollection.suppressed_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/pistol_suppressed"
+      }
+    ]
+  },
+  "item.heavy.fire": {
+    "subtitle": "subtitle.guncollection.regular_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/heavy_fire"
+      }
+    ]
+  },
+  "item.rifle.suppressed": {
+    "subtitle": "subtitle.guncollection.suppressed_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/rifle_suppressed"
+      }
+    ]
+  },
+  "item.light.suppressed": {
+    "subtitle": "subtitle.guncollection.suppressed_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/light_suppression"
+      }
+    ]
+  },
+  "item.medium.suppressed": {
+    "subtitle": "subtitle.guncollection.suppressed_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/medium_suppression"
+      }
+    ]
+  },
+  "item.heavy.suppressed": {
+    "subtitle": "subtitle.guncollection.suppressed_fire",
+    "sounds": [
+      {
+        "name": "guncollection:item/heavy_suppression"
+      }
+    ]
+  },
+  "item.gc_ak.cock":
+  { "subtitle": "subtitle.cgm.cock",
+    "sounds":
+    [
+      {
+        "name": "guncollection:item/gc_ak_cock"
+      }
+    ]
+  },
+  "item.gc_ar15.cock":
+  { "subtitle": "subtitle.cgm.cock",
+    "sounds":
+    [
+      {
+        "name": "guncollection:item/gc_ar15_cock"
+      }
+    ]
+  },
+  "item.gc_lmg.cock":
+  { "subtitle": "subtitle.cgm.cock",
+    "sounds":
+    [
+      {
+        "name": "guncollection:item/gc_lmg_cock"
+      }
+    ]
+  },
+  "item.gc_famas.cock":
+  { "subtitle": "subtitle.cgm.cock",
+    "sounds":
+    [
+      {
+        "name": "guncollection:item/gc_famas_cock"
+      }
+    ]
+  },
+  "item.gc_rifle_gl.cock":
+  { "subtitle": "subtitle.cgm.cock",
+    "sounds":
+    [
+      {
+        "name": "guncollection:item/gc_ar15_cock"
+      }
+    ]
+  },
+  "item.gc_fn_fal.cock":
+  { "subtitle": "subtitle.cgm.cock",
+    "sounds":
+    [
+      {
+        "name": "guncollection:item/gc_fn_fal_cock"
+      }
+    ]
+  },
+  "item.gc_bolt_rifle.cock":
+  { "subtitle": "subtitle.cgm.cock",
+    "sounds":
+    [
+      {
+        "name": "guncollection:item/gc_bolt_rifle_cock"
+      }
+    ]
+  },
+  "item.gc_mg_belt_load.reload":
+  { "subtitle": "subtitle.cgm.reload",
+    "sounds":
+    [
+      {
+        "name": "guncollection:item/gc_mg_belt_load"
+      }
+    ]
+  },
+  "item.gc_mosin_load.reload":
+  { "subtitle": "subtitle.cgm.reload",
+    "sounds":
+    [
+      {
+        "name": "guncollection:item/gc_mosin_load"
+      }
+    ]
+  },
+  "item.gc_garand_ping.misc": {
+    "sounds": [
+      {
+        "name": "guncollection:item/gc_garand_ping"
+      }
+    ]
+  },
+  "item.gc_gp25.reload":
+  { "subtitle": "subtitle.cgm.reload",
+    "sounds":
+    [
+      {
+        "name": "guncollection:item/gc_gp25_reload"
+      }
+    ]
+  },
+  "item.gc_rifle_gl.reload":
+  { "subtitle": "subtitle.cgm.reload",
+    "sounds":
+    [
+      {
+        "name": "guncollection:item/gc_rifle_gl_reload"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "general": {
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 200,
+    "reloadAmount": 10
+  },
+  "projectile": {
+    "item": "guncollection:gc_ammo_762x39"
+  },
+  "sounds": {
+    "fire": "cgm:item.pistol.reload",
+    "reload": "cgm:item.pistol.reload"
+  }
+}

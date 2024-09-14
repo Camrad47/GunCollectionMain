@@ -1,0 +1,52 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 4,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 30,
+    "reloadAmount": 2,
+    "recoilAngle": 3.1,
+    "recoilKick": 3.5,
+    "recoilAdsReduction": 0.4,
+    "alwaysSpread": true,
+    "spread": 3.3
+  },
+  "projectile": {
+    "item": "guncollection:gc_ammo_366",
+    "visible": false,
+    "gravity": true,
+    "damage": 12,
+    "size": 0.2,
+    "speed": 30.0,
+    "life": 25
+  },
+  "sounds": {
+    "fire": "guncollection:item.gc_akm.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "guncollection:item.gc_ak.cock",
+    "silencedFire": "guncollection:item.gc_akm_silenced.suppressed"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 2.5,
+      "zOffset": -13.6
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.8,
+      "yOffset": 4.5,
+      "zOffset": 2.8
+    },
+    "attachments": {
+      "barrel": {
+        "yOffset": 2.5,
+        "zOffset": -12.4,
+        "scale": 1.25
+      },
+      "stock": {
+        "scale": 0
+      }
+    }
+  }
+}

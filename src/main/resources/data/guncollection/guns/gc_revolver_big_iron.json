@@ -1,0 +1,34 @@
+{
+  "general": {
+    "auto": true,
+    "rate": 20,
+    "gripType": "cgm:one_handed",
+    "maxAmmo": 6,
+    "reloadAmount": 1,
+    "recoilAngle": 7.7,
+    "recoilKick": 1.1,
+    "recoilAdsReduction": 0.1,
+    "alwaysSpread": true,
+    "spread": 3.0
+  },
+  "projectile": {
+    "item": "guncollection:gc_ammo_357",
+    "visible": false,
+    "damage": 6.5,
+    "size": 0.1,
+    "speed": 55.0,
+    "life": 45
+  },
+  "sounds": {
+    "fire": "guncollection:item.gc_revolver.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.assault_rifle.cock"
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.9,
+      "yOffset": 4.1,
+      "zOffset": 1.5
+    }
+  }
+}

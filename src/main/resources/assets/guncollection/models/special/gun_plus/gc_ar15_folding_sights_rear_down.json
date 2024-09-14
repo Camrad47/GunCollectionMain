@@ -1,0 +1,122 @@
+{
+	"credit": "Made with Blockbench by VIKTORWOOD",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "guncollection:item/gc_polymer_13"
+	},
+	"elements": [
+		{
+			"from": [8.25, 4.17525, 14.27475],
+			"to": [8.4, 4.47525, 14.97475],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4.72525, 14]},
+			"faces": {
+				"north": {"uv": [9.5, 11.5, 10, 12.5], "texture": "#1"},
+				"east": {"uv": [7.5, 13, 9, 14], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [9, 12.5, 9.5, 15], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [7.5, 12, 9, 13], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [7.5, 14.5, 8.5, 15.5], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [9, 11.5, 9.5, 12.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.6, 4.17525, 14.27475],
+			"to": [7.75, 4.47525, 14.97475],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4.72525, 14]},
+			"faces": {
+				"north": {"uv": [8, 11.5, 8.5, 12.5], "texture": "#1"},
+				"east": {"uv": [6, 13, 7.5, 14], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [7.5, 12.5, 8, 15], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [6, 12, 7.5, 13], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [6, 14.5, 7, 15.5], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [7.5, 11.5, 8, 12.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.69, 4.18525, 13.87475],
+			"to": [8.31, 4.46525, 14.47575],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4.72525, 14]},
+			"faces": {
+				"north": {"uv": [9.5, 15.65, 11, 13.15], "texture": "#1"},
+				"east": {"uv": [11, 16, 13, 14.5], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [8, 15.65, 9.5, 13.15], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [11, 14.5, 13, 13], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [13, 16, 14.5, 14.5], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [6.5, 16, 8, 14.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.601, 4.2, 13.75],
+			"to": [8.399, 4.4, 14.05],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4.5075, 14.025]},
+			"faces": {
+				"north": {"uv": [3.5, 9.5, 4.2, 11.25], "texture": "#1"},
+				"east": {"uv": [1, 7.5, 3, 9.25], "texture": "#1"},
+				"south": {"uv": [4.5, 9.5, 5.2, 11.25], "texture": "#1"},
+				"west": {"uv": [1, 9.5, 3, 11.25], "texture": "#1"},
+				"up": {"uv": [2.5, 11.5, 3.2, 12.5], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [1, 11.5, 1.7, 12.5], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.601, 4, 13.95],
+			"to": [8.399, 4.2, 14.45],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4.5075, 14.025]},
+			"faces": {
+				"north": {"uv": [3.5, 9.5, 4.2, 11.25], "texture": "#1"},
+				"east": {"uv": [1, 7.5, 3, 9.25], "texture": "#1"},
+				"south": {"uv": [4.5, 9.5, 5.2, 11.25], "texture": "#1"},
+				"west": {"uv": [1, 9.5, 3, 11.25], "texture": "#1"},
+				"up": {"uv": [2.5, 11.5, 3.2, 12.5], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [1, 11.5, 1.7, 12.5], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.401, 3.9, 13.45],
+			"to": [8.599, 4.23, 13.95],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4.5075, 14.025]},
+			"faces": {
+				"north": {"uv": [3.5, 9.5, 4.2, 11.25], "texture": "#1"},
+				"east": {"uv": [1, 7.5, 3, 9.25], "texture": "#1"},
+				"south": {"uv": [4.5, 9.5, 5.2, 11.25], "texture": "#1"},
+				"west": {"uv": [1, 9.5, 3, 11.25], "texture": "#1"},
+				"up": {"uv": [2.5, 11.5, 3.2, 12.5], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [1, 11.5, 1.7, 12.5], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.401, 3.9, 14.25],
+			"to": [8.599, 4.23, 14.45],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4.5075, 14.025]},
+			"faces": {
+				"north": {"uv": [3.5, 9.5, 4.2, 11.25], "texture": "#1"},
+				"east": {"uv": [1, 7.5, 3, 9.25], "texture": "#1"},
+				"south": {"uv": [4.5, 9.5, 5.2, 11.25], "texture": "#1"},
+				"west": {"uv": [1, 9.5, 3, 11.25], "texture": "#1"},
+				"up": {"uv": [2.5, 11.5, 3.2, 12.5], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [1, 11.5, 1.7, 12.5], "rotation": 180, "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Rear - folding iron (down)",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				{
+					"name": "Front - folding iron (down)",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": []
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,70 @@
+{
+	"credit": "Made with Blockbench by VIKTORWOOD",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "guncollection:item/gc_bolt_rifle",
+		"particle": "guncollection:item/gc_bolt_rifle"
+	},
+	"elements": [
+		{
+			"from": [7.65, 1.8, 9.1],
+			"to": [8.4, 2.4, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.075, 2.1, 11.6]},
+			"faces": {
+				"north": {"uv": [9.5, 9, 11, 10.45], "texture": "#1"},
+				"east": {"uv": [8.5, 9, 12.5, 10.45], "texture": "#1"},
+				"south": {"uv": [6.5, 9, 8, 10.45], "texture": "#1"},
+				"west": {"uv": [6, 8.5, 10, 9.95], "texture": "#1"},
+				"up": {"uv": [8.5, 8.5, 16, 11], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [6, 9, 13.5, 11.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.55, 1.7, 14],
+			"to": [8.4, 2.5, 14.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.975, 2.1, 11.6]},
+			"faces": {
+				"north": {"uv": [9.5, 9, 11, 10.45], "texture": "#1"},
+				"east": {"uv": [8.5, 9, 9.5, 10.45], "texture": "#1"},
+				"south": {"uv": [6.5, 9, 8, 10.45], "texture": "#1"},
+				"west": {"uv": [9, 8.5, 10, 9.95], "texture": "#1"},
+				"up": {"uv": [15, 8.5, 16, 11], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [12.5, 9, 13.5, 11.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [8.3, 1.92929, 13.57071],
+			"to": [9.4, 2.32929, 13.97071],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.775, 2, 14.2]},
+			"faces": {
+				"north": {"uv": [6, 10, 12, 11.3], "texture": "#1"},
+				"east": {"uv": [12.5, 9, 13.8, 10.3], "texture": "#1"},
+				"south": {"uv": [6, 8.5, 12, 9.8], "texture": "#1"},
+				"west": {"uv": [7.5, 9, 8.8, 10.3], "texture": "#1"},
+				"up": {"uv": [10, 10, 16, 11.3], "texture": "#1"},
+				"down": {"uv": [10, 8.5, 16, 9.8], "texture": "#1"}
+			}
+		},
+		{
+			"from": [9.3, 1.8293, 13.4707],
+			"to": [9.9, 2.4293, 14.0707],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.775, 2, 14.2]},
+			"faces": {
+				"north": {"uv": [10.5, 10, 12, 11.3], "texture": "#1"},
+				"east": {"uv": [12.5, 9, 13.8, 10.3], "texture": "#1"},
+				"south": {"uv": [10.5, 8.5, 12, 9.8], "texture": "#1"},
+				"west": {"uv": [7.5, 9, 8.8, 10.3], "texture": "#1"},
+				"up": {"uv": [14.5, 10, 16, 11.3], "texture": "#1"},
+				"down": {"uv": [14.5, 8.5, 16, 9.8], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 4,
+      "item": "guncollection:gc_weaponparts_main"
+    },
+    {
+      "count": 2,
+      "item": "guncollection:gc_weaponparts_plus"
+    },
+    {
+      "count": 2,
+      "item": "guncollection:gc_weaponparts_wood"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_fn_fal_r1_m43"
+  }
+}

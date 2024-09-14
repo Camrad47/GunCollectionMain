@@ -1,0 +1,12 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 1,
+      "item": "guncollection:gc_ak_366"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_ak_scav"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 1,
+      "item": "guncollection:gc_weaponparts_polymer"
+    },
+    {
+      "count": 4,
+      "item": "guncollection:gc_weaponparts_plus"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_vertical_grip_se5"
+  }
+}

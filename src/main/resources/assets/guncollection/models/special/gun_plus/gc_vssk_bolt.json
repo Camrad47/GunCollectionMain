@@ -1,0 +1,69 @@
+{
+	"credit": "Made with Blockbench by VIKTORWOOD",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "guncollection:item/gc_polymer_13"
+	},
+	"elements": [
+		{
+			"from": [7.35, 3.2, 11.5],
+			"to": [8.625, 3.6, 17],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1.8, -12.9, -1.8]},
+			"faces": {
+				"north": {"uv": [13.5, 10, 14.94, 11.15], "texture": "#1"},
+				"east": {"uv": [6, 13, 16, 14], "texture": "#1"},
+				"south": {"uv": [14.5, 8.5, 15.94, 9.65], "texture": "#1"},
+				"west": {"uv": [6, 14, 13.5, 15], "texture": "#1"},
+				"up": {"uv": [6.5, 8.5, 14, 9.44], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [6.5, 9.5, 14, 10.44], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [8.55, 3.3, 11.8],
+			"to": [9.025, 3.6, 12.8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2.2, -12.9, 0.4]},
+			"faces": {
+				"north": {"uv": [13.56, 13.5, 15, 14.65], "texture": "#1"},
+				"east": {"uv": [11.5, 13, 14, 14.5], "texture": "#1"},
+				"south": {"uv": [14.56, 12, 16, 13.15], "texture": "#1"},
+				"west": {"uv": [6.06, 14, 13.56, 15], "texture": "#1"},
+				"up": {"uv": [6.56, 12, 14.06, 12.94], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [6.56, 13, 14.06, 13.94], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [8.76864, 3.23536, 11.885],
+			"to": [10.46864, 3.63536, 12.385],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.7, 3.43536, 12.24334]},
+			"faces": {
+				"north": {"uv": [9.06, 13, 10.66, 15], "rotation": 90, "texture": "#1"},
+				"east": {"uv": [11.5, 12.5, 13.1, 14], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [9.06, 12, 10.66, 14], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [11.06, 12.5, 12.66, 14], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [7.56, 12.5, 10.56, 14], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [6.06, 12.5, 9.06, 14], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.45, 2.4, 18],
+			"to": [8.63, 3.4, 21.4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1.8, -13.1, 2.4]},
+			"faces": {
+				"north": {"uv": [13.5, 10, 14.94, 11.15], "texture": "#1"},
+				"east": {"uv": [11, 13, 16, 14.5], "texture": "#1"},
+				"south": {"uv": [14.5, 8.5, 15.94, 9.65], "texture": "#1"},
+				"west": {"uv": [7, 13.5, 14.5, 15], "texture": "#1"},
+				"up": {"uv": [6.5, 8.5, 14, 9.44], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [6.5, 9.5, 14, 10.44], "rotation": 90, "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "VSSK bolt",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

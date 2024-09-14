@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "guncollection:gc_ammopack_545x39"
+    }
+  ],
+  "result": {
+    "count": 32,
+    "item": "guncollection:gc_ammo_545x39"
+  }
+}

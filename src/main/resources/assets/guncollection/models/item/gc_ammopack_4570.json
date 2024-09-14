@@ -1,0 +1,6 @@
+{
+    "parent": "guncollection:item/gc_ammopack_127x108",
+	"textures": {
+		"1": "guncollection:item/small_ammo_pack_3"
+	}
+}

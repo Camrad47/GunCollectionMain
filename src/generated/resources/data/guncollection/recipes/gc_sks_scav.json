@@ -1,0 +1,16 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 1,
+      "item": "guncollection:gc_sks"
+    },
+    {
+      "count": 2,
+      "item": "guncollection:gc_weaponparts_polymer"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_sks_scav"
+  }
+}

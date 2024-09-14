@@ -1,0 +1,40 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 16,
+    "gripType": "cgm:one_handed",
+    "maxAmmo": 6,
+    "reloadAmount": 1,
+    "recoilAngle": 6.5,
+    "recoilKick": 2.6,
+    "recoilAdsReduction": 0.2,
+    "alwaysSpread": true,
+    "spread": 1.0
+  },
+  "projectile": {
+    "item": "guncollection:gc_ammo_44",
+    "visible": false,
+    "damage": 8.5,
+    "size": 0.1,
+    "speed": 55.0,
+    "life": 35
+  },
+  "sounds": {
+    "fire": "guncollection:item.gc_magnum_revolver.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.assault_rifle.cock"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 2.9,
+      "zOffset": -7.0
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.7,
+      "yOffset": 4.1,
+      "zOffset": 1.5
+    }
+  }
+}

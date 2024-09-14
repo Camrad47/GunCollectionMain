@@ -1,0 +1,24 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 5,
+      "item": "guncollection:gc_weaponparts_rust"
+    },
+    {
+      "count": 1,
+      "item": "guncollection:gc_weaponparts_plus"
+    },
+    {
+      "count": 3,
+      "item": "guncollection:gc_weaponparts_wood"
+    },
+    {
+      "count": 9,
+      "tag": "forge:nuggets/gold"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_mosin_lucky_carbine"
+  }
+}

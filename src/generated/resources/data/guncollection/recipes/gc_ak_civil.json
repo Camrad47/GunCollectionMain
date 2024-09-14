@@ -1,0 +1,16 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 3,
+      "item": "guncollection:gc_weaponparts_main"
+    },
+    {
+      "count": 2,
+      "item": "guncollection:gc_weaponparts_wood"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_ak_civil"
+  }
+}

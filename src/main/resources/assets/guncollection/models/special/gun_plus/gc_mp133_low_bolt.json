@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench by Beton",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "guncollection:item/gc_wood_light",
+		"particle": "guncollection:item/gc_wood_light"
+	},
+	"elements": [
+		{
+			"from": [7.6, 1.5, 9.1],
+			"to": [8.5, 2.4, 11.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1.5, -14.5, 0.3]},
+			"faces": {
+				"north": {"uv": [8.5, 9.5, 9.4, 10.5], "texture": "#1"},
+				"east": {"uv": [12.5, 8.5, 15.5, 9.5], "texture": "#1"},
+				"south": {"uv": [8.5, 8.5, 9.4, 9.5], "texture": "#1"},
+				"west": {"uv": [12.5, 9.5, 15.5, 10.5], "texture": "#1"},
+				"up": {"uv": [9.5, 8.5, 10.9, 10.5], "texture": "#1"},
+				"down": {"uv": [11, 8.5, 12.4, 10.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [8.3, 1.6, 9.3],
+			"to": [9.2, 2, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1.5, -14.5, 0.3]},
+			"faces": {
+				"north": {"uv": [10, 9.5, 10.7, 10.75], "texture": "#1"},
+				"east": {"uv": [7, 9.5, 8, 10.75], "texture": "#1"},
+				"south": {"uv": [9, 9.5, 9.7, 10.75], "texture": "#1"},
+				"west": {"uv": [8, 9.5, 9, 10.75], "texture": "#1"},
+				"up": {"uv": [12, 9.5, 12.7, 10.5], "texture": "#1"},
+				"down": {"uv": [11, 9.5, 11.7, 10.5], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [-1.5, -14.5, 0.3],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

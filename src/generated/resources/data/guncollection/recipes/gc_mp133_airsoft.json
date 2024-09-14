@@ -1,0 +1,16 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 2,
+      "item": "guncollection:gc_weaponparts_metal"
+    },
+    {
+      "count": 2,
+      "item": "guncollection:gc_weaponparts_polymer"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_mp133_airsoft"
+  }
+}

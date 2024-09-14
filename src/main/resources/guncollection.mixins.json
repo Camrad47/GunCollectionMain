@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "concreteguy.guncollection.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "refmap": "concreteguy.guncollection.refmap.json",
+  "plugin": "concreteguy.guncollection.mixin.MixinPluginGC",
+  "mixins": [
+    "GCGunEnchantmentHelperMixin"
+  ],
+  "client": [
+  ],
+  "minVersion": "0.8",
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

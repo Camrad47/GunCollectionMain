@@ -1,0 +1,37 @@
+{
+  "general": {
+    "auto": true,
+    "rate": 20,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 1,
+    "reloadAmount": 1,
+    "recoilAngle": 12.0,
+    "recoilKick": 10.0,
+    "recoilDurationOffset": 0.1,
+    "recoilAdsReduction": 0.1,
+    "alwaysSpread": true,
+    "spread": 3.0
+  },
+  "projectile": {
+    "damage": 18.0,
+    "gravity": true,
+    "item": "guncollection:gc_ammo_vog25",
+    "life": 150,
+    "size": 0.2,
+    "speed": 3.0,
+    "visible": true
+  },
+  "sounds": {
+    "fire": "guncollection:item.gc_40mm_gl.fire",
+    "reload": "guncollection:item.gc_gp25.reload",
+    "cock": "cgm:item.assault_rifle.cock"
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.8,
+      "xOffset": 2.5,
+      "yOffset": 5.8,
+      "zOffset": 2.8
+    }
+  }
+}

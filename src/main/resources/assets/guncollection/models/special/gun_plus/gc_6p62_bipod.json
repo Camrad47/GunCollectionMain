@@ -1,0 +1,69 @@
+{
+	"credit": "Made with Blockbench by VIKTORWOOD",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "guncollection:item/gc_bolt_rifle"
+	},
+	"elements": [
+		{
+			"from": [8.6, -3.7, -4.15],
+			"to": [8.9, 3.4, -3.75],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8.1, 2.8, -3.9]},
+			"faces": {
+				"north": {"uv": [6, 7.5, 15, 8.5], "rotation": 270, "texture": "#1"},
+				"east": {"uv": [6, 7.5, 15, 8.5], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [6, 7.5, 15, 8.5], "rotation": 270, "texture": "#1"},
+				"west": {"uv": [6, 7.5, 15, 8.5], "rotation": 270, "texture": "#1"},
+				"up": {"uv": [4, 7.5, 5, 8.5], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [3, 9.5, 4.5, 10.8], "texture": "#1"}
+			}
+		},
+		{
+			"from": [8.2, -3.9, -4.86],
+			"to": [9.2, -3.7, -3.14],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8.1, 2.8, -3.9]},
+			"faces": {
+				"north": {"uv": [2, 10.5, 3.1, 11.5], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [2, 8.5, 3, 10.5], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [3, 10.5, 4.1, 11.5], "texture": "#1"},
+				"west": {"uv": [1, 10.5, 2, 12.5], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [3, 11.5, 4.1, 13], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [2, 11.5, 3.1, 13], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.3, -3.7, -4.15],
+			"to": [7.6, 3.4, -3.75],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8.1, 2.8, -3.9]},
+			"faces": {
+				"north": {"uv": [6, 7.5, 15, 8.5], "rotation": 270, "texture": "#1"},
+				"east": {"uv": [6, 7.5, 15, 8.5], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [6, 7.5, 15, 8.5], "rotation": 270, "texture": "#1"},
+				"west": {"uv": [6, 7.5, 15, 8.5], "rotation": 270, "texture": "#1"},
+				"up": {"uv": [4, 7.5, 5, 8.5], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [3, 9.5, 4.5, 10.8], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7, -3.9, -4.86],
+			"to": [8, -3.7, -3.14],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8.1, 2.8, -3.9]},
+			"faces": {
+				"north": {"uv": [2, 10.5, 3.1, 11.5], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [2, 8.5, 3, 10.5], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [3, 10.5, 4.1, 11.5], "texture": "#1"},
+				"west": {"uv": [1, 10.5, 2, 12.5], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [3, 11.5, 4.1, 13], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [2, 11.5, 3.1, 13], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "bipod",
+			"origin": [-4, -12.95, 3],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 1,
+      "item": "guncollection:gc_sight_compact"
+    },
+    {
+      "count": 1,
+      "item": "guncollection:gc_sight_acog"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_sight_acog_rmr"
+  }
+}

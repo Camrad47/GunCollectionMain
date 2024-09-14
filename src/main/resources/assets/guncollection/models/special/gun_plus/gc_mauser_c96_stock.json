@@ -1,0 +1,70 @@
+{
+	"credit": "Made with Blockbench by VIKTORWOOD",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "guncollection:item/gc_bolt_rifle",
+		"particle": "guncollection:item/gc_bolt_rifle"
+	},
+	"elements": [
+		{
+			"from": [7.191, -1.7, 15.7],
+			"to": [8.791, 0.7, 26.9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.9955, -0.075, 20.55558]},
+			"faces": {
+				"north": {"uv": [7.5, 4.5, 8.6, 5.5], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [5, 5.5, 10.5, 6.5], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [6, 4.5, 7, 5.5], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [10.5, 5.5, 16, 6.5], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [1.5, 2.5, 3.1, 7], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [0, 4.5, 5.5, 5.6], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.191, 0.7, 22.2],
+			"to": [8.791, 3.2, 26.9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.9955, 1.525, 23.05558]},
+			"faces": {
+				"north": {"uv": [7.5, 4.5, 8.6, 5.5], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [5, 5.5, 10.5, 6.5], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [6, 4.5, 7, 5.5], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [10.5, 5.5, 16, 6.5], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [1.5, 2.5, 3.1, 7], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [0, 4.5, 5.5, 5.6], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.21, -1.59013, 21.26083],
+			"to": [8.79, 2.10987, 23.86083],
+			"rotation": {"angle": 45, "axis": "x", "origin": [7.9955, 1.525, 23.05558]},
+			"faces": {
+				"north": {"uv": [1.5, 2.5, 3.1, 7], "texture": "#1"},
+				"east": {"uv": [5, 5.5, 10.5, 6.5], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [0, 4.5, 5.5, 5.6], "rotation": 270, "texture": "#1"},
+				"west": {"uv": [10.5, 5.5, 16, 6.5], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [6, 4.5, 7, 5.5], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [7.5, 4.5, 8.6, 5.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.41, -1.61974, 14.76116],
+			"to": [8.59, 0.78026, 19.76116],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.98026, 21.81116]},
+			"faces": {
+				"north": {"uv": [8, 12, 9, 13], "texture": "#1"},
+				"east": {"uv": [7, 13, 12.5, 14], "texture": "#1"},
+				"south": {"uv": [9.5, 12, 10.6, 13], "texture": "#1"},
+				"west": {"uv": [10.5, 12, 16, 13], "texture": "#1"},
+				"up": {"uv": [7.5, 13.5, 13, 14.6], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [7.5, 11.5, 9.1, 16], "rotation": 180, "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Mauser stock",
+			"origin": [3.5, 1.5, 19.5],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

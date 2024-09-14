@@ -1,0 +1,16 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 1,
+      "item": "guncollection:gc_weaponparts_main"
+    },
+    {
+      "count": 3,
+      "item": "guncollection:gc_weaponparts_plus"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_magnum_revolver_short"
+  }
+}

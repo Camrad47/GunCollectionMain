@@ -1,0 +1,13 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 3,
+      "item": "guncollection:gc_ammo_parts"
+    }
+  ],
+  "result": {
+    "count": 32,
+    "item": "guncollection:gc_ammo_6mm_bb"
+  }
+}

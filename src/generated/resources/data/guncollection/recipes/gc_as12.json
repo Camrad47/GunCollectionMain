@@ -1,0 +1,24 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 4,
+      "item": "guncollection:gc_weaponparts_main"
+    },
+    {
+      "count": 5,
+      "item": "guncollection:gc_weaponparts_plus"
+    },
+    {
+      "count": 4,
+      "item": "guncollection:gc_weaponparts_metal"
+    },
+    {
+      "count": 4,
+      "item": "guncollection:gc_weaponparts_polymer"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_as12"
+  }
+}

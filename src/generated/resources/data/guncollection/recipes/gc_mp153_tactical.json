@@ -1,0 +1,24 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 3,
+      "item": "guncollection:gc_weaponparts_main"
+    },
+    {
+      "count": 6,
+      "item": "guncollection:gc_weaponparts_plus"
+    },
+    {
+      "count": 4,
+      "item": "guncollection:gc_weaponparts_polymer"
+    },
+    {
+      "count": 1,
+      "item": "guncollection:gc_weaponparts_electronic"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_mp153_tactical"
+  }
+}

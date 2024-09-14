@@ -1,0 +1,43 @@
+{
+	"credit": "Made with Blockbench by VIKTORWOOD",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "guncollection:item/gc_wood_pine"
+	},
+	"elements": [
+		{
+			"from": [8.2, 3.42929, 9.97071],
+			"to": [9.3, 3.72929, 10.27071],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.8, 3.72929, 10.27071]},
+			"faces": {
+				"north": {"uv": [15, 7.5, 16, 8.5], "texture": "#1"},
+				"east": {"uv": [15, 7.5, 16, 8.5], "texture": "#1"},
+				"south": {"uv": [15, 7.5, 16, 8.5], "texture": "#1"},
+				"west": {"uv": [15, 7.5, 16, 8.5], "texture": "#1"},
+				"up": {"uv": [15, 7.5, 16, 8.5], "texture": "#1"},
+				"down": {"uv": [15, 7.5, 16, 8.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.8, 3.4, 9.8],
+			"to": [8.45, 3.9, 13.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1.5, -12.6, 1.8]},
+			"faces": {
+				"north": {"uv": [15, 7.5, 16, 8.5], "texture": "#1"},
+				"east": {"uv": [15, 7.5, 16, 8.5], "texture": "#1"},
+				"south": {"uv": [15, 7.5, 16, 8.5], "texture": "#1"},
+				"west": {"uv": [15, 7.5, 16, 8.5], "texture": "#1"},
+				"up": {"uv": [15, 7.5, 16, 8.5], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [15, 7.5, 16, 8.5], "rotation": 90, "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "grou",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 10,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 50,
+    "reloadAmount": 10,
+    "recoilAngle": 0.7,
+    "recoilKick": 0.7,
+    "recoilAdsReduction": 0.1,
+    "projectileAmount": 5,
+    "alwaysSpread": true,
+    "spread": 7.5
+  },
+  "projectile": {
+    "item": "guncollection:gc_ammo_6mm_bb",
+    "visible": true,
+    "gravity": true,
+    "damage": 2.0,
+    "size": 0.2,
+    "speed": 10.0,
+    "life": 5
+  },
+  "sounds": {
+    "fire": "guncollection:item.22lr_rifle.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.shotgun.cock",
+    "silencedFire": "cgm:item.shotgun.silenced_fire",
+    "enchantedFire": "cgm:item.shotgun.enchanted_fire"
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.9,
+      "yOffset": 3.8,
+      "zOffset": 2.8
+    }
+  }
+}

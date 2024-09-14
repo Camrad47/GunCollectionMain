@@ -1,0 +1,57 @@
+{
+	"credit": "Made with Blockbench by VIKTORWOOD",
+	"texture_size": [32, 32],
+	"textures": {
+		"2": "guncollection:item/gc_polymer_13",
+		"particle": "guncollection:item/gc_polymer_13"
+	},
+	"elements": [
+		{
+			"from": [8.4, 2.8, 9],
+			"to": [8.6, 3.3, 13.7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1.5, -13.2, 2.1]},
+			"faces": {
+				"north": {"uv": [13.5, 10, 14.6, 11], "texture": "#2"},
+				"east": {"uv": [11, 9, 16, 10], "texture": "#2"},
+				"south": {"uv": [9.5, 8.5, 10.6, 9.5], "texture": "#2"},
+				"west": {"uv": [6, 9.5, 11, 10.5], "texture": "#2"},
+				"up": {"uv": [11, 10, 16, 11.1], "rotation": 90, "texture": "#2"},
+				"down": {"uv": [7.5, 10, 12.5, 11.1], "rotation": 90, "texture": "#2"}
+			}
+		},
+		{
+			"from": [8.5, 2.95, 9.2],
+			"to": [8.7, 3.25, 11.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1.6, -13.2, 2.1]},
+			"faces": {
+				"north": {"uv": [13.5, 10, 14.6, 11], "texture": "#2"},
+				"east": {"uv": [11, 9, 16, 10], "texture": "#2"},
+				"south": {"uv": [9.5, 8.5, 10.6, 9.5], "texture": "#2"},
+				"west": {"uv": [6, 9.5, 11, 10.5], "texture": "#2"},
+				"up": {"uv": [11, 10, 16, 11.1], "rotation": 90, "texture": "#2"},
+				"down": {"uv": [7.5, 10, 12.5, 11.1], "rotation": 90, "texture": "#2"}
+			}
+		},
+		{
+			"from": [8.4, 3, 9.3],
+			"to": [9.6, 3.2, 9.8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1.5, -13.2, 2.1]},
+			"faces": {
+				"north": {"uv": [13.5, 10, 14.6, 11], "texture": "#2"},
+				"east": {"uv": [11, 9, 16, 10], "texture": "#2"},
+				"south": {"uv": [9.5, 8.5, 10.6, 9.5], "texture": "#2"},
+				"west": {"uv": [6, 9.5, 11, 10.5], "texture": "#2"},
+				"up": {"uv": [11, 10, 16, 11.1], "rotation": 90, "texture": "#2"},
+				"down": {"uv": [7.5, 10, 12.5, 11.1], "rotation": 90, "texture": "#2"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "bolt",
+			"origin": [1.5, -13.2, 1.7],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

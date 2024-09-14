@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "guncollection:gc_rpg7_pg7v"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_rpg7_og7v"
+  }
+}

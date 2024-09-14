@@ -1,0 +1,28 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 6,
+      "item": "guncollection:gc_weaponparts_main"
+    },
+    {
+      "count": 6,
+      "item": "guncollection:gc_weaponparts_plus"
+    },
+    {
+      "count": 4,
+      "item": "guncollection:gc_weaponparts_metal"
+    },
+    {
+      "count": 2,
+      "item": "guncollection:gc_weaponparts_polymer"
+    },
+    {
+      "count": 1,
+      "item": "guncollection:gc_weaponparts_electronic"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_ptrs41_handbreaker_custom"
+  }
+}

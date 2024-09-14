@@ -1,0 +1,16 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 3,
+      "item": "guncollection:gc_weaponparts_metal"
+    },
+    {
+      "count": 2,
+      "item": "guncollection:gc_weaponparts_wood"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_blunderbuss"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 2,
+    "gripType": "cgm:one_handed",
+    "maxAmmo": 7,
+    "reloadAmount": 2,
+    "recoilAngle": 5.3,
+    "recoilKick": 3,
+    "recoilAdsReduction": 0.1,
+    "alwaysSpread": true,
+    "spread": 2.5
+  },
+  "projectile": {
+    "item": "guncollection:gc_ammo_45acp",
+    "visible": false,
+    "damage": 5.5,
+    "size": 0.1,
+    "speed": 25.0,
+    "life": 15
+  },
+  "sounds": {
+    "fire": "guncollection:item.gc_m1911_basic.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.assault_rifle.cock",
+    "silencedFire": "guncollection:item.gc_45cal_silenced.suppressed"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 2.5,
+      "zOffset": 0.7
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.8,
+      "yOffset": 3.4
+    }
+  }
+}

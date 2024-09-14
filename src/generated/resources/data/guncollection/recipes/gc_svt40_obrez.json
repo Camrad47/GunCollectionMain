@@ -1,0 +1,12 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 1,
+      "item": "guncollection:gc_svt40"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_svt40_obrez"
+  }
+}

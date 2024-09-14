@@ -1,0 +1,57 @@
+{
+	"credit": "Made with Blockbench by VIKTORWOOD",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "guncollection:item/gc_wood_pine",
+		"particle": "guncollection:item/gc_wood_pine"
+	},
+	"elements": [
+		{
+			"from": [7.65, 2.4, 7.1],
+			"to": [8.4, 3.1, 11.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1.5, -13.9, -1.5]},
+			"faces": {
+				"north": {"uv": [9.5, 9, 11, 10.45], "texture": "#1"},
+				"east": {"uv": [8.5, 9, 12.5, 10.45], "texture": "#1"},
+				"south": {"uv": [6.5, 9, 8, 10.45], "texture": "#1"},
+				"west": {"uv": [6, 8.5, 10, 9.95], "texture": "#1"},
+				"up": {"uv": [8.5, 8.5, 16, 11], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [6, 9, 13.5, 11.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.7, 3.02929, 7.17071],
+			"to": [9, 3.32929, 7.57071],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 3.02929, 5.97071]},
+			"faces": {
+				"north": {"uv": [6, 10, 12, 11.3], "texture": "#1"},
+				"east": {"uv": [12.5, 9, 13.8, 10.3], "texture": "#1"},
+				"south": {"uv": [6, 8.5, 12, 9.8], "texture": "#1"},
+				"west": {"uv": [7.5, 9, 8.8, 10.3], "texture": "#1"},
+				"up": {"uv": [10, 10, 16, 11.3], "texture": "#1"},
+				"down": {"uv": [10, 8.5, 16, 9.8], "texture": "#1"}
+			}
+		},
+		{
+			"from": [9, 2.9793, 7.1207],
+			"to": [9.5, 3.4793, 7.6207],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 3.02929, 5.97071]},
+			"faces": {
+				"north": {"uv": [10.5, 10, 12, 11.3], "texture": "#1"},
+				"east": {"uv": [12.5, 9, 13.8, 10.3], "texture": "#1"},
+				"south": {"uv": [10.5, 8.5, 12, 9.8], "texture": "#1"},
+				"west": {"uv": [7.5, 9, 8.8, 10.3], "texture": "#1"},
+				"up": {"uv": [14.5, 10, 16, 11.3], "texture": "#1"},
+				"down": {"uv": [14.5, 8.5, 16, 9.8], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

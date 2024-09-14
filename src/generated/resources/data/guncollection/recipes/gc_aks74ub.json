@@ -1,0 +1,28 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 3,
+      "item": "guncollection:gc_weaponparts_main"
+    },
+    {
+      "count": 4,
+      "item": "guncollection:gc_weaponparts_plus"
+    },
+    {
+      "count": 1,
+      "item": "guncollection:gc_weaponparts_polymer"
+    },
+    {
+      "count": 1,
+      "item": "guncollection:gc_weaponparts_electronic"
+    },
+    {
+      "count": 2,
+      "item": "guncollection:gc_weaponparts_wood"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_aks74ub"
+  }
+}

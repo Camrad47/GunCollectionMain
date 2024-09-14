@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "guncollection:gc_p38_special"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_p38_auto_carbine"
+  }
+}

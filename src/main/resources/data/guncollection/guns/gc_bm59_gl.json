@@ -1,0 +1,36 @@
+{
+  "general": {
+    "auto": true,
+    "rate": 32,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 1,
+    "reloadAmount": 1,
+    "recoilAngle": 12.0,
+    "recoilKick": 7.0,
+    "recoilDurationOffset": 0.25,
+    "recoilAdsReduction": 0.5,
+    "alwaysSpread": true,
+    "spread": 1.0
+  },
+  "projectile": {
+    "damage": 20.0,
+    "gravity": true,
+    "item": "guncollection:gc_ammo_rifle_grenade",
+    "life": 200,
+    "size": 0.2,
+    "speed": 3.0,
+    "visible": true
+  },
+  "sounds": {
+    "fire": "guncollection:item.gc_akm.fire",
+    "reload": "guncollection:item.gc_rifle_gl.reload",
+    "cock": "guncollection:item.gc_rifle_gl.cock"
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.8,
+      "yOffset": 5.7,
+      "zOffset": -1.8
+    }
+  }
+}

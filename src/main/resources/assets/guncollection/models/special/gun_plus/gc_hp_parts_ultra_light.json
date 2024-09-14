@@ -1,0 +1,83 @@
+{
+	"credit": "Made with Blockbench by VIKTORWOOD",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "guncollection:item/gc_bolt_rifle",
+		"particle": "guncollection:item/gc_bolt_rifle"
+	},
+	"elements": [
+		{
+			"from": [7.71, -1.88384, 15.44895],
+			"to": [7.99, -1.28384, 22.34895],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 20.2364, 20.73014]},
+			"faces": {
+				"north": {"uv": [6.5, 13, 7.5, 14], "texture": "#1"},
+				"east": {"uv": [7.5, 12, 12.5, 13], "texture": "#1"},
+				"south": {"uv": [6.5, 12, 7.5, 13], "texture": "#1"},
+				"west": {"uv": [7.5, 13, 12.5, 14], "texture": "#1"},
+				"up": {"uv": [6, 11.5, 11, 12], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [11, 11.5, 16, 12], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.4, -2.14943, 22.25525],
+			"to": [8.1, 1.15057, 22.45525],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7.10057, 24.95525]},
+			"faces": {
+				"north": {"uv": [9.95, 12.1, 10.95, 13], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [7, 11.7, 8, 14], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [10.95, 12.1, 11.95, 13], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [8, 11.7, 9, 14], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [9.05, 12.95, 10.05, 14.05], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [9.05, 11.95, 10.05, 13.05], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.505, -1.98384, 15.24895],
+			"to": [8.505, -1.08384, 17.24895],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 20.2364, 20.73014]},
+			"faces": {
+				"north": {"uv": [13.5, 12.1, 15, 13], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [6.5, 13.2, 9.5, 14], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [12.5, 13.6, 14, 14.5], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [6.5, 14.2, 9.5, 15], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [6.5, 11.5, 8, 13.1], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [11, 11.5, 12.5, 13.1], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.6, -1.08384, 15.94895],
+			"to": [8.4, -0.28384, 16.64895],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 20.2364, 20.73014]},
+			"faces": {
+				"north": {"uv": [13.5, 12.1, 15, 13], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [6.5, 13.2, 8.5, 14], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [12.5, 13.6, 14, 14.5], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [10.5, 13.2, 12.5, 14], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [6.5, 11.5, 8, 13.1], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [11, 11.5, 12.5, 13.1], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.6, -2.18384, 14.94895],
+			"to": [8.4, -1.98384, 16.34895],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 20.2364, 20.73014]},
+			"faces": {
+				"north": {"uv": [13.5, 12.1, 15, 13], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [6.5, 13.2, 8.5, 14], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [12.5, 13.6, 14, 14.5], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [10.5, 13.2, 12.5, 14], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [6.5, 11.5, 8, 13.1], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [11, 11.5, 12.5, 13.1], "rotation": 270, "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Light stock",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
+		}
+	]
+}

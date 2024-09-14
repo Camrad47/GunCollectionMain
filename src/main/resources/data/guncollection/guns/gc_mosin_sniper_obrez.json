@@ -1,0 +1,36 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 21,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 5,
+    "reloadAmount": 1,
+    "recoilAngle": 3.5,
+    "recoilKick": 5.2,
+    "recoilAdsReduction": 0.2,
+    "alwaysSpread": true,
+    "spread": 3.3
+  },
+  "projectile": {
+    "item": "guncollection:gc_ammo_762x54r",
+    "visible": false,
+    "gravity": true,
+    "damage": 10.0,
+    "size": 0.2,
+    "speed": 25.0,
+    "life": 90
+  },
+  "sounds": {
+    "fire": "guncollection:item.gc_mosin_silenced.suppressed",
+    "reload": "guncollection:item.gc_mosin_load.reload",
+    "cock": "guncollection:item.gc_bolt_rifle.cock",
+    "silencedFire": "guncollection:item.gc_mosin_silenced.suppressed"
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.7,
+      "yOffset": 3.0,
+      "zOffset": 2.8
+    }
+  }
+}

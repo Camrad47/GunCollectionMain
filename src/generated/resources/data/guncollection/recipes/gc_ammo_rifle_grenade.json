@@ -1,0 +1,17 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 5,
+      "item": "guncollection:gc_ammo_parts"
+    },
+    {
+      "count": 1,
+      "item": "guncollection:gc_explosive_parts"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "guncollection:gc_ammo_rifle_grenade"
+  }
+}

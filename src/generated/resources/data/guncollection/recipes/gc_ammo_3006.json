@@ -1,0 +1,17 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 8,
+      "item": "guncollection:gc_ammo_parts"
+    },
+    {
+      "count": 7,
+      "item": "guncollection:gc_gunpowder_t2"
+    }
+  ],
+  "result": {
+    "count": 16,
+    "item": "guncollection:gc_ammo_3006"
+  }
+}

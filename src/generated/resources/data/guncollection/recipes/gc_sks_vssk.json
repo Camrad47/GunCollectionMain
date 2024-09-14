@@ -1,0 +1,16 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 4,
+      "item": "guncollection:gc_weaponparts_main"
+    },
+    {
+      "count": 6,
+      "item": "guncollection:gc_weaponparts_metal"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_sks_vssk"
+  }
+}

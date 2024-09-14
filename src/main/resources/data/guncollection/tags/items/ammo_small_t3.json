@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "guncollection:gc_ammo_300blk",
+    "guncollection:gc_ammo_9x39",
+    "guncollection:gc_ammo_68x43_spc",
+    "guncollection:gc_ammo_50beowulf"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 5,
+      "item": "guncollection:gc_weaponparts_main"
+    },
+    {
+      "count": 4,
+      "item": "guncollection:gc_weaponparts_plus"
+    },
+    {
+      "count": 3,
+      "item": "guncollection:gc_weaponparts_electronic"
+    },
+    {
+      "count": 1,
+      "item": "guncollection:gc_weaponparts_wood"
+    },
+    {
+      "count": 9,
+      "item": "guncollection:gc_weaponparts_polymer"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_ks23_atomic"
+  }
+}

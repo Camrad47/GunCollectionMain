@@ -1,0 +1,47 @@
+{
+  "general": {
+    "auto": true,
+    "rate": 2,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 20,
+    "reloadAmount": 2,
+    "recoilAngle": 6.1,
+    "recoilKick": 7.1,
+    "recoilAdsReduction": 0.45,
+    "alwaysSpread": true,
+    "spread": 3.2
+  },
+  "projectile": {
+    "item": "guncollection:gc_ammo_127x55",
+    "visible": false,
+    "gravity": true,
+    "damage": 17.2,
+    "size": 0.3,
+    "speed": 30.0,
+    "life": 30
+  },
+  "sounds": {
+    "fire": "guncollection:item.gc_vykhlop.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "guncollection:item.gc_ak.cock"
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.75,
+      "yOffset": 5.1,
+      "zOffset": 1.2
+    },
+    "attachments": {
+      "scope": {
+        "yOffset": 3.8,
+        "zOffset": 2.9,
+        "scale": 0.95
+      },
+      "underBarrel": {
+        "yOffset": 1.5,
+        "zOffset": -1.0,
+        "scale": 0.9
+      }
+    }
+  }
+}

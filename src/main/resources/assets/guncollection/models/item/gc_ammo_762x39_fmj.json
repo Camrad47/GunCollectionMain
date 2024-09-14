@@ -1,0 +1,8 @@
+{
+    "parent": "guncollection:item/gc_ammo_762x39",
+	"textures": {
+		"0": "guncollection:item/gc_mg",
+		"1": "guncollection:item/gc_hmg_shotgun",
+		"particle": "guncollection:item/gc_mg"
+	}
+}

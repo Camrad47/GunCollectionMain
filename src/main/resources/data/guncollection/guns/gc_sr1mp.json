@@ -1,0 +1,34 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 2,
+    "gripType": "cgm:one_handed",
+    "maxAmmo": 18,
+    "reloadAmount": 2,
+    "recoilAngle": 7.1,
+    "recoilKick": 3.1,
+    "recoilAdsReduction": 0.1,
+    "alwaysSpread": true,
+    "spread": 2
+  },
+  "projectile": {
+    "item": "guncollection:gc_ammo_9x21",
+    "visible": false,
+    "damage": 6,
+    "size": 0.1,
+    "speed": 15.0,
+    "life": 20
+  },
+  "sounds": {
+    "fire": "guncollection:item.gc_kedr_b.suppressed",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.assault_rifle.cock",
+    "silencedFire": "guncollection:item.gc_kedr_b.suppressed"
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.8,
+      "yOffset": 4.2
+    }
+  }
+}

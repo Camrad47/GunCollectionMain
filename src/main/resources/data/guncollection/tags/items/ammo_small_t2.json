@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "guncollection:gc_ammo_762x39",
+    "guncollection:gc_ammo_545x39",
+    "guncollection:gc_ammo_556x45",
+    "guncollection:gc_ammo_30carbine"
+  ]
+}

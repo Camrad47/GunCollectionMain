@@ -1,0 +1,16 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 1,
+      "item": "guncollection:gc_laser_pointer"
+    },
+    {
+      "count": 1,
+      "item": "guncollection:gc_vertical_grip"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_vertical_grip_laser"
+  }
+}

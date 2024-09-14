@@ -1,0 +1,13 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 8,
+      "tag": "forge:gunpowder"
+    }
+  ],
+  "result": {
+    "count": 12,
+    "item": "guncollection:gc_gunpowder_t3"
+  }
+}

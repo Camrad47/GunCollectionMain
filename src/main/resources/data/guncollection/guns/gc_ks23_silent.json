@@ -1,0 +1,41 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 15,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 3,
+    "reloadAmount": 1,
+    "recoilAngle": 8.1,
+    "recoilKick": 5.1,
+    "recoilAdsReduction": 0.1,
+    "alwaysSpread": true,
+    "spread": 3.5
+  },
+  "projectile": {
+    "item": "guncollection:gc_ammo_4gauge",
+    "damage": 21.5,
+    "size": 1.0,
+    "speed": 25.0,
+    "life": 15
+  },
+  "sounds": {
+    "fire": "guncollection:item.heavy.suppressed",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.shotgun.cock",
+    "enchantedFire": "cgm:item.shotgun.enchanted_fire"
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.9,
+      "yOffset": 3.9,
+      "zOffset": 2.8
+    },
+    "attachments": {
+      "scope": {
+        "yOffset": 3.55,
+        "zOffset": 1.4,
+        "scale": 1
+      }
+    }
+  }
+}

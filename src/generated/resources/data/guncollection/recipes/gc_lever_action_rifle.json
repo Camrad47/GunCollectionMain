@@ -1,0 +1,24 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 2,
+      "item": "guncollection:gc_weaponparts_main"
+    },
+    {
+      "count": 1,
+      "item": "guncollection:gc_weaponparts_plus"
+    },
+    {
+      "count": 1,
+      "item": "guncollection:gc_weaponparts_metal"
+    },
+    {
+      "count": 1,
+      "item": "guncollection:gc_weaponparts_wood"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_lever_action_rifle"
+  }
+}

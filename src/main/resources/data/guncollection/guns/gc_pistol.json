@@ -1,0 +1,40 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 40,
+    "gripType": "cgm:one_handed",
+    "maxAmmo": 1,
+    "reloadAmount": 1,
+    "recoilAngle": 7.4,
+    "recoilKick": 5.1,
+    "recoilAdsReduction": 0.1,
+    "alwaysSpread": true,
+    "spread": 9
+  },
+  "projectile": {
+    "item": "guncollection:gc_ammo_paper_cartridge",
+    "visible": false,
+    "damage": 8.0,
+    "size": 0.1,
+    "speed": 20.0,
+    "life": 5
+  },
+  "sounds": {
+    "fire": "guncollection:item.gc_mp153.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.assault_rifle.cock"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 2.6,
+      "zOffset": -6.2
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.7,
+      "yOffset": 4.1,
+      "zOffset": 1.5
+    }
+  }
+}

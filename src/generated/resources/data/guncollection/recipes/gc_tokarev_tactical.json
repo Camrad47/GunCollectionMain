@@ -1,0 +1,24 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 1,
+      "item": "guncollection:gc_weaponparts_main"
+    },
+    {
+      "count": 2,
+      "item": "guncollection:gc_weaponparts_plus"
+    },
+    {
+      "count": 2,
+      "item": "guncollection:gc_weaponparts_polymer"
+    },
+    {
+      "count": 1,
+      "item": "guncollection:gc_weaponparts_metal"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_tokarev_tactical"
+  }
+}

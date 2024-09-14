@@ -1,0 +1,34 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 4,
+    "gripType": "cgm:one_handed",
+    "maxAmmo": 10,
+    "reloadAmount": 2,
+    "recoilAngle": 0.15,
+    "recoilKick": 0.35,
+    "recoilAdsReduction": 0.25,
+    "alwaysSpread": true,
+    "spread": 0.35
+  },
+  "projectile": {
+    "item": "guncollection:gc_ammo_22lr",
+    "visible": false,
+    "damage": 3.0,
+    "size": 0.1,
+    "speed": 20.0,
+    "life": 32
+  },
+  "sounds": {
+    "fire": "guncollection:item.pistol.suppressed",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.assault_rifle.cock",
+    "silencedFire": "guncollection:item.pistol.suppressed"
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 3.6
+    }
+  }
+}

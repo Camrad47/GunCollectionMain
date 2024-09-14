@@ -1,0 +1,59 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_weaponparts_main": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "guncollection:gc_weaponparts_main"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_weaponparts_plus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "guncollection:gc_weaponparts_plus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_weaponparts_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "guncollection:gc_weaponparts_wood"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "guncollection:gc_akm"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_weaponparts_main",
+      "has_weaponparts_plus",
+      "has_weaponparts_wood"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "guncollection:gc_akm"
+    ]
+  }
+}

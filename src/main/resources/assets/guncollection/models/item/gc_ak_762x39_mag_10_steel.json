@@ -1,0 +1,71 @@
+{
+	"credit": "Beton",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "guncollection:item/gc_bolt_rifle",
+		"particle": "guncollection:item/gc_bolt_rifle"
+	},
+	"elements": [
+		{
+			"from": [7.61, 0.49894, 8.83726],
+			"to": [8.34, 2.24894, 11.33726],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.975, 0.70992, 9.96747]},
+			"faces": {
+				"north": {"uv": [6, 13, 7.375, 15.3], "texture": "#0"},
+				"east": {"uv": [10.5, 12.5, 12.75, 14.8], "texture": "#0"},
+				"south": {"uv": [7.5, 13, 8.875, 15.3], "texture": "#0"},
+				"west": {"uv": [9, 12.5, 11.25, 14.8], "texture": "#0"},
+				"up": {"uv": [14.5, 12.5, 15.875, 14.75], "texture": "#0"},
+				"down": {"uv": [9, 13, 10.375, 15.25], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.6, -0.9994, 8.91091],
+			"to": [8.35, 1.1006, 11.31091],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [7.975, 0.70992, 9.96747]},
+			"faces": {
+				"north": {"uv": [10, 13, 11.375, 15.3], "texture": "#0"},
+				"east": {"uv": [7.5, 12.5, 9.75, 14.8], "texture": "#0"},
+				"south": {"uv": [11.5, 13, 12.875, 15.3], "texture": "#0"},
+				"west": {"uv": [6, 12.5, 8.25, 14.8], "texture": "#0"},
+				"up": {"uv": [13, 13, 14.375, 15.25], "texture": "#0"},
+				"down": {"uv": [14.5, 13, 15.875, 15.25], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-27, -25, 0],
+			"translation": [0.5, 6.5, -3.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 7.75, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [-36, 5, 0],
+			"translation": [0.5, 7, -3.25]
+		},
+		"ground": {
+			"rotation": [0, 0, 92],
+			"translation": [-7.5, -2.5, 0]
+		},
+		"gui": {
+			"rotation": [6, -121, 0],
+			"translation": [2.5, 14.25, 0],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [-2.75, 14.25, 0.25],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "SteelAKmag10rnd",
+			"origin": [7.5, 2.6, 6.55],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

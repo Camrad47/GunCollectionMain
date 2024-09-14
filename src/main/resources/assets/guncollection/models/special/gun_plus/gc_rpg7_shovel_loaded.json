@@ -1,0 +1,73 @@
+{
+	"credit": "Made with Blockbench by VIKTORWOOD",
+	"texture_size": [32, 32],
+	"textures": {
+		"3": "guncollection:item/gc_bolt_rifle"
+	},
+	"elements": [
+		{
+			"name": "hexadecagon",
+			"from": [6.8812, 2.25, -1.9],
+			"to": [8.1188, 3.45, 4.7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 3.75, -1.6]},
+			"faces": {
+				"north": {"uv": [3, 5.5, 4, 6.5], "texture": "#3"},
+				"east": {"uv": [9.5, 2.5, 15.5, 4], "texture": "#3"},
+				"south": {"uv": [3, 5.5, 4, 6.5], "texture": "#3"},
+				"west": {"uv": [9.5, 3, 15.5, 4.5], "texture": "#3"},
+				"up": {"uv": [9.5, 3, 15.5, 4], "rotation": 90, "texture": "#3"},
+				"down": {"uv": [9.5, 2.5, 15.5, 3.5], "rotation": 90, "texture": "#3"}
+			}
+		},
+		{
+			"name": "hexadecagon",
+			"from": [6.9812, 2.25, -3.5],
+			"to": [8.1188, 3.45, -1.9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 3.75, -2.4]},
+			"faces": {
+				"north": {"uv": [2, 10.5, 3.5, 14.5], "texture": "#3"},
+				"east": {"uv": [1.5, 11.5, 5.5, 12.5], "texture": "#3"},
+				"south": {"uv": [2, 10.5, 3.5, 14.5], "texture": "#3"},
+				"west": {"uv": [1.5, 12, 5.5, 13], "texture": "#3"},
+				"up": {"uv": [0, 8, 15, 8.5], "rotation": 90, "texture": "#3"},
+				"down": {"uv": [0, 7.5, 15, 8], "rotation": 90, "texture": "#3"}
+			}
+		},
+		{
+			"name": "hexadecagon",
+			"from": [7.0812, 0.75, -6.2],
+			"to": [7.9188, 4.95, -2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 3.75, -13]},
+			"faces": {
+				"north": {"uv": [2, 10.5, 3.5, 14.5], "texture": "#3"},
+				"east": {"uv": [0, 9.5, 5, 12.5], "texture": "#3"},
+				"south": {"uv": [2, 10.5, 3.5, 14.5], "texture": "#3"},
+				"west": {"uv": [0, 10, 5, 13], "texture": "#3"},
+				"up": {"uv": [0, 13, 5.5, 14], "rotation": 90, "texture": "#3"},
+				"down": {"uv": [0, 12.5, 5.5, 13.5], "rotation": 90, "texture": "#3"}
+			}
+		},
+		{
+			"name": "hexadecagon",
+			"from": [7.0812, 1.75, -7.3],
+			"to": [7.9188, 3.95, -6.2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 3.75, -17.2]},
+			"faces": {
+				"north": {"uv": [2.5, 10.5, 3.5, 14.5], "texture": "#3"},
+				"east": {"uv": [0.5, 12.5, 2, 14.5], "texture": "#3"},
+				"south": {"uv": [2.5, 10.5, 3.5, 14.5], "texture": "#3"},
+				"west": {"uv": [0.5, 13, 2, 15], "texture": "#3"},
+				"up": {"uv": [3.5, 13.5, 5.5, 14.5], "rotation": 90, "texture": "#3"},
+				"down": {"uv": [3.5, 13, 5.5, 14], "rotation": 90, "texture": "#3"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

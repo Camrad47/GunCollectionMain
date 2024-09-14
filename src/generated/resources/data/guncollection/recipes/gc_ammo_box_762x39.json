@@ -1,0 +1,12 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 3,
+      "tag": "forge:ingots/iron"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_ammo_box_762x39"
+  }
+}

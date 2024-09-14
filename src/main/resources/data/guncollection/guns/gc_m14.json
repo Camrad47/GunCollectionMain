@@ -1,0 +1,42 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 5,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 20,
+    "reloadAmount": 2,
+    "recoilAngle": 5.1,
+    "recoilKick": 3.7,
+    "recoilAdsReduction": 0.6,
+    "alwaysSpread": true,
+    "spread": 1.4
+  },
+  "projectile": {
+    "item": "guncollection:gc_ammo_3006",
+    "visible": false,
+    "gravity": true,
+    "damage": 16,
+    "size": 0.2,
+    "speed": 110.0,
+    "life": 80
+  },
+  "sounds": {
+    "fire": "guncollection:item.gc_ak_hunter.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "guncollection:item.gc_ak.cock",
+    "silencedFire": "guncollection:item.rifle.suppressed"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 1.5,
+      "zOffset": -14.1
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.8,
+      "yOffset": 2.8,
+      "zOffset": 3.8
+    }
+  }
+}

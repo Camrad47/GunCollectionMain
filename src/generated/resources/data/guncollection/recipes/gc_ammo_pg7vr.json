@@ -1,0 +1,17 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 8,
+      "item": "guncollection:gc_ammo_parts"
+    },
+    {
+      "count": 2,
+      "item": "guncollection:gc_explosive_parts"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "guncollection:gc_ammo_pg7vr"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "guncollection:gc_ammopack_20gauge"
+    }
+  ],
+  "result": {
+    "count": 20,
+    "item": "guncollection:gc_ammo_20gauge"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "general": {
+    "auto": true,
+    "rate": 3,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 10,
+    "reloadAmount": 2,
+    "recoilAngle": 3.3,
+    "recoilKick": 2.2,
+    "recoilAdsReduction": 0.75,
+    "alwaysSpread": true,
+    "spread": 3.0
+  },
+  "projectile": {
+    "item": "guncollection:gc_ammo_9x39",
+    "visible": false,
+    "gravity": true,
+    "damage": 10.0,
+    "size": 0.2,
+    "speed": 35.0,
+    "life": 35
+  },
+  "sounds": {
+    "fire": "guncollection:item.gc_vintorez.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "guncollection:item.gc_ak.cock",
+    "silencedFire": "guncollection:item.rifle.suppressed"
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.7,
+      "yOffset": 4.45,
+      "zOffset": 2.8
+    },
+    "attachments": {
+      "scope": {
+        "yOffset": 4.0,
+        "zOffset": 4.5,
+        "scale": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "guncollection:gc_m14_folding"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_m14_folded"
+  }
+}

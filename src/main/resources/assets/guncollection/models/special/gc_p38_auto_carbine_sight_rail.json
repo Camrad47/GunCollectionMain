@@ -1,0 +1,108 @@
+{
+	"credit": "Made with Blockbench by Beton",
+	"texture_size": [32, 32],
+	"textures": {
+		"3": "guncollection:item/gc_polymer_13"
+	},
+	"elements": [
+		{
+			"from": [8.7, 2, 14],
+			"to": [8.8, 3.7, 14.7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.5, 8.5, 4.3]},
+			"faces": {
+				"north": {"uv": [8, 12, 8.65, 13.75], "texture": "#3"},
+				"east": {"uv": [10, 12, 10.85, 13.75], "texture": "#3"},
+				"south": {"uv": [11, 12, 11.65, 13.75], "texture": "#3"},
+				"west": {"uv": [9, 12, 9.85, 13.75], "texture": "#3"},
+				"up": {"uv": [9, 12, 10.65, 13.35], "texture": "#3"},
+				"down": {"uv": [9, 12, 10.65, 13.35], "texture": "#3"}
+			}
+		},
+		{
+			"from": [7.2, 2, 14],
+			"to": [7.3, 3.7, 14.7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.5, 8.5, 4.3]},
+			"faces": {
+				"north": {"uv": [8, 12, 8.65, 13.75], "texture": "#3"},
+				"east": {"uv": [10, 12, 10.85, 13.75], "texture": "#3"},
+				"south": {"uv": [11, 12, 11.65, 13.75], "texture": "#3"},
+				"west": {"uv": [9, 12, 9.85, 13.75], "texture": "#3"},
+				"up": {"uv": [9, 12, 10.65, 13.35], "texture": "#3"},
+				"down": {"uv": [9, 12, 10.65, 13.35], "texture": "#3"}
+			}
+		},
+		{
+			"from": [7.1, 1.9, 14.1],
+			"to": [8.9, 2.4, 14.6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.65, 2.85, 12.55]},
+			"faces": {
+				"north": {"uv": [9, 12, 11.95, 13.3], "texture": "#3"},
+				"east": {"uv": [9, 12, 10.9, 13.3], "texture": "#3"},
+				"south": {"uv": [9, 12, 11.95, 13.3], "texture": "#3"},
+				"west": {"uv": [9, 12, 10.9, 13.3], "texture": "#3"},
+				"up": {"uv": [9, 12, 10.9, 14.45], "rotation": 270, "texture": "#3"},
+				"down": {"uv": [9, 12, 10.9, 14.45], "rotation": 90, "texture": "#3"}
+			}
+		},
+		{
+			"from": [7.7, 3.85, 12.4],
+			"to": [8.3, 3.95, 16.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12.85, 0.75, 3.4]},
+			"faces": {
+				"north": {"uv": [7.5, 12, 9.1, 13.5], "rotation": 90, "texture": "#3"},
+				"east": {"uv": [9, 12, 16, 12.6], "texture": "#3"},
+				"south": {"uv": [6, 12, 7.6, 13.5], "rotation": 270, "texture": "#3"},
+				"west": {"uv": [8, 13.5, 15, 14.1], "texture": "#3"},
+				"up": {"uv": [8.5, 12.5, 15.5, 13.5], "rotation": 270, "texture": "#3"},
+				"down": {"uv": [8.5, 14.5, 12.5, 15.5], "rotation": 270, "texture": "#3"}
+			}
+		},
+		{
+			"from": [7.3, 3.65, 14],
+			"to": [8.7, 3.85, 14.7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12.85, 0.75, 3.4]},
+			"faces": {
+				"north": {"uv": [7.5, 12, 9.1, 13.5], "rotation": 90, "texture": "#3"},
+				"east": {"uv": [9, 12, 16, 12.6], "texture": "#3"},
+				"south": {"uv": [6, 12, 7.6, 13.5], "rotation": 270, "texture": "#3"},
+				"west": {"uv": [8, 13.5, 15, 14.1], "texture": "#3"},
+				"up": {"uv": [8.5, 12.5, 15.5, 13.5], "rotation": 270, "texture": "#3"},
+				"down": {"uv": [8.5, 14.5, 12.5, 15.5], "rotation": 270, "texture": "#3"}
+			}
+		},
+		{
+			"from": [7.7, 3.75, 13.6],
+			"to": [8.3, 3.85, 15.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12.85, 0.75, 3.4]},
+			"faces": {
+				"north": {"uv": [7.5, 12, 9.1, 13.5], "rotation": 90, "texture": "#3"},
+				"east": {"uv": [9, 12, 16, 12.6], "texture": "#3"},
+				"south": {"uv": [6, 12, 7.6, 13.5], "rotation": 270, "texture": "#3"},
+				"west": {"uv": [8, 13.5, 15, 14.1], "texture": "#3"},
+				"up": {"uv": [8.5, 12.5, 15.5, 13.5], "rotation": 270, "texture": "#3"},
+				"down": {"uv": [8.5, 14.5, 12.5, 15.5], "rotation": 270, "texture": "#3"}
+			}
+		},
+		{
+			"from": [7.55, 3.95, 12.4],
+			"to": [8.45, 4.05, 16.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12.85, 0.75, 3.4]},
+			"faces": {
+				"north": {"uv": [7.5, 12, 9.1, 13.5], "rotation": 90, "texture": "#3"},
+				"east": {"uv": [9, 12, 16, 12.6], "texture": "#3"},
+				"south": {"uv": [6, 12, 7.6, 13.5], "rotation": 270, "texture": "#3"},
+				"west": {"uv": [8, 13.5, 15, 14.1], "texture": "#3"},
+				"up": {"uv": [8.5, 12.5, 15.5, 13.5], "rotation": 270, "texture": "#3"},
+				"down": {"uv": [8.5, 14.5, 12.5, 15.5], "rotation": 270, "texture": "#3"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "P38 Auto Carbine sight rail",
+			"origin": [12.85, 1.25, 3],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6]
+		}
+	]
+}

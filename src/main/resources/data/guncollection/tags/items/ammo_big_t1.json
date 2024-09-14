@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "guncollection:gc_ammo_12gauge",
+    "guncollection:gc_ammo_20gauge",
+    "guncollection:gc_ammo_4gauge",
+    "guncollection:gc_ammo_366",
+    "guncollection:gc_ammo_4570"
+  ]
+}

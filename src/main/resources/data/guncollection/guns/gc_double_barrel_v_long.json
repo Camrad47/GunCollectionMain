@@ -1,0 +1,42 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 4,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 2,
+    "reloadAmount": 1,
+    "recoilAngle": 5.9,
+    "recoilKick": 3.9,
+    "recoilAdsReduction": 0.50,
+    "projectileAmount": 6,
+    "alwaysSpread": true,
+    "spread": 6.3
+  },
+  "projectile": {
+    "item": "guncollection:gc_ammo_12gauge",
+    "damage": 18,
+    "size": 1.0,
+    "speed": 45.0,
+    "life": 45
+  },
+  "sounds": {
+    "fire": "guncollection:item.gc_ks23.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.shotgun.cock",
+    "silencedFire": "cgm:item.shotgun.silenced_fire",
+    "enchantedFire": "cgm:item.shotgun.enchanted_fire"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 1.45,
+      "zOffset": -13.1
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.9,
+      "yOffset": 2.8,
+      "zOffset": 2.8
+    }
+  }
+}

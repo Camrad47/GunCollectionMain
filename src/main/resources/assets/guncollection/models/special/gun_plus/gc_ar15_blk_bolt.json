@@ -1,0 +1,31 @@
+{
+	"credit": "Made with Blockbench by VIKTORWOOD",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "guncollection:item/gc_polymer_13",
+		"particle": "guncollection:item/full_khaki"
+	},
+	"elements": [
+		{
+			"from": [7.7, 2.8, 8.6],
+			"to": [8.4, 3.8, 11.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1.5, -13.2, 1.7]},
+			"faces": {
+				"north": {"uv": [13.5, 10, 14.6, 11], "texture": "#1"},
+				"east": {"uv": [7.5, 4.5, 12.5, 5.5], "texture": "#1"},
+				"south": {"uv": [9.5, 8.5, 10.6, 9.5], "texture": "#1"},
+				"west": {"uv": [6, 9.5, 11, 10.5], "texture": "#1"},
+				"up": {"uv": [11, 10, 16, 11.1], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [7.5, 10, 12.5, 11.1], "rotation": 90, "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

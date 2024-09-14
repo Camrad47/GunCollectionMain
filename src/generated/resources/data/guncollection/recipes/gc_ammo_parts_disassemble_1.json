@@ -1,0 +1,13 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 32,
+      "tag": "guncollection:ammo_small_t1"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "guncollection:gc_ammo_parts"
+  }
+}

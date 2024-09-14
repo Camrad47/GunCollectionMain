@@ -1,0 +1,34 @@
+{
+  "general": {
+    "alwaysSpread": true,
+    "auto": true,
+    "gripType": "cgm:mini_gun",
+    "maxAmmo": 200,
+    "rate": 3,
+    "recoilAngle": 2.1,
+    "recoilKick": 2.5,
+    "reloadAmount": 1,
+    "spread": 5.7
+  },
+  "projectile": {
+    "item": "guncollection:gc_ammo_762x54r",
+    "visible": false,
+    "gravity": true,
+    "damage": 15,
+    "size": 0.2,
+    "speed": 80.0,
+    "life": 90
+  },
+  "sounds": {
+    "enchantedFire": "cgm:item.mini_gun.enchanted_fire",
+    "fire": "guncollection:item.gc_machinegun.fire",
+    "reload": "cgm:item.pistol.reload"
+  },
+  "display": {
+    "flash": {
+      "xOffset": 0.6,
+      "yOffset": 4.8,
+      "zOffset": -13.8
+    }
+  }
+}

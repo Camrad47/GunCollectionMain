@@ -1,0 +1,17 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 6,
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "count": 9,
+      "tag": "forge:nuggets/copper"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "guncollection:gc_weaponparts_plus"
+  }
+}

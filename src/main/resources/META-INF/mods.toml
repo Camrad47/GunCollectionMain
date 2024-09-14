@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="P BLEH"
+
+[[mods]]
+    modId="guncollection"
+    version="0.5.3"
+    displayName="Gun Collection"
+    authors="That one concrete guy, forgot his name"
+    credits="That one concrete guy, forgot his name"
+    description="Gun Collection provides large amount of different firearms, ammunition and attachments, made with PvP combat in mind"
+
+[[dependencies.guncollection]]
+    modId="forge"
+    mandatory=true
+    versionRange="[45,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.guncollection]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4]"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.guncollection]]
+    modId="cgm"
+    mandatory=true
+    versionRange="[1.3.5,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.guncollection]]
+    modId="framework"
+    mandatory=true
+    versionRange="[0.4.2,)"
+    ordering="NONE"
+    side="BOTH"
+
+[modproperties.guncollection]
+    catalogueItemIcon="guncollection:gc_pp2000"
+    configuredBackground="minecraft:textures/block/stripped_birch_log.png"

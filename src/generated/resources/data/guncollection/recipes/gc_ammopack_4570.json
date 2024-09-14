@@ -1,0 +1,17 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 36,
+      "item": "guncollection:gc_ammo_4570"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:paper"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "guncollection:gc_ammopack_4570"
+  }
+}

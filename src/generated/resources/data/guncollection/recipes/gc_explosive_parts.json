@@ -1,0 +1,25 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 1,
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:paper"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:sugar"
+    },
+    {
+      "count": 4,
+      "tag": "forge:gunpowder"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "guncollection:gc_explosive_parts"
+  }
+}
