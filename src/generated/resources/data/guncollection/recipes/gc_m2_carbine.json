@@ -6,11 +6,15 @@
       "item": "guncollection:gc_weaponparts_main"
     },
     {
+      "count": 2,
+      "item": "guncollection:gc_weaponparts_plus"
+    },
+    {
       "count": 3,
       "item": "guncollection:gc_weaponparts_wood"
     }
   ],
   "result": {
-    "item": "guncollection:gc_m1_carbine"
+    "item": "guncollection:gc_m2_carbine"
   }
 }

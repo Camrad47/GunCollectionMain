@@ -5,11 +5,11 @@
     "gripType": "cgm:two_handed",
     "maxAmmo": 30,
     "reloadAmount": 2,
-    "recoilAngle": 2.6,
-    "recoilKick": 1.8,
+    "recoilAngle": 2.8,
+    "recoilKick": 1.9,
     "recoilAdsReduction": 0.5,
     "alwaysSpread": true,
-    "spread": 1.8
+    "spread": 1.9
   },
   "projectile": {
     "item": "guncollection:gc_ammo_545x39",
@@ -44,10 +44,8 @@
         "zOffset": -13,
         "scale": 1.25
       },
-      "scope": {
-        "yOffset": 4.3,
-        "zOffset": 4.5,
-        "scale": 1
+      "stock": {
+        "scale": 0
       }
     }
   }

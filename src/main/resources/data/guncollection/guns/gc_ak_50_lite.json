@@ -1,27 +1,27 @@
 {
   "general": {
-    "auto": true,
+    "auto": false,
     "rate": 2,
     "gripType": "cgm:two_handed",
-    "maxAmmo": 30,
+    "maxAmmo": 20,
     "reloadAmount": 2,
-    "recoilAngle": 3.2,
-    "recoilKick": 2.1,
-    "recoilAdsReduction": 0.5,
+    "recoilAngle": 5.2,
+    "recoilKick": 4.1,
+    "recoilAdsReduction": 0.35,
     "alwaysSpread": true,
-    "spread": 2.0
+    "spread": 3.0
   },
   "projectile": {
-    "item": "guncollection:gc_ammo_762x39",
+    "item": "guncollection:gc_ammo_50beowulf",
     "visible": false,
     "gravity": true,
-    "damage": 11.5,
+    "damage": 14.6,
     "size": 0.2,
-    "speed": 60.0,
-    "life": 70
+    "speed": 36.0,
+    "life": 40
   },
   "sounds": {
-    "fire": "guncollection:item.gc_akm.fire",
+    "fire": "guncollection:item.gc_ar15_survivalist.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "guncollection:item.gc_ak.cock",
     "silencedFire": "guncollection:item.gc_akm_silenced.suppressed"
@@ -29,7 +29,7 @@
   "display": {
     "flash": {
       "yOffset": 2.5,
-      "zOffset": -14.2
+      "zOffset": -9.6
     }
   },
   "modules": {
@@ -39,13 +39,10 @@
       "zOffset": 2.8
     },
     "attachments": {
-      "barrel": {
-        "yOffset": 2.5,
-        "zOffset": -13,
-        "scale": 1.25
-      },
-      "stock": {
-        "scale": 0
+      "scope": {
+        "yOffset": 4.3,
+        "zOffset": 4.5,
+        "scale": 1
       }
     }
   }

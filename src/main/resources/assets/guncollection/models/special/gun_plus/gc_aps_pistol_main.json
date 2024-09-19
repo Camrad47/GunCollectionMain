@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench by VIKTORWOOD",
 	"texture_size": [32, 32],
 	"textures": {
-		"3": "guncollection:item/gc_wood_pine"
+		"3": "guncollection:item/gc_bolt_rifle"
 	},
 	"elements": [
 		{

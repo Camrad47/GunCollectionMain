@@ -4,7 +4,10 @@ import com.mojang.blaze3d.vertex.PoseStack;
 import com.mrcrayfish.guns.client.GunModel;
 import com.mrcrayfish.guns.client.render.gun.IOverrideModel;
 import com.mrcrayfish.guns.client.util.RenderUtil;
+import com.mrcrayfish.guns.common.Gun;
+import com.mrcrayfish.guns.item.attachment.IAttachment;
 import concreteguy.guncollection.client.SpecialModels;
+import concreteguy.guncollection.core.registry.ItemRegistry;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.resources.model.BakedModel;
@@ -15,14 +18,18 @@ import net.minecraft.world.item.ItemStack;
 
 import javax.annotation.Nullable;
 
-public class gc_pp2000_pdw_customModel implements IOverrideModel {
+public class gc_pp2000_ots126_customModel implements IOverrideModel {
 
     @SuppressWarnings("resource")
     @Override
     public void render(float partialTicks, ItemDisplayContext display, ItemStack stack, ItemStack parent, @Nullable LivingEntity entity, PoseStack poseStack, MultiBufferSource buffer, int light, int overlay)
     {
-        BakedModel bakedModel = SpecialModels.GC_PP2000_PDW_MAIN.getModel();
+        BakedModel bakedModel = SpecialModels.GC_PP2000_OTS126_MAIN.getModel();
         Minecraft.getInstance().getItemRenderer().render(stack, ItemDisplayContext.NONE, false, poseStack, buffer, light, overlay, GunModel.wrap(bakedModel));
+
+        ItemStack attachmentStack = Gun.getAttachment(IAttachment.Type.SCOPE, stack);
+        if(!attachmentStack.isEmpty())
+        {}else {RenderUtil.renderModel(SpecialModels.GC_PP2000_OTS126_IRONS.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);}
 
         float cooldown = 0F;
         if(entity != null && entity.equals(Minecraft.getInstance().player))

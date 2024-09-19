@@ -4,18 +4,18 @@
     "rate": 2,
     "gripType": "cgm:two_handed",
     "maxAmmo": 100,
-    "reloadAmount": 2,
-    "recoilAngle": 9.1,
-    "recoilKick": 4.1,
-    "recoilAdsReduction": 0.8,
+    "reloadAmount": 4,
+    "recoilAngle": 7.1,
+    "recoilKick": 3.9,
+    "recoilAdsReduction": 0.7,
     "alwaysSpread": true,
-    "spread": 5.5
+    "spread": 5.9
   },
   "projectile": {
     "item": "guncollection:gc_ammo_762x54r",
     "visible": false,
     "gravity": true,
-    "damage": 15.5,
+    "damage": 15,
     "size": 0.2,
     "speed": 80.0,
     "life": 90
@@ -29,14 +29,14 @@
   "display": {
     "flash": {
       "yOffset": 3.8,
-      "zOffset": -23.3
+      "zOffset": -17.1
     }
   },
   "modules": {
     "zoom": {
       "fovModifier": 0.7,
-      "yOffset": 6.1,
-      "zOffset": 2.8
+      "yOffset": 7.1,
+      "zOffset": 4.8
     }
   }
 }

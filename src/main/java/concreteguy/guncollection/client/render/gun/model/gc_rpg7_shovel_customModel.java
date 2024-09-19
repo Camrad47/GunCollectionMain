@@ -1,7 +1,6 @@
 package concreteguy.guncollection.client.render.gun.model;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-import com.mojang.math.Axis;
 import com.mrcrayfish.guns.client.render.gun.IOverrideModel;
 import com.mrcrayfish.guns.client.util.RenderUtil;
 import com.mrcrayfish.guns.common.Gun;
@@ -9,16 +8,14 @@ import com.mrcrayfish.guns.init.ModItems;
 import com.mrcrayfish.guns.item.attachment.IAttachment;
 import concreteguy.guncollection.client.SpecialModels;
 import concreteguy.guncollection.core.registry.ItemRegistry;
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.item.ItemCooldowns;
 import net.minecraft.world.item.ItemDisplayContext;
 import net.minecraft.world.item.ItemStack;
 
 import javax.annotation.Nullable;
 
-public class gc_rpg7_pg7v_customModel implements IOverrideModel {
+public class gc_rpg7_shovel_customModel implements IOverrideModel {
 
     @Override
     public void render(float partialTicks, ItemDisplayContext display, ItemStack stack, ItemStack parent, @Nullable LivingEntity entity, PoseStack poseStack, MultiBufferSource buffer, int light, int overlay)
@@ -37,7 +34,7 @@ public class gc_rpg7_pg7v_customModel implements IOverrideModel {
             }
 
             if (Gun.hasAmmo(stack)){
-                RenderUtil.renderModel(SpecialModels.GC_RPG7_PG7V_LOADED.getModel(), stack, poseStack, buffer, light, overlay);}
+                RenderUtil.renderModel(SpecialModels.GC_RPG7_SHOVEL_LOADED.getModel(), stack, poseStack, buffer, light, overlay);}
 
 
         if(Gun.getAttachment(IAttachment.Type.SCOPE, stack).getItem() == ItemRegistry.GC_SIGHT_RIFLEMAN.get())

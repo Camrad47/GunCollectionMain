@@ -7,10 +7,10 @@
     },
     {
       "count": 1,
-      "item": "guncollection:gc_vertical_grip"
+      "item": "guncollection:gc_vertical_grip_short"
     }
   ],
   "result": {
-    "item": "guncollection:gc_vertical_grip_laser"
+    "item": "guncollection:gc_vertical_grip_short_laser"
   }
 }

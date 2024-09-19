@@ -2,7 +2,7 @@
   "type": "cgm:workbench",
   "materials": [
     {
-      "count": 6,
+      "count": 7,
       "item": "guncollection:gc_weaponparts_main"
     },
     {
@@ -11,10 +11,14 @@
     },
     {
       "count": 2,
+      "item": "guncollection:gc_weaponparts_metal"
+    },
+    {
+      "count": 2,
       "item": "guncollection:gc_weaponparts_wood"
     }
   ],
   "result": {
-    "item": "guncollection:gc_ab_762"
+    "item": "guncollection:gc_avb_762"
   }
 }

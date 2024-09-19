@@ -6,11 +6,11 @@
       "item": "guncollection:gc_weaponparts_main"
     },
     {
-      "count": 9,
+      "count": 11,
       "item": "guncollection:gc_weaponparts_plus"
     },
     {
-      "count": 3,
+      "count": 4,
       "item": "guncollection:gc_weaponparts_metal"
     },
     {
@@ -19,6 +19,6 @@
     }
   ],
   "result": {
-    "item": "guncollection:gc_svd_v70"
+    "item": "guncollection:gc_svd_af"
   }
 }

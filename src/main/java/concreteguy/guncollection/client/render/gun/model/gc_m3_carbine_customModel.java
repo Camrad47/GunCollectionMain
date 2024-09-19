@@ -18,7 +18,7 @@ import net.minecraft.world.item.ItemStack;
 
 import javax.annotation.Nullable;
 
-public class gc_m2_carbine_customModel implements IOverrideModel {
+public class gc_m3_carbine_customModel implements IOverrideModel {
 
     @SuppressWarnings("resource")
     @Override
@@ -49,14 +49,24 @@ public class gc_m2_carbine_customModel implements IOverrideModel {
             if(Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ItemRegistry.GC_ULTRA_LIGHT_STOCK.get())
                 RenderUtil.renderModel(SpecialModels.GC_M2_CARBINE_PARTS_ULTRA_LIGHT.getModel(), stack, poseStack, buffer, light, overlay);
             if(Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ItemRegistry.GC_TACTICAL_SNIPER_STOCK.get())
-                RenderUtil.renderModel(SpecialModels.GC_M1_CARBINE_PARTS_TACTICAL_SNIPER.getModel(), stack, poseStack, buffer, light, overlay);
+                RenderUtil.renderModel(SpecialModels.GC_M3_CARBINE_PARTS_TACTICAL_SNIPER.getModel(), stack, poseStack, buffer, light, overlay);
         }
         else
         {
             RenderUtil.renderModel(SpecialModels.GC_M2_CARBINE_PARTS_MAIN.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
         }
 
+        ItemStack attachmentStack1 = Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack);
+        if(!attachmentStack1.isEmpty())
+        {
+            RenderUtil.renderModel(SpecialModels.GC_M3_CARBINE_TACTICAL.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
+        }
 
+        ItemStack attachmentStack2 = Gun.getAttachment(IAttachment.Type.SCOPE, stack);
+        if(!attachmentStack2.isEmpty())
+        {
+            RenderUtil.renderModel(SpecialModels.GC_M21_SIGHT_RAIL.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
+        }
         poseStack.pushPose();
         poseStack.translate(0, -5.8 * 0.0625, 0);
         poseStack.translate(0, 0, cooldown/8);

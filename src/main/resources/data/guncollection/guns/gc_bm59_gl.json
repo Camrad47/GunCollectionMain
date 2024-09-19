@@ -22,7 +22,7 @@
     "visible": true
   },
   "sounds": {
-    "fire": "guncollection:item.gc_akm.fire",
+    "fire": "guncollection:item.gc_ak_hunter.fire",
     "reload": "guncollection:item.gc_rifle_gl.reload",
     "cock": "guncollection:item.gc_rifle_gl.cock"
   },

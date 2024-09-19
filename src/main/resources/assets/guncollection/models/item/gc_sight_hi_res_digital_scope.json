@@ -4,7 +4,7 @@
 	"textures": {
 		"0": "guncollection:effect/hrd_scope",
 		"1": "guncollection:item/gc_polymer_13",
-		"2": "guncollection:item/gc_blue",
+		"2": "guncollection:effect/hrd_1_scope",
 		"particle": "guncollection:effect/hrd_scope"
 	},
 	"elements": [
@@ -585,7 +585,6 @@
 		{
 			"from": [7.448, 8.86, 9.1],
 			"to": [8.548, 9.96, 9.1],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 0]},
 			"faces": {
 				"south": {"uv": [0, 0, 15.875, 15.875], "texture": "#0"}
 			}

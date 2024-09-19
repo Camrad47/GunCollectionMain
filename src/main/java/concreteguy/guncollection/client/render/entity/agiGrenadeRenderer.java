@@ -1,10 +1,9 @@
 package concreteguy.guncollection.client.render.entity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-import com.mojang.math.Axis;
 import com.mrcrayfish.guns.client.SpecialModels;
 import com.mrcrayfish.guns.client.util.RenderUtil;
-import concreteguy.guncollection.entities.rpgGrenadeHEEntity;
+import concreteguy.guncollection.entities.agiGrenadeEntity;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.entity.EntityRenderer;
@@ -16,21 +15,21 @@ import net.minecraft.world.item.ItemDisplayContext;
 /**
  * Author: MrCrayfish
  */
-public class rpgGrenadeHERenderer extends EntityRenderer<rpgGrenadeHEEntity>
+public class agiGrenadeRenderer extends EntityRenderer<agiGrenadeEntity>
 {
-    public rpgGrenadeHERenderer(EntityRendererProvider.Context context)
+    public agiGrenadeRenderer(EntityRendererProvider.Context context)
     {
         super(context);
     }
 
     @Override
-    public ResourceLocation getTextureLocation(rpgGrenadeHEEntity entity)
+    public ResourceLocation getTextureLocation(agiGrenadeEntity entity)
     {
         return null;
     }
 
     @Override
-    public void render(rpgGrenadeHEEntity entity, float entityYaw, float partialTicks, PoseStack poseStack, MultiBufferSource renderTypeBuffer, int light)
+    public void render(agiGrenadeEntity entity, float entityYaw, float partialTicks, PoseStack poseStack, MultiBufferSource renderTypeBuffer, int light)
     {
         if(!entity.getProjectile().isVisible() || entity.tickCount <= 1)
         {

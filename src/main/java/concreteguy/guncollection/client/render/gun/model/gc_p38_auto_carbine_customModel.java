@@ -5,6 +5,7 @@ import com.mrcrayfish.guns.client.GunModel;
 import com.mrcrayfish.guns.client.render.gun.IOverrideModel;
 import com.mrcrayfish.guns.client.util.RenderUtil;
 import com.mrcrayfish.guns.common.Gun;
+import com.mrcrayfish.guns.item.attachment.IAttachment;
 import concreteguy.guncollection.client.SpecialModels;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.MultiBufferSource;
@@ -16,13 +17,13 @@ import net.minecraft.world.item.ItemStack;
 
 import javax.annotation.Nullable;
 
-public class gc_p38_special_customModel implements IOverrideModel {
+public class gc_p38_auto_carbine_customModel implements IOverrideModel {
 
     @SuppressWarnings("resource")
     @Override
     public void render(float partialTicks, ItemDisplayContext display, ItemStack stack, ItemStack parent, @Nullable LivingEntity entity, PoseStack poseStack, MultiBufferSource buffer, int light, int overlay)
     {
-        BakedModel bakedModel = SpecialModels.GC_P38_SPECIAL_MAIN.getModel();
+        BakedModel bakedModel = SpecialModels.GC_P38_AUTO_CARBINE_MAIN.getModel();
         Minecraft.getInstance().getItemRenderer().render(stack, ItemDisplayContext.NONE, false, poseStack, buffer, light, overlay, GunModel.wrap(bakedModel));
 
         float cooldown = 0F;
@@ -38,13 +39,18 @@ public class gc_p38_special_customModel implements IOverrideModel {
             poseStack.translate(0, -5.8 * 0.0625, 0);
             poseStack.translate(0, 0, cooldown/6);
             poseStack.translate(0, 5.8 * 0.0625, 0);
-            RenderUtil.renderModel(SpecialModels.GC_P38_SPECIAL_BOLT.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
+            RenderUtil.renderModel(SpecialModels.GC_P38_AUTO_CARBINE_BOLT.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
             poseStack.popPose();
         } else {
             poseStack.translate(0, 0, 0.12);
-            RenderUtil.renderModel(SpecialModels.GC_P38_SPECIAL_BOLT.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
+            RenderUtil.renderModel(SpecialModels.GC_P38_AUTO_CARBINE_BOLT.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
         }
 
+        ItemStack attachmentStack = Gun.getAttachment(IAttachment.Type.SCOPE, stack);
+        if(!attachmentStack.isEmpty())
+        {
+            RenderUtil.renderModel(SpecialModels.GC_P38_AUTO_CARBINE_SIGHT_RAIL.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
+        }
 
     }
 

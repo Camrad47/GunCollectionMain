@@ -16,13 +16,13 @@ import net.minecraft.world.item.ItemStack;
 
 import javax.annotation.Nullable;
 
-public class gc_hardballer_longslide_customModel implements IOverrideModel {
+public class gc_hardballer_commando_customModel implements IOverrideModel {
 
     @SuppressWarnings("resource")
     @Override
     public void render(float partialTicks, ItemDisplayContext display, ItemStack stack, ItemStack parent, @Nullable LivingEntity entity, PoseStack poseStack, MultiBufferSource buffer, int light, int overlay)
     {
-        BakedModel bakedModel = SpecialModels.GC_HARDBALLER_LONGSLIDE_MAIN.getModel();
+        BakedModel bakedModel = SpecialModels.GC_HARDBALLER_COMMANDO_MAIN.getModel();
         Minecraft.getInstance().getItemRenderer().render(stack, ItemDisplayContext.NONE, false, poseStack, buffer, light, overlay, GunModel.wrap(bakedModel));
 
         float cooldown = 0F;
@@ -38,11 +38,11 @@ public class gc_hardballer_longslide_customModel implements IOverrideModel {
             poseStack.translate(0, -5.8 * 0.0625, 0);
             poseStack.translate(0, 0, cooldown/6);
             poseStack.translate(0, 5.8 * 0.0625, 0);
-            RenderUtil.renderModel(SpecialModels.GC_HARDBALLER_LONGSLIDE_BOLT.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
+            RenderUtil.renderModel(SpecialModels.GC_HARDBALLER_COMMANDO_BOLT.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
             poseStack.popPose();
         } else {
             poseStack.translate(0, 0, 0.12);
-            RenderUtil.renderModel(SpecialModels.GC_HARDBALLER_LONGSLIDE_BOLT.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
+            RenderUtil.renderModel(SpecialModels.GC_HARDBALLER_COMMANDO_BOLT.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
         }
 
 

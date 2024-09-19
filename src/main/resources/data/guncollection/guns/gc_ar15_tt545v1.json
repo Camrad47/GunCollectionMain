@@ -1,15 +1,15 @@
 {
   "general": {
-    "auto": false,
+    "auto": true,
     "rate": 2,
     "gripType": "cgm:two_handed",
     "maxAmmo": 30,
     "reloadAmount": 3,
-    "recoilAngle": 2.4,
-    "recoilKick": 2.0,
+    "recoilAngle": 2.8,
+    "recoilKick": 1.8,
     "recoilAdsReduction": 0.5,
     "alwaysSpread": true,
-    "spread": 1.9
+    "spread": 2
   },
   "projectile": {
     "item": "guncollection:gc_ammo_545x39",
@@ -28,14 +28,14 @@
   },
   "display": {
     "flash": {
-      "yOffset": 2.5,
-      "zOffset": -13.7
+      "yOffset": 2.8,
+      "zOffset": -12.7
     }
   },
   "modules": {
     "zoom": {
       "fovModifier": 0.7,
-      "yOffset": 6.25,
+      "yOffset": 5.15,
       "zOffset": 0.8
     },
     "attachments": {
@@ -50,7 +50,7 @@
         "scale": 1
       },
       "underBarrel": {
-        "yOffset": 1.9,
+        "yOffset": 2.4,
         "zOffset": -3.1,
         "scale": 1
       }

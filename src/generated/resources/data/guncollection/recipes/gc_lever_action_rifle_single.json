@@ -2,7 +2,7 @@
   "type": "cgm:workbench",
   "materials": [
     {
-      "count": 2,
+      "count": 1,
       "item": "guncollection:gc_weaponparts_main"
     },
     {
@@ -19,6 +19,6 @@
     }
   ],
   "result": {
-    "item": "guncollection:gc_lever_action_rifle"
+    "item": "guncollection:gc_lever_action_rifle_single"
   }
 }

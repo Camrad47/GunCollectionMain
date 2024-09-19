@@ -15,13 +15,13 @@ import net.minecraft.world.item.ItemStack;
 
 import javax.annotation.Nullable;
 
-public class gc_fedorov_avtomat_customModel implements IOverrideModel {
+public class gc_fedorov_lmg_customModel implements IOverrideModel {
 
     @SuppressWarnings("resource")
     @Override
     public void render(float partialTicks, ItemDisplayContext display, ItemStack stack, ItemStack parent, @Nullable LivingEntity entity, PoseStack poseStack, MultiBufferSource buffer, int light, int overlay)
     {
-        BakedModel bakedModel = SpecialModels.GC_FEDOROV_AVTOMAT_MAIN.getModel();
+        BakedModel bakedModel = SpecialModels.GC_FEDOROV_LMG_MAIN.getModel();
         Minecraft.getInstance().getItemRenderer().render(stack, ItemDisplayContext.NONE, false, poseStack, buffer, light, overlay, GunModel.wrap(bakedModel));
 
         float cooldown = 0F;
@@ -43,7 +43,7 @@ public class gc_fedorov_avtomat_customModel implements IOverrideModel {
         poseStack.translate(0, -2.8 * 0.0625, 0);
         poseStack.translate(0, 0, cooldown/20);
         poseStack.translate(0, 2.8 * 0.0625, 0);
-        RenderUtil.renderModel(SpecialModels.GC_FEDOROV_AVTOMAT_BARREL.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
+        RenderUtil.renderModel(SpecialModels.GC_FEDOROV_LMG_BARREL.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
         poseStack.popPose();
     }
 

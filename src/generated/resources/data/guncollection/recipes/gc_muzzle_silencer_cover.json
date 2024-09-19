@@ -8,9 +8,13 @@
     {
       "count": 2,
       "item": "guncollection:gc_weaponparts_plus"
+    },
+    {
+      "count": 2,
+      "tag": "forge:wool"
     }
   ],
   "result": {
-    "item": "guncollection:gc_muzzle_silencer"
+    "item": "guncollection:gc_muzzle_silencer_cover"
   }
 }

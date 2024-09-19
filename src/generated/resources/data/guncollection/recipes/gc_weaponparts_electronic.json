@@ -2,16 +2,20 @@
   "type": "cgm:workbench",
   "materials": [
     {
-      "count": 6,
+      "count": 1,
       "tag": "forge:ingots/iron"
     },
     {
-      "count": 9,
-      "tag": "forge:nuggets/copper"
+      "count": 6,
+      "tag": "forge:ingots/copper"
+    },
+    {
+      "count": 12,
+      "tag": "forge:dusts/redstone"
     }
   ],
   "result": {
-    "count": 4,
-    "item": "guncollection:gc_weaponparts_plus"
+    "count": 3,
+    "item": "guncollection:gc_weaponparts_electronic"
   }
 }

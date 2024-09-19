@@ -15,9 +15,9 @@
     "item": "guncollection:gc_ammo_545x39",
     "visible": false,
     "gravity": true,
-    "damage": 7.0,
+    "damage": 10.0,
     "size": 0.2,
-    "speed": 60.0,
+    "speed": 70.0,
     "life": 70
   },
   "sounds": {

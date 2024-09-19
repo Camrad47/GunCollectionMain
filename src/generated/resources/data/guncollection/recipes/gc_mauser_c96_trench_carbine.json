@@ -6,19 +6,19 @@
       "item": "guncollection:gc_weaponparts_main"
     },
     {
-      "count": 1,
+      "count": 3,
       "item": "guncollection:gc_weaponparts_wood"
     },
     {
-      "count": 7,
+      "count": 8,
       "item": "guncollection:gc_weaponparts_plus"
     },
     {
-      "count": 2,
+      "count": 3,
       "item": "guncollection:gc_weaponparts_metal"
     }
   ],
   "result": {
-    "item": "guncollection:gc_mauser_c96_auto_stock"
+    "item": "guncollection:gc_mauser_c96_trench_carbine"
   }
 }

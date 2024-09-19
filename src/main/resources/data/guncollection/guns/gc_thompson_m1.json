@@ -3,40 +3,40 @@
     "auto": true,
     "rate": 2,
     "gripType": "cgm:two_handed",
-    "maxAmmo": 30,
+    "maxAmmo": 20,
     "reloadAmount": 3,
-    "recoilAngle": 2.6,
-    "recoilKick": 1.7,
+    "recoilAngle": 3,
+    "recoilKick": 2.4,
     "recoilAdsReduction": 0.4,
     "alwaysSpread": true,
     "spread": 2.8
   },
   "projectile": {
-    "item": "guncollection:gc_ammo_545x39",
+    "item": "guncollection:gc_ammo_45acp",
     "visible": false,
     "gravity": true,
-    "damage": 8.5,
+    "damage": 7.1,
     "size": 0.2,
-    "speed": 60.0,
-    "life": 50
+    "speed": 35.0,
+    "life": 40
   },
   "sounds": {
-    "fire": "guncollection:item.gc_ak74m.fire",
+    "fire": "guncollection:item.gc_m1911_basic.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "guncollection:item.gc_ak.cock",
-    "silencedFire": "guncollection:item.gc_ak_545_silenced.suppressed"
+    "silencedFire": "guncollection:item.gc_45cal_silenced.suppressed"
   },
   "display": {
     "flash": {
-      "yOffset": 2.5,
-      "zOffset": -10.3
+      "yOffset": 2.9,
+      "zOffset": -8
     }
   },
   "modules": {
     "zoom": {
       "fovModifier": 0.8,
-      "yOffset": 4.6,
-      "zOffset": 2.8
+      "yOffset": 4,
+      "zOffset": 1.5
     }
   }
 }

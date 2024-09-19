@@ -1,27 +1,27 @@
 {
   "general": {
     "auto": false,
-    "rate": 6,
+    "rate": 5,
     "gripType": "cgm:two_handed",
-    "maxAmmo": 10,
-    "reloadAmount": 1,
-    "recoilAngle": 4.9,
-    "recoilKick": 3.5,
+    "maxAmmo": 8,
+    "reloadAmount": 2,
+    "recoilAngle": 5.1,
+    "recoilKick": 3.7,
     "recoilAdsReduction": 0.6,
     "alwaysSpread": true,
-    "spread": 1.5
+    "spread": 1.2
   },
   "projectile": {
-    "item": "guncollection:gc_ammo_762x54r",
+    "item": "guncollection:gc_ammo_3006",
     "visible": false,
     "gravity": true,
-    "damage": 15.5,
+    "damage": 16,
     "size": 0.2,
-    "speed": 90.0,
-    "life": 90
+    "speed": 110.0,
+    "life": 80
   },
   "sounds": {
-    "fire": "guncollection:item.gc_svt40.fire",
+    "fire": "guncollection:item.gc_ak_hunter.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "guncollection:item.gc_ak.cock",
     "silencedFire": "guncollection:item.rifle.suppressed"
@@ -29,14 +29,14 @@
   "display": {
     "flash": {
       "yOffset": 1.5,
-      "zOffset": -21.2
+      "zOffset": -14.1
     }
   },
   "modules": {
     "zoom": {
       "fovModifier": 0.8,
-      "yOffset": 3.0,
-      "zOffset": 2.8
+      "yOffset": 2.8,
+      "zOffset": 3.8
     }
   }
 }

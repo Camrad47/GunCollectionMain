@@ -18,13 +18,13 @@ import net.minecraft.world.item.ItemStack;
 
 import javax.annotation.Nullable;
 
-public class gc_aps_pistol_customModel implements IOverrideModel {
+public class gc_apb_pistol_customModel implements IOverrideModel {
 
     @SuppressWarnings("resource")
     @Override
     public void render(float partialTicks, ItemDisplayContext display, ItemStack stack, ItemStack parent, @Nullable LivingEntity entity, PoseStack poseStack, MultiBufferSource buffer, int light, int overlay)
     {
-        BakedModel bakedModel = SpecialModels.GC_APS_PISTOL_MAIN.getModel();
+        BakedModel bakedModel = SpecialModels.GC_APB_PISTOL_MAIN.getModel();
         Minecraft.getInstance().getItemRenderer().render(stack, ItemDisplayContext.NONE, false, poseStack, buffer, light, overlay, GunModel.wrap(bakedModel));
 
         float cooldown = 0F;
@@ -50,6 +50,12 @@ public class gc_aps_pistol_customModel implements IOverrideModel {
                 RenderUtil.renderModel(SpecialModels.GC_APS_PISTOL_PARTS_ULTRA_LIGHT.getModel(), stack, poseStack, buffer, light, overlay);
             if(Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ItemRegistry.GC_TACTICAL_SNIPER_STOCK.get())
                 RenderUtil.renderModel(SpecialModels.GC_APS_PISTOL_PARTS_TACTICAL_SNIPER.getModel(), stack, poseStack, buffer, light, overlay);
+        }
+
+        ItemStack attachmentStack2 = Gun.getAttachment(IAttachment.Type.BARREL, stack);
+        if(!attachmentStack2.isEmpty())
+        {
+            RenderUtil.renderModel(SpecialModels.GC_APB_PISTOL_SILENCER.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
         }
 
         if (Gun.hasAmmo(stack)){

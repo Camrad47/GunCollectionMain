@@ -1,7 +1,7 @@
 {
   "general": {
-    "auto": true,
-    "rate": 2,
+    "auto": false,
+    "rate": 3,
     "gripType": "cgm:two_handed",
     "maxAmmo": 30,
     "reloadAmount": 2,
@@ -9,16 +9,16 @@
     "recoilKick": 2.6,
     "recoilAdsReduction": 0.45,
     "alwaysSpread": true,
-    "spread": 3
+    "spread": 2.9
   },
   "projectile": {
     "item": "guncollection:gc_ammo_30carbine",
     "visible": false,
     "gravity": true,
-    "damage": 8,
+    "damage": 8.1,
     "size": 0.2,
-    "speed": 40.0,
-    "life": 50
+    "speed": 55.0,
+    "life": 55
   },
   "sounds": {
     "fire": "guncollection:item.gc_ak_valmet.fire",
@@ -29,7 +29,7 @@
   "display": {
     "flash": {
       "yOffset": 1.5,
-      "zOffset": -11.2
+      "zOffset": -13.2
     }
   },
   "modules": {
@@ -39,7 +39,15 @@
       "zOffset": 3.8
     },
     "attachments": {
+      "scope": {
+        "yOffset": 3,
+        "zOffset": 4.5,
+        "scale": 1
+      },
       "stock": {
+        "scale": 0
+      },
+      "underBarrel": {
         "scale": 0
       }
     }

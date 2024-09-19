@@ -1,23 +1,23 @@
 {
   "general": {
     "auto": false,
-    "rate": 8,
+    "rate": 9,
     "gripType": "cgm:one_handed",
-    "maxAmmo": 6,
+    "maxAmmo": 7,
     "reloadAmount": 1,
-    "recoilAngle": 3.0,
-    "recoilKick": 1.1,
+    "recoilAngle": 2.6,
+    "recoilKick": 0.8,
     "recoilAdsReduction": 0.1,
     "alwaysSpread": true,
-    "spread": 1.5
+    "spread": 1
   },
   "projectile": {
-    "item": "guncollection:gc_ammo_38spc",
+    "item": "guncollection:gc_ammo_762_nagant",
     "visible": false,
-    "damage": 4.5,
+    "damage": 5.4,
     "size": 0.1,
-    "speed": 30.0,
-    "life": 30
+    "speed": 45.0,
+    "life": 40
   },
   "sounds": {
     "fire": "guncollection:item.gc_revolver.fire",
@@ -26,8 +26,8 @@
   },
   "display": {
     "flash": {
-      "yOffset": 2.9,
-      "zOffset": -4.2
+      "yOffset": 3.1,
+      "zOffset": -4.3
     }
   },
   "modules": {

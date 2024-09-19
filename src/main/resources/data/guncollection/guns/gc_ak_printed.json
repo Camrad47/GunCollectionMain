@@ -1,21 +1,21 @@
 {
   "general": {
-    "auto": true,
-    "rate": 2,
+    "auto": false,
+    "rate": 4,
     "gripType": "cgm:two_handed",
     "maxAmmo": 30,
     "reloadAmount": 2,
-    "recoilAngle": 3.2,
-    "recoilKick": 2.1,
-    "recoilAdsReduction": 0.5,
+    "recoilAngle": 3.5,
+    "recoilKick": 2.6,
+    "recoilAdsReduction": 0.35,
     "alwaysSpread": true,
-    "spread": 2.0
+    "spread": 2.2
   },
   "projectile": {
     "item": "guncollection:gc_ammo_762x39",
     "visible": false,
     "gravity": true,
-    "damage": 11.5,
+    "damage": 11,
     "size": 0.2,
     "speed": 60.0,
     "life": 70
@@ -34,7 +34,7 @@
   },
   "modules": {
     "zoom": {
-      "fovModifier": 0.8,
+      "fovModifier": 0.9,
       "yOffset": 4.5,
       "zOffset": 2.8
     },
@@ -43,9 +43,6 @@
         "yOffset": 2.5,
         "zOffset": -13,
         "scale": 1.25
-      },
-      "stock": {
-        "scale": 0
       }
     }
   }

@@ -9,14 +9,14 @@
     "recoilKick": 1.5,
     "recoilAdsReduction": 0.2,
     "alwaysSpread": true,
-    "spread": 1.4
+    "spread": 1.2
   },
   "projectile": {
     "item": "guncollection:gc_ammo_9x18",
     "visible": false,
     "damage": 5.2,
     "size": 0.1,
-    "speed": 25.0,
+    "speed": 30.0,
     "life": 40
   },
   "sounds": {
@@ -28,7 +28,7 @@
   "display": {
     "flash": {
       "yOffset": 3.2,
-      "zOffset": -2.65
+      "zOffset": -3.7
     }
   },
   "modules": {
@@ -38,6 +38,9 @@
     },
     "attachments": {
       "stock": {
+        "scale": 0
+      },
+      "barrel": {
         "scale": 0
       }
     }

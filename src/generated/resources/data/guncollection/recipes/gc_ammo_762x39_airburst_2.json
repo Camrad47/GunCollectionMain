@@ -2,11 +2,23 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "guncollection:gc_ammopack_762x39_airburst"
+      "item": "guncollection:gc_ammo_762x39"
+    },
+    {
+      "count": 2,
+      "item": "guncollection:gc_ammo_parts"
+    },
+    {
+      "count": 1,
+      "item": "guncollection:gc_gunpowder_t3"
+    },
+    {
+      "count": 1,
+      "item": "guncollection:gc_explosive_parts"
     }
   ],
   "result": {
-    "count": 32,
+    "count": 16,
     "item": "guncollection:gc_ammo_762x39_airburst"
   }
 }

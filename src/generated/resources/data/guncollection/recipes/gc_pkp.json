@@ -6,15 +6,15 @@
       "item": "guncollection:gc_weaponparts_main"
     },
     {
-      "count": 3,
+      "count": 6,
       "item": "guncollection:gc_weaponparts_plus"
     },
     {
-      "count": 2,
-      "item": "guncollection:gc_weaponparts_wood"
+      "count": 3,
+      "item": "guncollection:gc_weaponparts_polymer"
     }
   ],
   "result": {
-    "item": "guncollection:gc_pkm"
+    "item": "guncollection:gc_pkp"
   }
 }

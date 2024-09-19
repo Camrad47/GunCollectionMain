@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "guncollection:gc_akv521_762"
+    },
+    {
+      "item": "guncollection:gc_akv521_changable_upper"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_akv521_545"
+  }
+}

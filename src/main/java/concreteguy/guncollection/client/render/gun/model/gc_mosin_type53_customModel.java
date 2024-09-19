@@ -3,42 +3,22 @@ package concreteguy.guncollection.client.render.gun.model;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;
 import com.mrcrayfish.guns.client.render.gun.IOverrideModel;
-import com.mrcrayfish.guns.client.render.gun.model.MiniGunModel;
 import com.mrcrayfish.guns.client.util.RenderUtil;
 import com.mrcrayfish.guns.common.Gun;
 import com.mrcrayfish.guns.init.ModItems;
 import com.mrcrayfish.guns.item.attachment.IAttachment;
-
 import concreteguy.guncollection.client.SpecialModels;
-import com.mojang.blaze3d.vertex.PoseStack;
-import com.mrcrayfish.guns.client.GunModel;
-import com.mrcrayfish.guns.client.render.gun.IOverrideModel;
-import com.mrcrayfish.guns.client.util.RenderUtil;
-import com.mrcrayfish.guns.common.Gun;
-import com.mrcrayfish.guns.init.ModSyncedDataKeys;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.renderer.block.model.ItemTransforms;
-import net.minecraft.client.resources.model.BakedModel;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.ItemDisplayContext;
-import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.client.event.ClientPlayerNetworkEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-
-import javax.annotation.Nullable;
-import java.util.WeakHashMap;
-
 import concreteguy.guncollection.core.registry.ItemRegistry;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.renderer.block.model.ItemTransforms.Deserializer;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemCooldowns;
+import net.minecraft.world.item.ItemDisplayContext;
 import net.minecraft.world.item.ItemStack;
 
-public class gc_mosin_sniper_customModel implements IOverrideModel {
+import javax.annotation.Nullable;
+
+public class gc_mosin_type53_customModel implements IOverrideModel {
 
     @Override
     public void render(float partialTicks, ItemDisplayContext display, ItemStack stack, ItemStack parent, @Nullable LivingEntity entity, PoseStack poseStack, MultiBufferSource buffer, int light, int overlay)
@@ -75,41 +55,16 @@ public class gc_mosin_sniper_customModel implements IOverrideModel {
         poseStack.translate(0, -5.8 * 0.0625, 0);
         poseStack.mulPose(Axis.ZN.rotationDegrees(-5F * cooldownSigma));
         poseStack.translate(0, 5.8 * 0.0625, 0);
-        RenderUtil.renderModel(SpecialModels.GC_MOSIN_SNIPER_MAIN.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
+        RenderUtil.renderModel(SpecialModels.GC_MOSIN_TYPE53_MAIN.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
 
-        ItemStack attachmentStack = Gun.getAttachment(IAttachment.Type.STOCK, stack);
-        if(!attachmentStack.isEmpty())
-        {
-            if(Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ItemRegistry.GC_WOOD_STOCK.get())
-                RenderUtil.renderModel(SpecialModels.GC_MOSIN_SNIPER_PARTS_WOOD.getModel(), stack, poseStack, buffer, light, overlay);
-            if(Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ItemRegistry.GC_METAL_STOCK.get())
-                RenderUtil.renderModel(SpecialModels.GC_MOSIN_SNIPER_PARTS_METAL.getModel(), stack, poseStack, buffer, light, overlay);
-            if(Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ItemRegistry.GC_MARKSMAN_STOCK.get()) {
-                RenderUtil.renderModel(SpecialModels.GC_MOSIN_SNIPER_PARTS_MARKSMAN.getModel(), stack, poseStack, buffer, light, overlay);
-                if (Gun.getAttachment(IAttachment.Type.SCOPE, stack).getItem() == ItemRegistry.GC_SIGHT_SIMPLE.get()) {
-                    RenderUtil.renderModel(SpecialModels.GC_PU_SNIPER_CAMO.getModel(), stack, poseStack, buffer, light, overlay);}
-            }
-            if(Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ItemRegistry.GC_POLYMER_STOCK.get())
-                RenderUtil.renderModel(SpecialModels.GC_MOSIN_SNIPER_PARTS_POLYMER.getModel(), stack, poseStack, buffer, light, overlay);
-            if(Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ItemRegistry.GC_ULTRA_LIGHT_STOCK.get())
-                RenderUtil.renderModel(SpecialModels.GC_MOSIN_SNIPER_PARTS_ULTRA_LIGHT.getModel(), stack, poseStack, buffer, light, overlay);
-            if(Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ItemRegistry.GC_TACTICAL_SNIPER_STOCK.get()) {
-                RenderUtil.renderModel(SpecialModels.GC_MOSIN_SNIPER_PARTS_TACTICAL_SNIPER.getModel(), stack, poseStack, buffer, light, overlay);
-                if (Gun.getAttachment(IAttachment.Type.SCOPE, stack).getItem() == ItemRegistry.GC_SIGHT_SIMPLE.get()) {
-                    RenderUtil.renderModel(SpecialModels.GC_PU_SNIPER_CAMO1.getModel(), stack, poseStack, buffer, light, overlay);}
-            }
-        }
-        else
-        {
-            RenderUtil.renderModel(SpecialModels.GC_MOSIN_SNIPER_PARTS_MAIN.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
-        }
+
 
         poseStack.pushPose();
         poseStack.translate(0, -5.8 * 0.0625, 0);
         poseStack.mulPose(Axis.ZN.rotationDegrees(-90F * Math.min(boltPivot*2F,1)));
         poseStack.translate(0, 0, (boltMovement * 2.5) * 0.0625);
         poseStack.translate(0, 5.8 * 0.0625, 0);
-        RenderUtil.renderModel(SpecialModels.GC_MOSIN_SNIPER_BOLT.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
+        RenderUtil.renderModel(SpecialModels.GC_MOSIN_TYPE53_BOLT.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
         poseStack.popPose();
 
         if(Gun.getAttachment(IAttachment.Type.SCOPE, stack).getItem() == ItemRegistry.GC_SIGHT_RIFLEMAN.get())

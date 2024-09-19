@@ -16,9 +16,13 @@
     {
       "count": 1,
       "item": "guncollection:gc_weaponparts_polymer"
+    },
+    {
+      "count": 1,
+      "item": "guncollection:gc_weaponparts_electronic"
     }
   ],
   "result": {
-    "item": "guncollection:gc_fn_hp2022"
+    "item": "guncollection:gc_fn_hp2022_tactical"
   }
 }

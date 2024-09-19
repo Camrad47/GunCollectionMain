@@ -3,14 +3,14 @@
   "materials": [
     {
       "count": 1,
-      "item": "guncollection:gc_weaponparts_polymer"
+      "item": "guncollection:gc_laser_pointer"
     },
     {
-      "count": 2,
-      "item": "guncollection:gc_weaponparts_plus"
+      "count": 1,
+      "item": "guncollection:gc_vertical_grip"
     }
   ],
   "result": {
-    "item": "guncollection:gc_vertical_grip"
+    "item": "guncollection:gc_vertical_grip_laser"
   }
 }

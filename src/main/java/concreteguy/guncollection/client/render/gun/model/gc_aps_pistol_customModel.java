@@ -1,12 +1,13 @@
 package concreteguy.guncollection.client.render.gun.model;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-import com.mojang.math.Axis;
 import com.mrcrayfish.guns.client.GunModel;
 import com.mrcrayfish.guns.client.render.gun.IOverrideModel;
 import com.mrcrayfish.guns.client.util.RenderUtil;
 import com.mrcrayfish.guns.common.Gun;
+import com.mrcrayfish.guns.item.attachment.IAttachment;
 import concreteguy.guncollection.client.SpecialModels;
+import concreteguy.guncollection.core.registry.ItemRegistry;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.resources.model.BakedModel;
@@ -17,13 +18,13 @@ import net.minecraft.world.item.ItemStack;
 
 import javax.annotation.Nullable;
 
-public class gc_makarov_pistol_customModel implements IOverrideModel {
+public class gc_aps_pistol_customModel implements IOverrideModel {
 
     @SuppressWarnings("resource")
     @Override
     public void render(float partialTicks, ItemDisplayContext display, ItemStack stack, ItemStack parent, @Nullable LivingEntity entity, PoseStack poseStack, MultiBufferSource buffer, int light, int overlay)
     {
-        BakedModel bakedModel = SpecialModels.GC_MAKAROV_PISTOL_MAIN.getModel();
+        BakedModel bakedModel = SpecialModels.GC_APS_PISTOL_MAIN.getModel();
         Minecraft.getInstance().getItemRenderer().render(stack, ItemDisplayContext.NONE, false, poseStack, buffer, light, overlay, GunModel.wrap(bakedModel));
 
         float cooldown = 0F;
@@ -34,16 +35,33 @@ public class gc_makarov_pistol_customModel implements IOverrideModel {
             cooldown = (float) easeInOutBack(cooldown);
         }
 
+        ItemStack attachmentStack = Gun.getAttachment(IAttachment.Type.STOCK, stack);
+        if(!attachmentStack.isEmpty())
+        {
+            if(Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ItemRegistry.GC_WOOD_STOCK.get())
+                RenderUtil.renderModel(SpecialModels.GC_APS_PISTOL_PARTS_WOOD.getModel(), stack, poseStack, buffer, light, overlay);
+            if(Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ItemRegistry.GC_METAL_STOCK.get())
+                RenderUtil.renderModel(SpecialModels.GC_APS_PISTOL_PARTS_METAL.getModel(), stack, poseStack, buffer, light, overlay);
+            if(Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ItemRegistry.GC_POLYMER_STOCK.get())
+                RenderUtil.renderModel(SpecialModels.GC_APS_PISTOL_PARTS_POLYMER.getModel(), stack, poseStack, buffer, light, overlay);
+            if(Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ItemRegistry.GC_MARKSMAN_STOCK.get())
+                RenderUtil.renderModel(SpecialModels.GC_APS_PISTOL_PARTS_MARKSMAN.getModel(), stack, poseStack, buffer, light, overlay);
+            if(Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ItemRegistry.GC_ULTRA_LIGHT_STOCK.get())
+                RenderUtil.renderModel(SpecialModels.GC_APS_PISTOL_PARTS_ULTRA_LIGHT.getModel(), stack, poseStack, buffer, light, overlay);
+            if(Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ItemRegistry.GC_TACTICAL_SNIPER_STOCK.get())
+                RenderUtil.renderModel(SpecialModels.GC_APS_PISTOL_PARTS_TACTICAL_SNIPER.getModel(), stack, poseStack, buffer, light, overlay);
+        }
+
         if (Gun.hasAmmo(stack)){
             poseStack.pushPose();
             poseStack.translate(0, -5.8 * 0.0625, 0);
             poseStack.translate(0, 0, cooldown/6);
             poseStack.translate(0, 5.8 * 0.0625, 0);
-            RenderUtil.renderModel(SpecialModels.GC_MAKAROV_BOLT.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
+            RenderUtil.renderModel(SpecialModels.GC_APS_PISTOL_BOLT.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
             poseStack.popPose();
         } else {
             poseStack.translate(0, 0, 0.12);
-            RenderUtil.renderModel(SpecialModels.GC_MAKAROV_BOLT.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
+            RenderUtil.renderModel(SpecialModels.GC_APS_PISTOL_BOLT.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
         }
     }
 

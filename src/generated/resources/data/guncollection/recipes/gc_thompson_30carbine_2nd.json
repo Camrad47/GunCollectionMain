@@ -6,7 +6,7 @@
       "item": "guncollection:gc_weaponparts_main"
     },
     {
-      "count": 4,
+      "count": 6,
       "item": "guncollection:gc_weaponparts_plus"
     },
     {
@@ -14,11 +14,11 @@
       "item": "guncollection:gc_weaponparts_metal"
     },
     {
-      "count": 2,
+      "count": 1,
       "item": "guncollection:gc_weaponparts_wood"
     }
   ],
   "result": {
-    "item": "guncollection:gc_thompson_30carbine"
+    "item": "guncollection:gc_thompson_30carbine_2nd"
   }
 }

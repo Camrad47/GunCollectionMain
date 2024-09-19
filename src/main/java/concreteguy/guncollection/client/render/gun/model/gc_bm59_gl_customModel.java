@@ -4,21 +4,16 @@ import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;
 import com.mrcrayfish.guns.client.render.gun.IOverrideModel;
 import com.mrcrayfish.guns.client.util.RenderUtil;
-import com.mrcrayfish.guns.common.AmmoContext;
 import com.mrcrayfish.guns.common.Gun;
-import com.mrcrayfish.guns.item.attachment.IAttachment;
 import concreteguy.guncollection.client.SpecialModels;
-import concreteguy.guncollection.core.registry.ItemRegistry;
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.item.ItemCooldowns;
 import net.minecraft.world.item.ItemDisplayContext;
 import net.minecraft.world.item.ItemStack;
 
 import javax.annotation.Nullable;
 
-public class gc_ak_zastava_m70_gl_customModel implements IOverrideModel {
+public class gc_bm59_gl_customModel implements IOverrideModel {
 
 
     @Override
@@ -26,22 +21,17 @@ public class gc_ak_zastava_m70_gl_customModel implements IOverrideModel {
     {
         poseStack.pushPose();
         poseStack.mulPose(Axis.XN.rotationDegrees(-15F));
-        RenderUtil.renderModel(SpecialModels.GC_AK_ZASTAVA_M70_MAIN.getModel(), stack, poseStack, buffer, light, overlay);
+        RenderUtil.renderModel(SpecialModels.GC_BM59_GL_MAIN.getModel(), stack, poseStack, buffer, light, overlay);
         poseStack.popPose();
 
         poseStack.pushPose();
         poseStack.mulPose(Axis.XN.rotationDegrees(-15F));
-        RenderUtil.renderModel(SpecialModels.GC_AK_ZASTAVA_M70_GL_SIGHT_UP.getModel(), stack, poseStack, buffer, light, overlay);
-        poseStack.popPose();
-
-        poseStack.pushPose();
-        poseStack.mulPose(Axis.XN.rotationDegrees(-15F));
-        RenderUtil.renderModel(SpecialModels.GC_AKM_BOLT.getModel(), stack, poseStack, buffer, light, overlay);
+        RenderUtil.renderModel(SpecialModels.GC_BM59_GL_SIGHT_UP.getModel(), stack, poseStack, buffer, light, overlay);
         poseStack.popPose();
 
         if (Gun.hasAmmo(stack)){
         poseStack.mulPose(Axis.XN.rotationDegrees(-15F));
-        RenderUtil.renderModel(SpecialModels.GC_M70_RIFLE_GRENADE.getModel(), stack, poseStack, buffer, light, overlay);}
+        RenderUtil.renderModel(SpecialModels.GC_BM59_GL_GRENADE.getModel(), stack, poseStack, buffer, light, overlay);}
     }
 
     private double easeInOutBack(double x)

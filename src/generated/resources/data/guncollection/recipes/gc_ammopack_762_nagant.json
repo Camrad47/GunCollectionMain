@@ -3,7 +3,7 @@
   "materials": [
     {
       "count": 32,
-      "item": "guncollection:gc_ammo_762x25"
+      "item": "guncollection:gc_ammo_762_nagant"
     },
     {
       "count": 1,
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "item": "guncollection:gc_ammopack_762x25"
+    "item": "guncollection:gc_ammopack_762_nagant"
   }
 }

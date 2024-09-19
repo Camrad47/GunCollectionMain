@@ -6,11 +6,11 @@
       "item": "guncollection:gc_weaponparts_main"
     },
     {
-      "count": 1,
+      "count": 11,
       "item": "guncollection:gc_weaponparts_metal"
     }
   ],
   "result": {
-    "item": "guncollection:gc_revolver"
+    "item": "guncollection:gc_revolver_big_iron"
   }
 }

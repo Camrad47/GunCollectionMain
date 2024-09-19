@@ -15,13 +15,13 @@ import net.minecraft.world.item.ItemStack;
 
 import javax.annotation.Nullable;
 
-public class gc_akm_sog_customModel implements IOverrideModel {
+public class gc_ak_50_lite_customModel implements IOverrideModel {
 
     @SuppressWarnings("resource")
     @Override
     public void render(float partialTicks, ItemDisplayContext display, ItemStack stack, ItemStack parent, @Nullable LivingEntity entity, PoseStack poseStack, MultiBufferSource buffer, int light, int overlay)
     {
-        BakedModel bakedModel = SpecialModels.GC_AKM_SOG_MAIN.getModel();
+        BakedModel bakedModel = SpecialModels.GC_AK_50_LITE_MAIN.getModel();
         Minecraft.getInstance().getItemRenderer().render(stack, ItemDisplayContext.NONE, false, poseStack, buffer, light, overlay, GunModel.wrap(bakedModel));
 
         float cooldown = 0F;
@@ -36,7 +36,7 @@ public class gc_akm_sog_customModel implements IOverrideModel {
         poseStack.translate(0, -5.8 * 0.0625, 0);
         poseStack.translate(0, 0, cooldown/8);
         poseStack.translate(0, 5.8 * 0.0625, 0);
-        RenderUtil.renderModel(SpecialModels.GC_AKM_BOLT.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
+        RenderUtil.renderModel(SpecialModels.GC_AK_SHORT_BOLT.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
         poseStack.popPose();
     }
 

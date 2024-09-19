@@ -1,24 +1,24 @@
 {
   "general": {
     "auto": false,
-    "rate": 80,
+    "rate": 4,
     "gripType": "cgm:two_handed",
-    "maxAmmo": 1,
+    "maxAmmo": 3,
     "reloadAmount": 1,
-    "recoilAngle": 3.0,
+    "recoilAngle": 5.0,
     "recoilKick": 2.1,
-    "recoilAdsReduction": 0.35,
+    "recoilAdsReduction": 0.15,
     "alwaysSpread": true,
-    "spread": 2.5
+    "spread": 4.5
   },
   "projectile": {
-    "item": "guncollection:gc_ammo_og7v",
+    "item": "guncollection:gc_ammo_3x40",
     "visible": true,
     "gravity": true,
-    "damage": 30,
+    "damage": 22,
     "size": 0.2,
-    "speed": 12,
-    "life": 600
+    "speed": 10,
+    "life": 500
   },
   "sounds": {
     "fire": "guncollection:item.gc_rpg7.fire",
@@ -26,18 +26,10 @@
   },
   "modules": {
       "zoom": {
-        "fovModifier": 0.8,
-        "xOffset": 0.9,
-        "yOffset": 5.5,
-        "zOffset": -3.3
-      },
-    "attachments": {
-      "scope": {
-        "xOffset": -1,
-        "yOffset": 5,
-        "zOffset": 3.7,
-        "scale": 1
+        "fovModifier": 0.9,
+        "xOffset": 2.9,
+        "yOffset": 5.7,
+        "zOffset": 2.8
       }
-    }
   }
 }

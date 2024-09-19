@@ -12,12 +12,12 @@
     "spread": 2.5
   },
   "projectile": {
-    "item": "guncollection:gc_ammo_pg7v",
+    "item": "minecraft:iron_shovel",
     "visible": true,
     "gravity": true,
-    "damage": 40,
+    "damage": 4,
     "size": 0.2,
-    "speed": 10,
+    "speed": 5,
     "life": 600
   },
   "sounds": {

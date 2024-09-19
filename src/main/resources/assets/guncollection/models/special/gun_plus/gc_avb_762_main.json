@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench by VIKTORWOOD",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "guncollection:item/gc_wood_pine"
+		"1": "guncollection:item/gc_bolt_rifle"
 	},
 	"elements": [
 		{
@@ -1387,14 +1387,14 @@
 					"origin": [-2.33891, -1.83068, -2.80834],
 					"color": 9,
 					"children": [71, 72, 73, 74, 75, 76, 77, 78, 79]
+				},
+				{
+					"name": "group",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92]
 				}
 			]
-		},
-		{
-			"name": "group",
-			"origin": [8, 8, 8],
-			"color": 0,
-			"children": [80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92]
 		}
 	]
 }

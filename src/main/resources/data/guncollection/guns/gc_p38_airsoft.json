@@ -1,35 +1,30 @@
 {
   "general": {
     "auto": false,
-    "rate": 2,
+    "rate": 15,
     "gripType": "cgm:one_handed",
-    "maxAmmo": 8,
-    "reloadAmount": 2,
-    "recoilAngle": 4.9,
-    "recoilKick": 1.8,
+    "maxAmmo": 20,
+    "reloadAmount": 3,
+    "recoilAngle": 0.7,
+    "recoilKick": 0.7,
     "recoilAdsReduction": 0.1,
     "alwaysSpread": true,
-    "spread": 1.9
+    "spread": 4.5
   },
   "projectile": {
-    "item": "guncollection:gc_ammo_9mm",
-    "visible": false,
-    "damage": 4.5,
-    "size": 0.1,
-    "speed": 25.0,
+    "item": "guncollection:gc_ammo_6mm_bb",
+    "visible": true,
+    "gravity": true,
+    "damage": 0.5,
+    "size": 0.2,
+    "speed": 10.0,
     "life": 20
   },
   "sounds": {
-    "fire": "guncollection:item.gc_uzi.fire",
+    "fire": "guncollection:item.22lr_rifle.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.assault_rifle.cock",
     "silencedFire": "guncollection:item.gc_kedr_b.suppressed"
-  },
-  "display": {
-    "flash": {
-      "yOffset": 2.5,
-      "zOffset": 0.0
-    }
   },
   "modules": {
     "zoom": {

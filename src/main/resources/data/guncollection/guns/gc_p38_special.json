@@ -7,16 +7,16 @@
     "reloadAmount": 2,
     "recoilAngle": 4.9,
     "recoilKick": 1.8,
-    "recoilAdsReduction": 0.1,
+    "recoilAdsReduction": 0.15,
     "alwaysSpread": true,
     "spread": 1.9
   },
   "projectile": {
     "item": "guncollection:gc_ammo_9mm",
     "visible": false,
-    "damage": 4.5,
+    "damage": 5,
     "size": 0.1,
-    "speed": 25.0,
+    "speed": 15.0,
     "life": 20
   },
   "sounds": {
@@ -28,7 +28,7 @@
   "display": {
     "flash": {
       "yOffset": 2.5,
-      "zOffset": 0.0
+      "zOffset": 1.4
     }
   },
   "modules": {

@@ -6,11 +6,11 @@
       "item": "guncollection:gc_weaponparts_main"
     },
     {
-      "count": 2,
+      "count": 3,
       "item": "guncollection:gc_weaponparts_metal"
     },
     {
-      "count": 1,
+      "count": 3,
       "item": "guncollection:gc_weaponparts_plus"
     },
     {
@@ -19,6 +19,6 @@
     }
   ],
   "result": {
-    "item": "guncollection:gc_mosin_sniper"
+    "item": "guncollection:gc_mosin_type53"
   }
 }

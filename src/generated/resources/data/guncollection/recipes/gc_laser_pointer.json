@@ -3,18 +3,14 @@
   "materials": [
     {
       "count": 1,
-      "item": "guncollection:gc_weaponparts_metal"
-    },
-    {
-      "count": 6,
       "item": "guncollection:gc_weaponparts_plus"
     },
     {
-      "count": 1,
+      "count": 3,
       "item": "guncollection:gc_weaponparts_electronic"
     }
   ],
   "result": {
-    "item": "guncollection:gc_sight_okp"
+    "item": "guncollection:gc_laser_pointer"
   }
 }

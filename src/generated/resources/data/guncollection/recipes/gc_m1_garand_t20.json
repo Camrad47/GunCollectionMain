@@ -2,8 +2,12 @@
   "type": "cgm:workbench",
   "materials": [
     {
-      "count": 5,
+      "count": 6,
       "item": "guncollection:gc_weaponparts_main"
+    },
+    {
+      "count": 1,
+      "item": "guncollection:gc_weaponparts_plus"
     },
     {
       "count": 3,
@@ -11,6 +15,6 @@
     }
   ],
   "result": {
-    "item": "guncollection:gc_m1_garand"
+    "item": "guncollection:gc_m1_garand_t20"
   }
 }

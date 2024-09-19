@@ -411,6 +411,12 @@
   "item.guncollection.gc_m2_carbine": "M2 Carbine",
   "item.guncollection.gc_m3_carbine": "M3 Carbine",
   "item.guncollection.gc_m1_carbine_enforcer": ".30 Enforcer Pistol",
+  "item.guncollection.gc_akv521_545": "AKV-521 (5.45)",
+  "item.guncollection.gc_akv521_762": "AKV-521 (7.62)",
+  "item.guncollection.gc_akv521_223": "AKV-521 (.223)",
+  "item.guncollection.gc_akv521_366": "AKV-521 (.366)",
+  "item.guncollection.gc_akv521_changable_upper": "AKV-521 upper receiver",
+  "item.guncollection.gc_wz88": "Kbk Wz. 88 Tantal",
 
   "item.guncollection.gc_sight_kobra": "EKP-8 Kobra Red dot",
   "item.guncollection.gc_sight_valday": "PK-120 Valday Red dot",

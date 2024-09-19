@@ -410,6 +410,12 @@
   "item.guncollection.gc_m2_carbine": "Карабин М2",
   "item.guncollection.gc_m3_carbine": "Карабин М3",
   "item.guncollection.gc_m1_carbine_enforcer": ".30 Enforcer Pistol",
+  "item.guncollection.gc_akv521_545": "AKВ-521 (5.45)",
+  "item.guncollection.gc_akv521_762": "AKВ-521 (7.62)",
+  "item.guncollection.gc_akv521_223": "AKВ-521 (.223)",
+  "item.guncollection.gc_akv521_366": "AKВ-521 (.366)",
+  "item.guncollection.gc_akv521_changable_upper": "AKВ-521 сменный ресивер",
+  "item.guncollection.gc_wz88": "Kbk Wz. 88 Тантал",
 
   "item.guncollection.gc_sight_kobra": "ЭКП-8 Кобра",
   "item.guncollection.gc_sight_valday": "ПК-120 Валдай",

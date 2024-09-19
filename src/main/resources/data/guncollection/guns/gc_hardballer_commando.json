@@ -3,21 +3,21 @@
     "auto": false,
     "rate": 2,
     "gripType": "cgm:one_handed",
-    "maxAmmo": 7,
+    "maxAmmo": 8,
     "reloadAmount": 2,
-    "recoilAngle": 5.8,
-    "recoilKick": 3,
+    "recoilAngle": 6.8,
+    "recoilKick": 3.5,
     "recoilAdsReduction": 0.1,
     "alwaysSpread": true,
-    "spread": 2.3
+    "spread": 2.1
   },
   "projectile": {
-    "item": "guncollection:gc_ammo_45acp",
+    "item": "guncollection:gc_ammo_40sw",
     "visible": false,
     "damage": 6,
     "size": 0.1,
-    "speed": 25.0,
-    "life": 15
+    "speed": 35.0,
+    "life": 25
   },
   "sounds": {
     "fire": "guncollection:item.gc_m1911_basic.fire",

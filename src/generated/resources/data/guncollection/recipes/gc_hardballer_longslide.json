@@ -10,11 +10,11 @@
       "item": "guncollection:gc_weaponparts_plus"
     },
     {
-      "count": 1,
+      "count": 3,
       "item": "guncollection:gc_weaponparts_metal"
     }
   ],
   "result": {
-    "item": "guncollection:gc_m1911"
+    "item": "guncollection:gc_hardballer_longslide"
   }
 }

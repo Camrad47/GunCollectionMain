@@ -7,10 +7,10 @@
     },
     {
       "count": 1,
-      "item": "guncollection:gc_vertical_grip_cobra"
+      "item": "guncollection:gc_vertical_grip_angled"
     }
   ],
   "result": {
-    "item": "guncollection:gc_vertical_grip_cobra_laser"
+    "item": "guncollection:gc_vertical_grip_angled_laser"
   }
 }

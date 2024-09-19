@@ -2,7 +2,7 @@
   "type": "cgm:workbench",
   "materials": [
     {
-      "count": 5,
+      "count": 4,
       "item": "guncollection:gc_weaponparts_main"
     },
     {
@@ -11,6 +11,6 @@
     }
   ],
   "result": {
-    "item": "guncollection:gc_m1_garand"
+    "item": "guncollection:gc_m1_garand_tanker"
   }
 }

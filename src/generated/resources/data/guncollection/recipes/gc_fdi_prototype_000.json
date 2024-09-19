@@ -2,11 +2,11 @@
   "type": "cgm:workbench",
   "materials": [
     {
-      "count": 3,
+      "count": 2,
       "item": "guncollection:gc_weaponparts_main"
     },
     {
-      "count": 4,
+      "count": 1,
       "item": "guncollection:gc_weaponparts_plus"
     },
     {
@@ -19,6 +19,6 @@
     }
   ],
   "result": {
-    "item": "guncollection:gc_fn_fal_tactical"
+    "item": "guncollection:gc_fdi_prototype_000"
   }
 }

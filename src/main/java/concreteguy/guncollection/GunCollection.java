@@ -14,9 +14,7 @@ import concreteguy.guncollection.init.EntityInit;
 import concreteguy.guncollection.events.*;
 import com.mrcrayfish.guns.network.PacketHandler;
 import concreteguy.guncollection.client.ClientHandler;
-import concreteguy.guncollection.client.MoreKeyBinds;
 import concreteguy.guncollection.config.Config;
-import concreteguy.guncollection.datagen.ModRecipeGenerator;
 import concreteguy.guncollection.core.registry.ItemRegistry;
 import concreteguy.guncollection.core.registry.SoundRegistry;
 import net.minecraft.data.DataGenerator;
@@ -93,9 +91,8 @@ public class GunCollection
 
         bus.addListener(this::clientSetup);
         bus.addListener(this::setup);
-        bus.addListener(this::gatherData);
         bus.addListener(this::commonSetup);
-        bus.addListener(MoreKeyBinds::registerKeyMappings);
+        bus.addListener(this::serverSetup);
     }
 
 
@@ -109,6 +106,10 @@ public class GunCollection
         event.enqueueWork(()->{
         });
 
+    }
+
+    private void serverSetup(final FMLClientSetupEvent event) {
+        event.enqueueWork(ClientHandler::registerModelOverrides);
     }
 
     private void setup(final FMLCommonSetupEvent event) {
@@ -125,12 +126,6 @@ public class GunCollection
         ProjectileManager.getInstance().registerFactory(ItemRegistry.GC_AMMO_762X39_AIRBURST.get(), (worldIn, entity, weapon, item, modifiedGun) -> new ExplosiveProjectileEntity(GC_AMMO_762X39_AIRBURST.get(), worldIn, entity, weapon, item, modifiedGun));
         ProjectileManager.getInstance().registerFactory(ItemRegistry.GC_AMMO_RSPRGR.get(), (worldIn, entity, weapon, item, modifiedGun) -> new rpgGrenadeHEEntity(GC_AMMO_RSPRGR.get(), worldIn, entity, weapon, item, modifiedGun));
 
-    }
-
-    private void gatherData(final GatherDataEvent event) {
-        DataGenerator generator = event.getGenerator();
-        PackOutput packOutput = generator.getPackOutput();
-        generator.addProvider(event.includeServer(), new ModRecipeGenerator(packOutput));
     }
 
 

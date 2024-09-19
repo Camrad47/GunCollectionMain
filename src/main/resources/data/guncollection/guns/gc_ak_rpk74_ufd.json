@@ -3,13 +3,13 @@
     "auto": true,
     "rate": 2,
     "gripType": "cgm:two_handed",
-    "maxAmmo": 45,
-    "reloadAmount": 2,
-    "recoilAngle": 3.7,
-    "recoilKick": 3.1,
+    "maxAmmo": 100,
+    "reloadAmount": 1,
+    "recoilAngle": 3.9,
+    "recoilKick": 3.5,
     "recoilAdsReduction": 0.7,
     "alwaysSpread": true,
-    "spread": 1.6
+    "spread": 1.7
   },
   "projectile": {
     "item": "guncollection:gc_ammo_545x39",

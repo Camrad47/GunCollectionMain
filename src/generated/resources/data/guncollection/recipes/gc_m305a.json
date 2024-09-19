@@ -11,10 +11,10 @@
     },
     {
       "count": 3,
-      "item": "guncollection:gc_weaponparts_wood"
+      "item": "guncollection:gc_weaponparts_polymer"
     }
   ],
   "result": {
-    "item": "guncollection:gc_m14"
+    "item": "guncollection:gc_m305a"
   }
 }

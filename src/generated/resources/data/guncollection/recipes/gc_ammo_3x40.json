@@ -2,16 +2,16 @@
   "type": "cgm:workbench",
   "materials": [
     {
-      "count": 10,
+      "count": 6,
       "item": "guncollection:gc_ammo_parts"
     },
     {
-      "count": 3,
+      "count": 2,
       "item": "guncollection:gc_explosive_parts"
     }
   ],
   "result": {
     "count": 2,
-    "item": "guncollection:gc_ammo_pg7v"
+    "item": "guncollection:gc_ammo_3x40"
   }
 }

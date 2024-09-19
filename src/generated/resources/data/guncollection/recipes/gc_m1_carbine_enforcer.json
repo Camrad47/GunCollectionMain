@@ -6,11 +6,11 @@
       "item": "guncollection:gc_weaponparts_main"
     },
     {
-      "count": 3,
+      "count": 1,
       "item": "guncollection:gc_weaponparts_wood"
     }
   ],
   "result": {
-    "item": "guncollection:gc_m1_carbine"
+    "item": "guncollection:gc_m1_carbine_enforcer"
   }
 }

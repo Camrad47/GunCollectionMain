@@ -6,7 +6,7 @@
       "item": "guncollection:gc_weaponparts_main"
     },
     {
-      "count": 1,
+      "count": 3,
       "item": "guncollection:gc_weaponparts_plus"
     },
     {
@@ -14,11 +14,11 @@
       "item": "guncollection:gc_weaponparts_metal"
     },
     {
-      "count": 2,
-      "item": "guncollection:gc_weaponparts_wood"
+      "count": 3,
+      "item": "guncollection:gc_weaponparts_polymer"
     }
   ],
   "result": {
-    "item": "guncollection:gc_ppsh_41"
+    "item": "guncollection:gc_ppsh_tactical"
   }
 }

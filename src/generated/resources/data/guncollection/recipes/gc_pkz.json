@@ -11,10 +11,10 @@
     },
     {
       "count": 3,
-      "item": "guncollection:gc_weaponparts_polymer"
+      "item": "guncollection:gc_weaponparts_metal"
     }
   ],
   "result": {
-    "item": "guncollection:gc_pkp"
+    "item": "guncollection:gc_pkz"
   }
 }

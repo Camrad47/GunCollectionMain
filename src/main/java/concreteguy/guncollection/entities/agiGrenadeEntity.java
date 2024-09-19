@@ -17,14 +17,14 @@ import net.minecraft.world.phys.Vec3;
 /**
  * Author: MrCrayfish
  */
-public class rpgGrenadeHEEntity extends ProjectileEntity
+public class agiGrenadeEntity extends ProjectileEntity
 {
-    public rpgGrenadeHEEntity(EntityType<? extends ProjectileEntity> entityType, Level world)
+    public agiGrenadeEntity(EntityType<? extends ProjectileEntity> entityType, Level world)
     {
         super(entityType, world);
     }
 
-    public rpgGrenadeHEEntity(EntityType<? extends ProjectileEntity> entityType, Level world, LivingEntity shooter, ItemStack weapon, GunItem item, Gun modifiedGun)
+    public agiGrenadeEntity(EntityType<? extends ProjectileEntity> entityType, Level world, LivingEntity shooter, ItemStack weapon, GunItem item, Gun modifiedGun)
     {
         super(entityType, world, shooter, weapon, item, modifiedGun);
     }

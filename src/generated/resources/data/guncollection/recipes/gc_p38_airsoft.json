@@ -2,7 +2,7 @@
   "type": "cgm:workbench",
   "materials": [
     {
-      "count": 2,
+      "count": 1,
       "item": "guncollection:gc_weaponparts_metal"
     },
     {
@@ -10,11 +10,11 @@
       "item": "guncollection:gc_weaponparts_plus"
     },
     {
-      "count": 2,
+      "count": 1,
       "item": "guncollection:gc_weaponparts_polymer"
     }
   ],
   "result": {
-    "item": "guncollection:gc_ak74m_airsoft"
+    "item": "guncollection:gc_p38_airsoft"
   }
 }

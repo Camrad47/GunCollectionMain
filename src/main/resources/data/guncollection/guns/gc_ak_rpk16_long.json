@@ -5,19 +5,19 @@
     "gripType": "cgm:two_handed",
     "maxAmmo": 95,
     "reloadAmount": 1,
-    "recoilAngle": 2.8,
-    "recoilKick": 2.3,
-    "recoilAdsReduction": 0.65,
+    "recoilAngle": 3.8,
+    "recoilKick": 3.3,
+    "recoilAdsReduction": 0.7,
     "alwaysSpread": true,
-    "spread": 1.9
+    "spread": 1.5
   },
   "projectile": {
     "item": "guncollection:gc_ammo_545x39",
     "visible": false,
     "gravity": true,
-    "damage": 10.5,
+    "damage": 11,
     "size": 0.2,
-    "speed": 75.0,
+    "speed": 80.0,
     "life": 80
   },
   "sounds": {
@@ -29,7 +29,7 @@
   "display": {
     "flash": {
       "yOffset": 2.5,
-      "zOffset": -16.2
+      "zOffset": -20.2
     }
   },
   "modules": {
@@ -41,7 +41,7 @@
     "attachments": {
       "barrel": {
         "yOffset": 2.5,
-        "zOffset": -13,
+        "zOffset": -17,
         "scale": 1.25
       },
       "scope": {

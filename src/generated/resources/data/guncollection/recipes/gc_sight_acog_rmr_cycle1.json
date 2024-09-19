@@ -1,16 +1,11 @@
 {
-  "type": "cgm:workbench",
-  "materials": [
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
     {
-      "count": 1,
-      "item": "guncollection:gc_sight_compact"
-    },
-    {
-      "count": 1,
-      "item": "guncollection:gc_sight_acog"
+      "item": "guncollection:gc_sight_acog_rmr"
     }
   ],
   "result": {
-    "item": "guncollection:gc_sight_acog_rmr"
+    "item": "guncollection:gc_sight_acog_rmr_active"
   }
 }

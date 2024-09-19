@@ -6,6 +6,7 @@
 		"2": "guncollection:item/full_od",
 		"3": "guncollection:item/gc_smart_module",
 		"4": "guncollection:item/ag_sienna",
+		"5": "guncollection:item/gc_camo_red",
 		"particle": "guncollection:item/full_od"
 	},
 	"elements": [
@@ -1250,6 +1251,45 @@
 			}
 		},
 		{
+			"from": [7.45, 3.34, -3.7],
+			"to": [8.55, 3.86, -3.2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-3.5, -12.95, 1.5]},
+			"faces": {
+				"north": {"uv": [3, 5.5, 4.1, 7], "texture": "#5"},
+				"east": {"uv": [12.5, 3, 13.5, 4], "texture": "#5"},
+				"south": {"uv": [0.5, 5.5, 4.1, 6.5], "texture": "#5"},
+				"west": {"uv": [13, 2.5, 14, 3.5], "texture": "#5"},
+				"up": {"uv": [2.5, 6, 3.6, 7], "texture": "#5"},
+				"down": {"uv": [1, 4.5, 2.1, 5.5], "texture": "#5"}
+			}
+		},
+		{
+			"from": [7.5, 3.74, -5.3],
+			"to": [8.5, 4.06, -5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-3.5, -12.95, 1.5]},
+			"faces": {
+				"north": {"uv": [3, 11.5, 4.1, 13], "texture": "#1"},
+				"east": {"uv": [15, 7.5, 16, 8.5], "texture": "#1"},
+				"south": {"uv": [2, 12, 5.6, 13], "texture": "#1"},
+				"west": {"uv": [15, 7.5, 16, 8.5], "texture": "#1"},
+				"up": {"uv": [3, 10.5, 4.1, 11.5], "texture": "#1"},
+				"down": {"uv": [2, 10.5, 3.1, 11.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.5, 3.74, -5.7],
+			"to": [8.5, 4.06, -5.4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-3.5, -12.95, 1.5]},
+			"faces": {
+				"north": {"uv": [3, 11.5, 4.1, 13], "texture": "#1"},
+				"east": {"uv": [15, 7.5, 16, 8.5], "texture": "#1"},
+				"south": {"uv": [2, 12, 5.6, 13], "texture": "#1"},
+				"west": {"uv": [15, 7.5, 16, 8.5], "texture": "#1"},
+				"up": {"uv": [3, 10.5, 4.1, 11.5], "texture": "#1"},
+				"down": {"uv": [2, 10.5, 3.1, 11.5], "texture": "#1"}
+			}
+		},
+		{
 			"from": [7.5, 4.14, -6.1],
 			"to": [8.5, 4.76, 4.3],
 			"rotation": {"angle": 0, "axis": "y", "origin": [-3.5, -12.95, 1.5]},
@@ -1273,6 +1313,19 @@
 				"west": {"uv": [1, 11.5, 4, 12.5], "texture": "#1"},
 				"up": {"uv": [3, 10.5, 4.1, 11.5], "texture": "#1"},
 				"down": {"uv": [2, 10.5, 3.1, 11.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.5, 4.65, -5.96],
+			"to": [8.45, 4.77, -4.86],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-3.5, -12.95, 1.5]},
+			"faces": {
+				"north": {"uv": [3, 11.5, 4.1, 13], "texture": "#5"},
+				"east": {"uv": [3, 11.5, 6, 12.5], "texture": "#5"},
+				"south": {"uv": [2, 12, 5.6, 13], "texture": "#5"},
+				"west": {"uv": [1, 11.5, 4, 12.5], "texture": "#5"},
+				"up": {"uv": [2, 5.5, 3.1, 6.5], "texture": "#5"},
+				"down": {"uv": [2, 10.5, 3.1, 11.5], "texture": "#5"}
 			}
 		},
 		{
@@ -1858,19 +1911,23 @@
 				95,
 				96,
 				97,
+				98,
+				99,
+				100,
+				101,
 				{
 					"name": "SteelAKmag30rnd Taped",
 					"origin": [6.5, 14.4, 5.85],
 					"color": 0,
 					"children": [
-						98,
-						99,
-						100,
+						102,
+						103,
+						104,
 						{
 							"name": "Duct tape (Grip)",
 							"origin": [8, 8, 8],
 							"color": 0,
-							"children": [101, 102]
+							"children": [105, 106]
 						}
 					]
 				},
@@ -1878,25 +1935,25 @@
 					"name": "Compact Red dot",
 					"origin": [0, 12, 3],
 					"color": 0,
-					"children": [103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113]
+					"children": [107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117]
 				},
-				114,
-				115,
-				116,
-				117
+				118,
+				119,
+				120,
+				121
 			]
 		},
 		{
 			"name": "group",
 			"origin": [-3.5, -13, 1.5],
 			"color": 0,
-			"children": [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130]
+			"children": [122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134]
 		},
 		{
 			"name": "group",
 			"origin": [8, 9.75, 9],
 			"color": 0,
-			"children": [131, 132, 133, 134]
+			"children": [135, 136, 137, 138]
 		}
 	]
 }

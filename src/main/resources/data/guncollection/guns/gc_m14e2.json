@@ -5,11 +5,11 @@
     "gripType": "cgm:two_handed",
     "maxAmmo": 20,
     "reloadAmount": 2,
-    "recoilAngle": 5.5,
-    "recoilKick": 3.4,
-    "recoilAdsReduction": 0.6,
+    "recoilAngle": 5.9,
+    "recoilKick": 3.8,
+    "recoilAdsReduction": 0.7,
     "alwaysSpread": true,
-    "spread": 1.5
+    "spread": 1.4
   },
   "projectile": {
     "item": "guncollection:gc_ammo_762x51",

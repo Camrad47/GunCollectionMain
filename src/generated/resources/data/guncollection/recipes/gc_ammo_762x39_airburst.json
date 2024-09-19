@@ -2,16 +2,20 @@
   "type": "cgm:workbench",
   "materials": [
     {
-      "count": 4,
+      "count": 6,
       "item": "guncollection:gc_ammo_parts"
     },
     {
       "count": 4,
-      "item": "guncollection:gc_gunpowder_t2"
+      "item": "guncollection:gc_gunpowder_t3"
+    },
+    {
+      "count": 1,
+      "item": "guncollection:gc_explosive_parts"
     }
   ],
   "result": {
     "count": 16,
-    "item": "guncollection:gc_ammo_762x39"
+    "item": "guncollection:gc_ammo_762x39_airburst"
   }
 }

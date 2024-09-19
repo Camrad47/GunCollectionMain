@@ -1232,7 +1232,11 @@
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [89, 0, 0],
-			"translation": [0, -5.25, 7.75]
+			"translation": [0, -8.75, 11.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [76, 0, 0],
+			"translation": [0, -5.5, 3.25]
 		}
 	},
 	"groups": [

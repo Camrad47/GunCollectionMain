@@ -10,11 +10,11 @@
       "item": "guncollection:gc_weaponparts_plus"
     },
     {
-      "count": 2,
+      "count": 4,
       "item": "guncollection:gc_weaponparts_metal"
     }
   ],
   "result": {
-    "item": "guncollection:gc_aps_pistol"
+    "item": "guncollection:gc_ots33"
   }
 }

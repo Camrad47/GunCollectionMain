@@ -412,6 +412,12 @@ public enum SpecialModels {
     GC_M2_CARBINE_MAIN("gun_plus/gc_m2_carbine_main"),
     GC_M3_CARBINE_MAIN("gun_plus/gc_m3_carbine_main"),
     GC_M1_CARBINE_ENFORCER_MAIN("gun_plus/gc_m1_carbine_enforcer_main"),
+    GC_AKV521_762_MAIN("gun_plus/gc_akv521_762_main"),
+    GC_AKV521_545_MAIN("gun_plus/gc_akv521_545_main"),
+    GC_AKV521_223_MAIN("gun_plus/gc_akv521_223_main"),
+    GC_AKV521_366_MAIN("gun_plus/gc_akv521_366_main"),
+    GC_AKV521_CHANGABLE_UPPER("gun_plus/gc_akv521_changable_upper_main"),
+    GC_WZ88_MAIN("gun_plus/gc_wz88_main"),
 
     GC_AKM_BOLT("gun_plus/gc_akm_bolt"),
     GC_AKM_GOLD_BOLT("gun_plus/gc_akm_gold_bolt"),
@@ -524,6 +530,7 @@ public enum SpecialModels {
     GC_P38_AUTO_CARBINE_BOLT("gun_plus/gc_p38_auto_carbine_bolt"),
     GC_NORINCO_86S_BOLT("gun_plus/gc_norinco_86s_bolt"),
     GC_M1_CARBINE_BOLT("gun_plus/gc_m1_carbine_bolt"),
+    GC_AKV521_BOLT("gun_plus/gc_akv521_bolt"),
 
     GC_6P62_BIPOD("gun_plus/gc_6p62_bipod"),
     GC_AK_DRUM_MAG("gun_plus/gc_ak_drum_mag"),

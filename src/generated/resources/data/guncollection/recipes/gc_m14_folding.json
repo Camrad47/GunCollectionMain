@@ -6,15 +6,19 @@
       "item": "guncollection:gc_weaponparts_main"
     },
     {
-      "count": 3,
+      "count": 4,
       "item": "guncollection:gc_weaponparts_plus"
     },
     {
-      "count": 3,
+      "count": 2,
       "item": "guncollection:gc_weaponparts_wood"
+    },
+    {
+      "count": 1,
+      "item": "guncollection:gc_weaponparts_metal"
     }
   ],
   "result": {
-    "item": "guncollection:gc_m14"
+    "item": "guncollection:gc_m14_folding"
   }
 }

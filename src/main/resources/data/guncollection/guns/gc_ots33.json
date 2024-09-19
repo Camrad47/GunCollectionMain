@@ -3,18 +3,18 @@
     "auto": true,
     "rate": 2,
     "gripType": "cgm:one_handed",
-    "maxAmmo": 20,
+    "maxAmmo": 18,
     "reloadAmount": 2,
     "recoilAngle": 5.1,
-    "recoilKick": 1.5,
+    "recoilKick": 1.6,
     "recoilAdsReduction": 0.2,
     "alwaysSpread": true,
-    "spread": 1.4
+    "spread": 1.5
   },
   "projectile": {
     "item": "guncollection:gc_ammo_9x18",
     "visible": false,
-    "damage": 5.2,
+    "damage": 5.5,
     "size": 0.1,
     "speed": 25.0,
     "life": 40
@@ -28,13 +28,13 @@
   "display": {
     "flash": {
       "yOffset": 3.2,
-      "zOffset": -2.65
+      "zOffset": -3.55
     }
   },
   "modules": {
     "zoom": {
       "fovModifier": 0.8,
-      "yOffset": 4.05
+      "yOffset": 4.25
     },
     "attachments": {
       "stock": {

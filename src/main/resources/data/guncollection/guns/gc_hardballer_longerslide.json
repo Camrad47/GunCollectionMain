@@ -1,12 +1,12 @@
 {
   "general": {
     "auto": false,
-    "rate": 2,
+    "rate": 4,
     "gripType": "cgm:one_handed",
     "maxAmmo": 7,
     "reloadAmount": 2,
-    "recoilAngle": 8.8,
-    "recoilKick": 3.6,
+    "recoilAngle": 13.8,
+    "recoilKick": 4.6,
     "recoilAdsReduction": 0.15,
     "alwaysSpread": true,
     "spread": 2
@@ -17,7 +17,7 @@
     "damage": 6.2,
     "size": 0.1,
     "speed": 35.0,
-    "life": 20
+    "life": 25
   },
   "sounds": {
     "fire": "guncollection:item.gc_m1911_basic.fire",
@@ -28,7 +28,7 @@
   "display": {
     "flash": {
       "yOffset": 2.5,
-      "zOffset": -3.2
+      "zOffset": -14.8
     }
   },
   "modules": {

@@ -175,6 +175,11 @@ public final class ItemRegistry {
     public static final RegistryObject<Item> GC_AKU19 = registerGun("gc_aku19", false);
     public static final RegistryObject<Item> GC_AK308 = registerGun("gc_ak308", false);
     public static final RegistryObject<Item> GC_AK22 = registerGun("gc_ak22", false);
+    public static final RegistryObject<Item> GC_AKV521_545 = registerGun("gc_akv521_545", false);
+    public static final RegistryObject<Item> GC_AKV521_762 = registerGun("gc_akv521_762", false);
+    public static final RegistryObject<Item> GC_AKV521_223 = registerGun("gc_akv521_223", false);
+    public static final RegistryObject<Item> GC_AKV521_366 = registerGun("gc_akv521_366", false);
+    public static final RegistryObject<Item> GC_AKV521_CHANGABLE_UPPER = registerGun2("gc_akv521_changable_upper", false);
     public static final RegistryObject<Item> GC_AK_SAIGA308 = registerGun("gc_ak_saiga308", false);
     public static final RegistryObject<Item> GC_AK_366 = registerGun("gc_ak_366", false);
     public static final RegistryObject<Item> GC_AK_SCAV = registerGun("gc_ak_scav", false);
@@ -194,6 +199,7 @@ public final class ItemRegistry {
     public static final RegistryObject<Item> GC_AK_VZ58E = registerGun("gc_ak_vz58e", false);
     public static final RegistryObject<Item> GC_AK_VZ58_AP67 = registerGun("gc_ak_vz58_ap67", false);
     public static final RegistryObject<Item> GC_AK_VZ58_KLEC = registerGun("gc_ak_vz58_klec", false);
+    public static final RegistryObject<Item> GC_WZ88 = registerGun("gc_wz88", false);
     public static final RegistryObject<Item> GC_AK_VALMET = registerGun("gc_ak_valmet", false);
     public static final RegistryObject<Item> GC_AK_FALLOUT = registerGun("gc_ak_fallout", false);
     public static final RegistryObject<Item> GC_AK_ZASTAVA_M70 = registerGun("gc_ak_zastava_m70", false);
@@ -602,11 +608,15 @@ public final class ItemRegistry {
      * @return The registered gun
      */
     private static RegistryObject<Item> registerGun(String name, boolean canColor) {
-        return ITEMS.register(name, () -> new GunCollectionItem(genericProperties, true, new EnchantmentWrapperGC[]{new EnchantmentWrapperGC(ModEnchantments.QUICK_HANDS,-4)}));
+        return ITEMS.register(name, () -> new GunCollectionItem(genericProperties, true));
+    }
+
+    private static RegistryObject<Item> registerGun2(String name, boolean canColor) {
+        return ITEMS.register(name, () -> new GunCollection_alt_Item(genericProperties, true));
     }
 
     private static RegistryObject<Item> registerGun1(String name, boolean canColor) {
-        return ITEMS.register(name, () -> new GunCollectionItem(altProperties, true, new EnchantmentWrapperGC[]{new EnchantmentWrapperGC(ModEnchantments.QUICK_HANDS,-4)}));
+        return ITEMS.register(name, () -> new GunCollectionItem(altProperties, true));
     }
 
     /**
@@ -627,9 +637,6 @@ public final class ItemRegistry {
     }
     private static RegistryObject<Item> registerAmmoPack(String name) {
         return ITEMS.register(name, () -> new AmmoPackItem(new Item.Properties()));
-    }
-    private static RegistryObject<Item> registerSurvivalist(String name) {
-        return ITEMS.register(name, () -> new SurvivalistRifleItem(new Item.Properties()));
     }
 
 

@@ -6,15 +6,19 @@
       "item": "guncollection:gc_weaponparts_main"
     },
     {
-      "count": 6,
+      "count": 4,
       "item": "guncollection:gc_weaponparts_plus"
     },
     {
-      "count": 3,
+      "count": 2,
+      "item": "guncollection:gc_weaponparts_metal"
+    },
+    {
+      "count": 2,
       "item": "guncollection:gc_weaponparts_polymer"
     }
   ],
   "result": {
-    "item": "guncollection:gc_pkp"
+    "item": "guncollection:gc_pkm_aek999"
   }
 }

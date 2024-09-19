@@ -29,7 +29,6 @@ public class GunCollectionClient {
 		event.registerEntityRenderer(EntityInit.GC_AMMO_TBG7.get(), ProjectileRenderer::new);
 		event.registerEntityRenderer(EntityInit.GC_AMMO_PG7VR.get(), ProjectileRenderer::new);
 		event.registerEntityRenderer(EntityInit.GC_AMMO_3X40.get(), ProjectileRenderer::new);
-		event.registerEntityRenderer(EntityInit.GC_AMMO_3X40.get(), ProjectileRenderer::new);
 		event.registerEntityRenderer(EntityInit.GC_AMMO_762X39_AIRBURST.get(), ProjectileRenderer::new);
 		event.registerEntityRenderer(EntityInit.GC_AMMO_RSPRGR.get(), ProjectileRenderer::new);
         

@@ -1,6 +1,7 @@
 package concreteguy.guncollection.client.render.gun.model;
 
 import com.mojang.blaze3d.vertex.PoseStack;
+import com.mojang.math.Axis;
 import com.mrcrayfish.guns.client.GunModel;
 import com.mrcrayfish.guns.client.render.gun.IOverrideModel;
 import com.mrcrayfish.guns.client.util.RenderUtil;
@@ -15,13 +16,13 @@ import net.minecraft.world.item.ItemStack;
 
 import javax.annotation.Nullable;
 
-public class gc_avt40_customModel implements IOverrideModel {
+public class gc_avt40_drum_customModel implements IOverrideModel {
 
     @SuppressWarnings("resource")
     @Override
     public void render(float partialTicks, ItemDisplayContext display, ItemStack stack, ItemStack parent, @Nullable LivingEntity entity, PoseStack poseStack, MultiBufferSource buffer, int light, int overlay)
     {
-        BakedModel bakedModel = SpecialModels.GC_AVT40_MAIN.getModel();
+        BakedModel bakedModel = SpecialModels.GC_AVT40_DRUM_MAIN.getModel();
         Minecraft.getInstance().getItemRenderer().render(stack, ItemDisplayContext.NONE, false, poseStack, buffer, light, overlay, GunModel.wrap(bakedModel));
 
         float cooldown = 0F;
@@ -31,6 +32,12 @@ public class gc_avt40_customModel implements IOverrideModel {
             cooldown = tracker.getCooldownPercent(stack.getItem(), Minecraft.getInstance().getFrameTime());
             cooldown = (float) easeInOutBack(cooldown);
         }
+
+
+        poseStack.pushPose();
+        poseStack.mulPose(Axis.XN.rotationDegrees(-10F));
+        RenderUtil.renderModel(SpecialModels.GC_AVT40_DRUM_DRUM.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
+        poseStack.popPose();
 
         poseStack.pushPose();
         poseStack.translate(0, -5.8 * 0.0625, 0);

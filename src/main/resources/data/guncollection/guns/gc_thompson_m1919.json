@@ -1,21 +1,21 @@
 {
   "general": {
     "auto": true,
-    "rate": 2,
+    "rate": 1,
     "gripType": "cgm:two_handed",
-    "maxAmmo": 50,
-    "reloadAmount": 1,
-    "recoilAngle": 3.2,
-    "recoilKick": 2.5,
-    "recoilAdsReduction": 0.4,
+    "maxAmmo": 20,
+    "reloadAmount": 3,
+    "recoilAngle": 4.5,
+    "recoilKick": 3.0,
+    "recoilAdsReduction": 0.1,
     "alwaysSpread": true,
-    "spread": 3.1
+    "spread": 4.1
   },
   "projectile": {
     "item": "guncollection:gc_ammo_45acp",
     "visible": false,
     "gravity": true,
-    "damage": 7.1,
+    "damage": 7,
     "size": 0.2,
     "speed": 35.0,
     "life": 40
@@ -29,13 +29,14 @@
   "display": {
     "flash": {
       "yOffset": 2.9,
-      "zOffset": -8.4
+      "zOffset": -9.7
     }
   },
   "modules": {
     "zoom": {
       "fovModifier": 0.8,
-      "yOffset": 4,
+      "xOffset": 1.4,
+      "yOffset": 5,
       "zOffset": 1.5
     }
   }

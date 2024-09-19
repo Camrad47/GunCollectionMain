@@ -2,7 +2,6 @@ package concreteguy.guncollection.client;
 
 import com.mrcrayfish.guns.client.KeyBinds;
 import com.mrcrayfish.guns.client.render.gun.model.GrenadeLauncherModel;
-import concreteguy.guncollection.client.MoreKeyBinds;
 import com.mrcrayfish.guns.client.render.gun.model.SimpleModel;
 import com.mrcrayfish.guns.network.PacketHandler;
 import com.mrcrayfish.guns.network.message.C2SMessageAttachments;
@@ -18,23 +17,6 @@ import org.lwjgl.glfw.GLFW;
  * @author Beton
  */
 public class ClientHandler {
-
-    @SubscribeEvent
-    public static void onKeyPressed(InputEvent.Key event)
-    {
-        Minecraft mc = Minecraft.getInstance();
-        if(mc.player != null && mc.screen == null && event.getAction() == GLFW.GLFW_PRESS)
-        {
-            if(MoreKeyBinds.KEY_ALTERNATE.isDown())
-            {
-
-            }
-            /*else if(event.getKey() == GLFW.GLFW_KEY_KP_9)
-            {
-                mc.setScreen(new EditorScreen(null, new Debug.Menu()));
-            }*/
-        }
-    }
 
     public static void registerModelOverrides() {
         ModelOverrides.register(ItemRegistry.GC_PP2000.get(), new gc_pp2000_customModel());
@@ -436,5 +418,11 @@ public class ClientHandler {
         ModelOverrides.register(ItemRegistry.GC_M2_CARBINE.get(), new gc_m2_carbine_customModel());
         ModelOverrides.register(ItemRegistry.GC_M3_CARBINE.get(), new gc_m3_carbine_customModel());
         ModelOverrides.register(ItemRegistry.GC_M1_CARBINE_ENFORCER.get(), new gc_m1_carbine_enforcer_customModel());
+        ModelOverrides.register(ItemRegistry.GC_AKV521_CHANGABLE_UPPER.get(), new SimpleModel(SpecialModels.GC_AKV521_CHANGABLE_UPPER::getModel));
+        ModelOverrides.register(ItemRegistry.GC_AKV521_762.get(), new gc_akv521_762_customModel());
+        ModelOverrides.register(ItemRegistry.GC_AKV521_545.get(), new gc_akv521_545_customModel());
+        ModelOverrides.register(ItemRegistry.GC_AKV521_223.get(), new gc_akv521_223_customModel());
+        ModelOverrides.register(ItemRegistry.GC_AKV521_366.get(), new gc_akv521_366_customModel());
+        ModelOverrides.register(ItemRegistry.GC_WZ88.get(), new gc_wz88_customModel());
     }
 }

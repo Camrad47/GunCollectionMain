@@ -3,14 +3,14 @@
   "materials": [
     {
       "count": 2,
-      "item": "guncollection:gc_weaponparts_metal"
+      "item": "guncollection:gc_weaponparts_polymer"
     },
     {
-      "count": 2,
+      "count": 4,
       "item": "guncollection:gc_weaponparts_plus"
     }
   ],
   "result": {
-    "item": "guncollection:gc_muzzle_silencer"
+    "item": "guncollection:gc_muzzle_waffle_silencer"
   }
 }

@@ -6,7 +6,7 @@
       "item": "guncollection:gc_weaponparts_main"
     },
     {
-      "count": 2,
+      "count": 5,
       "item": "guncollection:gc_weaponparts_plus"
     },
     {
@@ -15,6 +15,6 @@
     }
   ],
   "result": {
-    "item": "guncollection:gc_avt40"
+    "item": "guncollection:gc_avt40_drum"
   }
 }

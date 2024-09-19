@@ -55,34 +55,12 @@ public class gc_mosin_bramit_customModel implements IOverrideModel {
         poseStack.translate(0, -5.8 * 0.0625, 0);
         poseStack.mulPose(Axis.ZN.rotationDegrees(-5F * cooldownSigma));
         poseStack.translate(0, 5.8 * 0.0625, 0);
-        RenderUtil.renderModel(SpecialModels.GC_MOSIN_SNIPER_MAIN.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
+        RenderUtil.renderModel(SpecialModels.GC_MOSIN_BRAMIT_MAIN.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
 
-        ItemStack attachmentStack = Gun.getAttachment(IAttachment.Type.STOCK, stack);
-        if(!attachmentStack.isEmpty())
-        {
-            if(Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ItemRegistry.GC_WOOD_STOCK.get())
-                RenderUtil.renderModel(SpecialModels.GC_MOSIN_SNIPER_PARTS_WOOD.getModel(), stack, poseStack, buffer, light, overlay);
-            if(Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ItemRegistry.GC_METAL_STOCK.get())
-                RenderUtil.renderModel(SpecialModels.GC_MOSIN_SNIPER_PARTS_METAL.getModel(), stack, poseStack, buffer, light, overlay);
-            if(Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ItemRegistry.GC_MARKSMAN_STOCK.get()) {
-                RenderUtil.renderModel(SpecialModels.GC_MOSIN_SNIPER_PARTS_MARKSMAN.getModel(), stack, poseStack, buffer, light, overlay);
-                if (Gun.getAttachment(IAttachment.Type.SCOPE, stack).getItem() == ItemRegistry.GC_SIGHT_SIMPLE.get()) {
-                    RenderUtil.renderModel(SpecialModels.GC_PU_SNIPER_CAMO.getModel(), stack, poseStack, buffer, light, overlay);}
-            }
-            if(Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ItemRegistry.GC_POLYMER_STOCK.get())
-                RenderUtil.renderModel(SpecialModels.GC_MOSIN_SNIPER_PARTS_POLYMER.getModel(), stack, poseStack, buffer, light, overlay);
-            if(Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ItemRegistry.GC_ULTRA_LIGHT_STOCK.get())
-                RenderUtil.renderModel(SpecialModels.GC_MOSIN_SNIPER_PARTS_ULTRA_LIGHT.getModel(), stack, poseStack, buffer, light, overlay);
-            if(Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ItemRegistry.GC_TACTICAL_SNIPER_STOCK.get()) {
-                RenderUtil.renderModel(SpecialModels.GC_MOSIN_SNIPER_PARTS_TACTICAL_SNIPER.getModel(), stack, poseStack, buffer, light, overlay);
-                if (Gun.getAttachment(IAttachment.Type.SCOPE, stack).getItem() == ItemRegistry.GC_SIGHT_SIMPLE.get()) {
-                    RenderUtil.renderModel(SpecialModels.GC_PU_SNIPER_CAMO1.getModel(), stack, poseStack, buffer, light, overlay);}
-            }
-        }
-        else
-        {
-            RenderUtil.renderModel(SpecialModels.GC_MOSIN_SNIPER_PARTS_MAIN.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
-        }
+        poseStack.pushPose();
+        poseStack.translate(0, 0, -0.32);
+        RenderUtil.renderModel(SpecialModels.GC_MOSIN_BRAMIT_SILENCER.getModel(), display, null, stack, parent, poseStack, buffer, light, overlay);
+        poseStack.popPose();
 
         poseStack.pushPose();
         poseStack.translate(0, -5.8 * 0.0625, 0);

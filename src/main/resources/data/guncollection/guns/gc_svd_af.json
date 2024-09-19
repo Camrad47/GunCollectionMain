@@ -1,27 +1,27 @@
 {
   "general": {
-    "auto": false,
-    "rate": 7,
+    "auto": true,
+    "rate": 2,
     "gripType": "cgm:two_handed",
-    "maxAmmo": 10,
+    "maxAmmo": 45,
     "reloadAmount": 1,
-    "recoilAngle": 6.7,
-    "recoilKick": 4.4,
+    "recoilAngle": 4.1,
+    "recoilKick": 3.2,
     "recoilAdsReduction": 0.75,
     "alwaysSpread": true,
-    "spread": 0.5
+    "spread": 1.1
   },
   "projectile": {
     "item": "guncollection:gc_ammo_762x54r",
     "visible": false,
     "gravity": true,
-    "damage": 19.0,
+    "damage": 12.5,
     "size": 0.2,
-    "speed": 90.0,
-    "life": 200
+    "speed": 80.0,
+    "life": 70
   },
   "sounds": {
-    "fire": "guncollection:item.gc_svd.fire",
+    "fire": "guncollection:item.gc_ak74m.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "guncollection:item.gc_ak.cock",
     "silencedFire": "guncollection:item.gc_svd_silenced.suppressed"
@@ -48,9 +48,6 @@
         "yOffset": 3.8,
         "zOffset": 3.6,
         "scale": 1
-      },
-      "stock": {
-        "scale": 0
       }
     }
   }

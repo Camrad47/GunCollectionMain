@@ -3,7 +3,7 @@
   "materials": [
     {
       "count": 32,
-      "item": "guncollection:gc_ammo_68x43_spc"
+      "item": "guncollection:gc_ammo_602x41"
     },
     {
       "count": 1,
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 1,
-    "item": "guncollection:gc_ammopack_68x43_spc"
+    "item": "guncollection:gc_ammopack_602x41"
   }
 }

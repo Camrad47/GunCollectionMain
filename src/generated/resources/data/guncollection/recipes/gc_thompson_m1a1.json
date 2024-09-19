@@ -6,7 +6,7 @@
       "item": "guncollection:gc_weaponparts_main"
     },
     {
-      "count": 2,
+      "count": 3,
       "item": "guncollection:gc_weaponparts_plus"
     },
     {
@@ -19,6 +19,6 @@
     }
   ],
   "result": {
-    "item": "guncollection:gc_thompson_m1"
+    "item": "guncollection:gc_thompson_m1a1"
   }
 }

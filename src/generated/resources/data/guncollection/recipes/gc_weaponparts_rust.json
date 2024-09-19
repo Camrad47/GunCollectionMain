@@ -2,12 +2,16 @@
   "type": "cgm:workbench",
   "materials": [
     {
-      "count": 3,
-      "item": "guncollection:gc_weaponparts_rust"
+      "count": 1,
+      "item": "guncollection:gc_weaponparts_main"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:water_bucket"
     }
   ],
   "result": {
     "count": 1,
-    "item": "guncollection:gc_weaponparts_main"
+    "item": "guncollection:gc_weaponparts_rust"
   }
 }

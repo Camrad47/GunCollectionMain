@@ -1,35 +1,35 @@
 {
   "general": {
     "auto": true,
-    "rate": 2,
+    "rate": 1,
     "gripType": "cgm:two_handed",
-    "maxAmmo": 20,
-    "reloadAmount": 2,
-    "recoilAngle": 5.5,
-    "recoilKick": 3.7,
+    "maxAmmo": 16,
+    "reloadAmount": 3,
+    "recoilAngle": 1.75,
+    "recoilKick": 1.45,
     "recoilAdsReduction": 0.5,
     "alwaysSpread": true,
-    "spread": 2.2
+    "spread": 2.5
   },
   "projectile": {
-    "item": "guncollection:gc_ammo_762x51",
+    "item": "guncollection:gc_ammo_40sw",
     "visible": false,
     "gravity": true,
-    "damage": 15.0,
+    "damage": 6.0,
     "size": 0.2,
-    "speed": 90.0,
-    "life": 90
+    "speed": 35.0,
+    "life": 20
   },
   "sounds": {
-    "fire": "guncollection:item.gc_fn_fal.fire",
+    "fire": "guncollection:item.gc_uzi.fire",
     "reload": "cgm:item.pistol.reload",
-    "cock": "guncollection:item.gc_fn_fal.cock",
-    "silencedFire": "guncollection:item.gc_308_silenced.suppressed"
+    "cock": "guncollection:item.gc_ar15.cock",
+    "silencedFire": "guncollection:item.pistol.suppressed"
   },
   "display": {
     "flash": {
-      "yOffset": 2.9,
-      "zOffset": -19.4
+      "yOffset": 3.4,
+      "zOffset": -7.3
     }
   },
   "modules": {
@@ -39,13 +39,10 @@
       "zOffset": 1.8
     },
     "attachments": {
-      "barrel": {
-        "yOffset": 2.9,
-        "zOffset": -14.4,
-        "scale": 1.25
-      },
-      "stock": {
-        "scale": 0
+      "scope": {
+        "yOffset": 4.7,
+        "zOffset": 2.1,
+        "scale": 1
       }
     }
   }

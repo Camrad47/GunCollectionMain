@@ -16,9 +16,13 @@
     {
       "count": 2,
       "item": "guncollection:gc_weaponparts_wood"
+    },
+    {
+      "count": 18,
+      "tag": "forge:nuggets/gold"
     }
   ],
   "result": {
-    "item": "guncollection:gc_thompson_m1928a1"
+    "item": "guncollection:gc_thompson_gold"
   }
 }

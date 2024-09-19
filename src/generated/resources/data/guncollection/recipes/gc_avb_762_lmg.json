@@ -10,7 +10,7 @@
       "item": "guncollection:gc_weaponparts_plus"
     },
     {
-      "count": 2,
+      "count": 4,
       "item": "guncollection:gc_weaponparts_metal"
     },
     {
@@ -19,6 +19,6 @@
     }
   ],
   "result": {
-    "item": "guncollection:gc_avb_762"
+    "item": "guncollection:gc_avb_762_lmg"
   }
 }

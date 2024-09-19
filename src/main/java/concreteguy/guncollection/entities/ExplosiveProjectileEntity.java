@@ -17,50 +17,33 @@ import net.minecraft.world.phys.Vec3;
 /**
  * Author: MrCrayfish
  */
-public class rpgGrenadeHEEntity extends ProjectileEntity
+public class ExplosiveProjectileEntity extends ProjectileEntity
 {
-    public rpgGrenadeHEEntity(EntityType<? extends ProjectileEntity> entityType, Level world)
+    public ExplosiveProjectileEntity(EntityType<? extends ProjectileEntity> entityType, Level world)
     {
         super(entityType, world);
     }
 
-    public rpgGrenadeHEEntity(EntityType<? extends ProjectileEntity> entityType, Level world, LivingEntity shooter, ItemStack weapon, GunItem item, Gun modifiedGun)
+    public ExplosiveProjectileEntity(EntityType<? extends ProjectileEntity> entityType, Level world, LivingEntity shooter, ItemStack weapon, GunItem item, Gun modifiedGun)
     {
         super(entityType, world, shooter, weapon, item, modifiedGun);
     }
 
     @Override
-    protected void onProjectileTick()
-    {
-        if (this.level.isClientSide)
-        {
-            for (int i = 5; i > 0; i--)
-            {
-                this.level.addParticle(ParticleTypes.CLOUD, true, this.getX() - (this.getDeltaMovement().x() / i), this.getY() - (this.getDeltaMovement().y() / i), this.getZ() - (this.getDeltaMovement().z() / i), 0, 0, 0);
-            }
-            if (this.level.random.nextInt(2) == 0)
-            {
-                this.level.addParticle(ParticleTypes.SMOKE, true, this.getX(), this.getY(), this.getZ(), 0, 0, 0);
-                this.level.addParticle(ParticleTypes.FLAME, true, this.getX(), this.getY(), this.getZ(), 0, 0, 0);
-            }
-        }
-    }
-
-    @Override
     protected void onHitEntity(Entity entity, Vec3 hitVec, Vec3 startVec, Vec3 endVec, boolean headshot)
     {
-        createExplosion(this, this.getDamage() / 5F, true);
+        createExplosion(this, this.getDamage() / 2F, true);
     }
 
     @Override
     protected void onHitBlock(BlockState state, BlockPos pos, Direction face, double x, double y, double z)
     {
-        createExplosion(this, this.getDamage() / 5F, true);
+        createExplosion(this, this.getDamage() / 2F, true);
     }
 
     @Override
     public void onExpired()
     {
-        createExplosion(this, this.getDamage() / 5F, true);
+        createExplosion(this, this.getDamage() / 2F, true);
     }
 }
