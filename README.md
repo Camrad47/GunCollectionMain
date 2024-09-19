@@ -4,8 +4,8 @@
 **Gun Collection** is an add-on for [MrCrayfish's Gun Mod](https://www.curseforge.com/minecraft/mc-mods/mrcrayfishs-gun-mod).
 This mod provides huge variety of different weapons, ammunition and attachments for everybody's needs. Over 200 guns total! Such number! Huge collection! Craftable! Custom sounds!
 
-### 0.4.x version features:
-- 307 different craftable weapons for every possible need:
+### 0.5.x version features:
+- 400 different craftable weapons for every possible need:
 - - Assault rifles
 - - SMGs
 - - Pistols
@@ -15,8 +15,8 @@ This mod provides huge variety of different weapons, ammunition and attachments 
 - - Sniper rifles
 - - Prototypes
 - - ...and so on
-- 40 ammunition types
-- 35 modules
+- 45 ammunition types
+- 50 modules
 - custom sounds
 - simple animations
 - No overcomplicated out-of-style models
