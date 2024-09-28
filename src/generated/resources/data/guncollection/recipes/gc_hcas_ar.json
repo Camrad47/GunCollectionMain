@@ -1,0 +1,28 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 5,
+      "item": "guncollection:gc_weaponparts_main"
+    },
+    {
+      "count": 35,
+      "item": "guncollection:gc_weaponparts_plus"
+    },
+    {
+      "count": 15,
+      "item": "guncollection:gc_weaponparts_metal"
+    },
+    {
+      "count": 15,
+      "item": "guncollection:gc_weaponparts_polymer"
+    },
+    {
+      "count": 15,
+      "item": "guncollection:gc_weaponparts_electronic"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_hcas_ar_1"
+  }
+}

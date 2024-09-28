@@ -11,7 +11,7 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'maven-publish'
 
-version = "0.5.4-1.19.4"
+version = "0.5.5-1.19.4"
 group = "concreteguy.guncollection"
 archivesBaseName = "gun_collection"
 

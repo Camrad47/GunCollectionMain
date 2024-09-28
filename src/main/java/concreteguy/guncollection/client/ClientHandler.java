@@ -424,5 +424,13 @@ public class ClientHandler {
         ModelOverrides.register(ItemRegistry.GC_AKV521_223.get(), new gc_akv521_223_customModel());
         ModelOverrides.register(ItemRegistry.GC_AKV521_366.get(), new gc_akv521_366_customModel());
         ModelOverrides.register(ItemRegistry.GC_WZ88.get(), new gc_wz88_customModel());
+        ModelOverrides.register(ItemRegistry.GC_PPD_34.get(), new gc_ppd_34_customModel());
+        ModelOverrides.register(ItemRegistry.GC_HCAS_AR.get(), new gc_hcas_ar_customModel());
+        ModelOverrides.register(ItemRegistry.GC_HCAS_DMR.get(), new gc_hcas_dmr_customModel());
+        ModelOverrides.register(ItemRegistry.GC_HCAS_CCW.get(), new gc_hcas_ccw_customModel());
+        ModelOverrides.register(ItemRegistry.GC_HCAS_AR_1.get(), new gc_hcas_ar_customModel());
+        ModelOverrides.register(ItemRegistry.GC_HCAS_DMR_1.get(), new gc_hcas_dmr_customModel());
+        ModelOverrides.register(ItemRegistry.GC_HCAS_CCW_1.get(), new gc_hcas_ccw_customModel());
+        ModelOverrides.register(ItemRegistry.GC_HCAS_PARTS.get(), new SimpleModel(SpecialModels.GC_HCAS_PARTS::getModel));
     }
 }

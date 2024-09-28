@@ -1,0 +1,6 @@
+{
+    "parent": "guncollection:item/gc_pp2000",
+	"textures": {
+		"3": "guncollection:item/gc_polymer_13"
+	}
+}

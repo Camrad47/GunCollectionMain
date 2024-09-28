@@ -53,6 +53,7 @@ public final class ItemRegistry {
     public static final RegistryObject<Item> GC_PPSH_OBREZ = registerGun("gc_ppsh_obrez", false);
     public static final RegistryObject<Item> GC_PPSH_MP41R = registerGun("gc_ppsh_mp41r", false);
     public static final RegistryObject<Item> GC_PPSH_K50M = registerGun("gc_ppsh_k50m", false);
+    public static final RegistryObject<Item> GC_PPD_34 = registerGun("gc_ppd_34", false);
     public static final RegistryObject<Item> GC_PPD_40 = registerGun("gc_ppd_40", false);
     public static final RegistryObject<Item> GC_PPD_40_PLANT202 = registerGun("gc_ppd_40_plant202", false);
     public static final RegistryObject<Item> GC_THOMPSON_M1928 = registerGun("gc_thompson_m1928", false);
@@ -434,6 +435,13 @@ public final class ItemRegistry {
     public static final RegistryObject<Item> GC_PISTOL = registerGun("gc_pistol", false);
     public static final RegistryObject<Item> GC_BLACK_POWDER_REVOLVER = registerGun("gc_black_powder_revolver", false);
     public static final RegistryObject<Item> GC_BOMB_LAUNCHER = registerGun("gc_bomb_launcher", false);
+    public static final RegistryObject<Item> GC_HCAS_AR_1 = registerGun("gc_hcas_ar_1", false);
+    public static final RegistryObject<Item> GC_HCAS_AR = registerGun("gc_hcas_ar", false);
+    public static final RegistryObject<Item> GC_HCAS_DMR_1 = registerGun("gc_hcas_dmr_1", false);
+    public static final RegistryObject<Item> GC_HCAS_DMR = registerGun("gc_hcas_dmr", false);
+    public static final RegistryObject<Item> GC_HCAS_CCW_1 = registerGun("gc_hcas_ccw_1", false);
+    public static final RegistryObject<Item> GC_HCAS_CCW = registerGun("gc_hcas_ccw", false);
+    public static final RegistryObject<Item> GC_HCAS_PARTS = registerGun2("gc_hcas_parts", false);
 
     public static final RegistryObject<Item> GC_SIGHT_KOBRA = ITEMS.register("gc_sight_kobra", () -> new ScopeItem(Scope.builder().additionalZoom(0.15F).reticleOffset(1.75F).viewFinderOffset(0.4).modifiers(GunModifiers.SLOW_ADS).build(), genericProperties));
     public static final RegistryObject<Item> GC_SIGHT_VALDAY = ITEMS.register("gc_sight_valday", () -> new ScopeItem(Scope.builder().additionalZoom(0.15F).reticleOffset(1.75F).viewFinderOffset(0.4).modifiers(GunModifiers.SLOW_ADS).build(), genericProperties));
@@ -547,6 +555,8 @@ public final class ItemRegistry {
     public static final RegistryObject<Item> GC_AMMO_3X40 = ITEMS.register("gc_ammo_3x40", () -> new AmmoItem(new Item.Properties().stacksTo(3)));
     public static final RegistryObject<Item> GC_AMMO_RSPRGR = ITEMS.register("gc_ammo_rsprgr", () -> new AmmoItem(new Item.Properties().stacksTo(9)));
     public static final RegistryObject<Item> GC_AMMO_762X39_AIRBURST = registerAmmo("gc_ammo_762x39_airburst");
+    public static final RegistryObject<Item> GC_AMMO_23HENSAP_1 = ITEMS.register("gc_ammo_23hensap_1", () -> new AmmoItem(new Item.Properties().stacksTo(40)));
+    public static final RegistryObject<Item> GC_AMMO_23HENSAP = ITEMS.register("gc_ammo_23hensap", () -> new AmmoItem(new Item.Properties().stacksTo(40)));
 
     public static final RegistryObject<Item> GC_AMMOPACK_762X39 = registerAmmoPack("gc_ammopack_762x39");
     public static final RegistryObject<Item> GC_AMMOPACK_545X39 = registerAmmoPack("gc_ammopack_545x39");

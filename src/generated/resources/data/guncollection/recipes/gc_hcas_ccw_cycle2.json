@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "guncollection:gc_hcas_ccw"
+    }
+  ],
+  "result": {
+    "item": "guncollection:gc_hcas_ccw_1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 40,
+      "item": "guncollection:gc_ammo_parts"
+    },
+    {
+      "count": 22,
+      "item": "guncollection:gc_gunpowder_t3"
+    },
+    {
+      "count": 2,
+      "item": "guncollection:gc_explosive_parts"
+    },
+    {
+      "count": 1,
+      "item": "guncollection:gc_weaponparts_electronic"
+    }
+  ],
+  "result": {
+    "count": 40,
+    "item": "guncollection:gc_ammo_23hensap"
+  }
+}

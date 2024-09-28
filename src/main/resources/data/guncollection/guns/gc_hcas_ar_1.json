@@ -1,0 +1,49 @@
+{
+  "general": {
+    "auto": true,
+    "rate": 2,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 16,
+    "reloadAmount": 2,
+    "recoilAngle": 6.3,
+    "recoilKick": 5.4,
+    "recoilAdsReduction": 0.7,
+    "alwaysSpread": true,
+    "spread": 1.4
+  },
+  "projectile": {
+    "item": "guncollection:gc_ammo_23hensap_1",
+    "visible": false,
+    "gravity": true,
+    "damage": 40.5,
+    "size": 0.3,
+    "speed": 8.0,
+    "life": 200
+  },
+  "sounds": {
+    "fire": "guncollection:item.gc_ash12.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "guncollection:item.gc_ak.cock"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 2.3,
+      "zOffset": -8.5,
+      "size": 1.5
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.75,
+      "yOffset": 5.1,
+      "zOffset": 0.6
+    },
+    "attachments": {
+      "scope": {
+        "yOffset": 4.7,
+        "zOffset": 1.3,
+        "scale": 0.85
+      }
+    }
+  }
+}

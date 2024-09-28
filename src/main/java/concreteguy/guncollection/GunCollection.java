@@ -63,6 +63,7 @@ import static concreteguy.guncollection.init.EntityInit.GC_AMMO_TBG7;
 import static concreteguy.guncollection.init.EntityInit.GC_AMMO_PG7VR;
 import static concreteguy.guncollection.init.EntityInit.GC_AMMO_3X40;
 import static concreteguy.guncollection.init.EntityInit.GC_AMMO_762X39_AIRBURST;
+import static concreteguy.guncollection.init.EntityInit.GC_AMMO_23HENSAP;
 import static concreteguy.guncollection.init.EntityInit.GC_AMMO_RSPRGR;
 
 /**
@@ -124,6 +125,7 @@ public class GunCollection
         ProjectileManager.getInstance().registerFactory(ItemRegistry.GC_AMMO_PG7VR.get(), (worldIn, entity, weapon, item, modifiedGun) -> new rpgGrenadeTandemEntity(GC_AMMO_PG7VR.get(), worldIn, entity, weapon, item, modifiedGun));
         ProjectileManager.getInstance().registerFactory(ItemRegistry.GC_AMMO_3X40.get(), (worldIn, entity, weapon, item, modifiedGun) -> new agiGrenadeEntity(GC_AMMO_3X40.get(), worldIn, entity, weapon, item, modifiedGun));
         ProjectileManager.getInstance().registerFactory(ItemRegistry.GC_AMMO_762X39_AIRBURST.get(), (worldIn, entity, weapon, item, modifiedGun) -> new ExplosiveProjectileEntity(GC_AMMO_762X39_AIRBURST.get(), worldIn, entity, weapon, item, modifiedGun));
+        ProjectileManager.getInstance().registerFactory(ItemRegistry.GC_AMMO_23HENSAP.get(), (worldIn, entity, weapon, item, modifiedGun) -> new ExplosiveProjectileEntity(GC_AMMO_23HENSAP.get(), worldIn, entity, weapon, item, modifiedGun));
         ProjectileManager.getInstance().registerFactory(ItemRegistry.GC_AMMO_RSPRGR.get(), (worldIn, entity, weapon, item, modifiedGun) -> new rpgGrenadeHEEntity(GC_AMMO_RSPRGR.get(), worldIn, entity, weapon, item, modifiedGun));
 
     }

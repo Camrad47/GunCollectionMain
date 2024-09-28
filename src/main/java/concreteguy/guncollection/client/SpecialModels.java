@@ -208,6 +208,7 @@ public enum SpecialModels {
     GC_AT44_MAIN("gun_plus/gc_at44_main"),
     GC_UZI_MAIN("gun_plus/gc_uzi_main"),
     GC_MINI_UZI_MAIN("gun_plus/gc_mini_uzi_main"),
+    GC_PPD_34_MAIN("gun_plus/gc_ppd_34_main"),
     GC_PPD_40_MAIN("gun_plus/gc_ppd_40_main"),
     GC_PPD_40_PLANT202_MAIN("gun_plus/gc_ppd_40_plant202_main"),
     GC_PPSH_41_MAIN("gun_plus/gc_ppsh_41_main"),
@@ -711,6 +712,7 @@ public enum SpecialModels {
     GC_M2_CARBINE_PARTS_METAL("gun_plus/gc_m2_carbine_parts_metal"),
     GC_M2_CARBINE_PARTS_ULTRA_LIGHT("gun_plus/gc_m2_carbine_parts_ultra_light"),
     GC_M3_CARBINE_PARTS_TACTICAL_SNIPER("gun_plus/gc_m3_carbine_parts_tactical_sniper"),
+    GC_VARMINT_RIFLE_PARTS_MAIN("gun_plus/gc_varmint_rifle_parts_main"),
 
     GC_MOSIN_SIGHT_RAIL("gc_mosin_sight_rail"),
     GC_MOSIN_USP1_BASE("gc_mosin_usp1_base"),
@@ -741,6 +743,13 @@ public enum SpecialModels {
     GC_M21_SIGHT_RAIL("gc_m21_sight_rail"),
     GC_FDI_PROTOTYPE_000_SIGHT_RAIL("gc_fdi_prototype_000_sight_rail"),
     GC_P38_AUTO_CARBINE_SIGHT_RAIL("gc_p38_auto_carbine_sight_rail"),
+
+    GC_HCAS_AR_MAIN("gun_plus/gc_hcas_ar_main"),
+    GC_HCAS_DMR_MAIN("gun_plus/gc_hcas_dmr_main"),
+    GC_HCAS_CCW_MAIN("gun_plus/gc_hcas_ccw_main"),
+    GC_HCAS_BOLT("gun_plus/gc_hcas_bolt"),
+    GC_HCAS_BRS("gun_plus/gc_hcas_brs"),
+    GC_HCAS_PARTS("gun_plus/gc_hcas_parts"),
     ;
 
     private final ResourceLocation modelLoc;

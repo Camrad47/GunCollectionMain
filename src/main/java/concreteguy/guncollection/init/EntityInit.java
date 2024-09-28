@@ -33,6 +33,7 @@ public class EntityInit {
 	public static final RegistryObject<EntityType<rpgGrenadeTandemEntity>> GC_AMMO_PG7VR = registerBasic("gc_ammo_pg7vr", rpgGrenadeTandemEntity::new);
 	public static final RegistryObject<EntityType<agiGrenadeEntity>> GC_AMMO_3X40 = registerBasic("gc_ammo_3x40", agiGrenadeEntity::new);
 	public static final RegistryObject<EntityType<ExplosiveProjectileEntity>> GC_AMMO_762X39_AIRBURST = registerBasic("gc_ammo_762x39_airburst", ExplosiveProjectileEntity::new);
+	public static final RegistryObject<EntityType<ExplosiveProjectileEntity>> GC_AMMO_23HENSAP = registerBasic("gc_ammo_23hensap", ExplosiveProjectileEntity::new);
 	public static final RegistryObject<EntityType<rpgGrenadeHEEntity>> GC_AMMO_RSPRGR = registerBasic("gc_ammo_rsprgr", rpgGrenadeHEEntity::new);
 
 

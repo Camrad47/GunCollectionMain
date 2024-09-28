@@ -38,6 +38,7 @@ public class GunEntityRenderers
         event.registerEntityRenderer(EntityInit.GC_AMMO_PG7VR.get(), rpgGrenadeTandemRenderer::new);
         event.registerEntityRenderer(EntityInit.GC_AMMO_3X40.get(), agiGrenadeRenderer::new);
         event.registerEntityRenderer(EntityInit.GC_AMMO_762X39_AIRBURST.get(), ExplosiveProjectileRenderer::new);
+        event.registerEntityRenderer(EntityInit.GC_AMMO_23HENSAP.get(), ExplosiveProjectileRenderer::new);
         event.registerEntityRenderer(EntityInit.GC_AMMO_RSPRGR.get(), rpgGrenadeHERenderer::new);
         event.registerEntityRenderer(ModEntities.MISSILE.get(), MissileRenderer::new);
         event.registerEntityRenderer(ModEntities.THROWABLE_GRENADE.get(), ThrowableGrenadeRenderer::new);
